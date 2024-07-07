@@ -51,7 +51,7 @@ const Navbar = () => {
         <img className='w-44' src={logo} alt="" />
       </div>
 
-        <div>
+        <div className='lg:block hidden'>
             <ul className='flex justify-center items-center pr-44 gap-2'>
                 <li className='text-lg font-bold'>Home <span className='opacity-30'>|</span> </li>
                 <li className='flex justify-center items-center text-lg font-bold group relative'>Services <span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
@@ -76,10 +76,32 @@ const Navbar = () => {
                 
                 
                 </li>
-                <li className='flex justify-center items-centertext-lg font-bold'>Domain<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span></li>
-                <li className='flex justify-center items-centertext-lg font-bold'>Hosting<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span></li>
+                <li className='flex justify-center items-center text-lg font-bold group relative'>Domain<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
+                        <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-5 font-normal text-base '>
+                            <li className='py-1'>International Domain</li>
+                            <li className='py-1'>BD Domain</li>
+                        </ul>
+                
+                </li>
+                <li className='flex justify-center items-center text-lg font-bold group relative'>Hosting<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
+                        <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-3 text-base  font-normal'>
+                            <li className='py-2'>plesk premium web hosting</li>
+                            <li className='py-2'>plesk dedicated server</li>
+                            <li className='py-2'>plesk reseller server</li>
+                        </ul>
+                    
+                </li>
                 <li className='text-lg font-bold'>Contact <span className='opacity-30'>|</span></li>
-                <li className='flex justify-center items-centertext-lg font-bold'>Login<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> </span></li>
+                <li className='flex justify-center items-center text-lg font-bold group relative'>Login<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> </span>
+                        <ul className='group-hover:block hidden absolute text-base font-normal top-6 left-0 bg-white w-44 p-5'>
+                            <li className='py-2'>Domain Login</li>
+                            <li className='py-2'>Hosting Login</li>
+                            <li className='py-2'>SMS Login</li>
+                            <li className='py-2'>Staff Login</li>
+                            <li className='py-2'>Agent Help</li>
+                        </ul>
+                
+                </li>
             </ul>
         </div>
 

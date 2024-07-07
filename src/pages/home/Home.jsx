@@ -1,9 +1,10 @@
+import BannerText from "./BannerText";
 
 
 const Home = () => {
     return (
-        <div>
-            home
+        <div  className='max-w-screen-xl mx-auto'>
+            <BannerText/>
         </div>
     );
 };
