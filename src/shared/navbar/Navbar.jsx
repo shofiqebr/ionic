@@ -8,7 +8,7 @@ import protidhoni from '../../assets/protidhoni.png'
 
 const Navbar = () => {
     return (
-        <>
+        <div className='fixed w-full bg-[#F3F3F3]'>
         {/* gray section */}
 
 
@@ -31,7 +31,7 @@ const Navbar = () => {
   <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content flex flex-col">
     {/* Navbar */}
-    <div className="navbar bg-white w-full">
+    <div className="navbar w-full">
       <div className="flex-none lg:hidden">
         <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
           <svg
@@ -143,7 +143,7 @@ const Navbar = () => {
             </section>
 
             
-        </>
+        </div>
     );
 };
 
