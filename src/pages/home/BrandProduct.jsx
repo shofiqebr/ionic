@@ -14,7 +14,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 const BrandProduct = () => {
     return (
-        <div>
+        <div className='bg-[#F3F3F3]'>
                 <section className='flex flex-col justify-center items-center gap-2 mt-10'>
                 <h1 className=' text-[#898989] font-semibold text-xl'>আমাদের বিভিন্ন ব্র্যান্ডের পণ্য সমূহ</h1>
                 <div className='w-10 h-[3px] bg-[#b3b2b2]'></div>

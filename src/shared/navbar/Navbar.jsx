@@ -8,7 +8,7 @@ import protidhoni from '../../assets/protidhoni.png'
 
 const Navbar = () => {
     return (
-        <div className='fixed w-full bg-[#F3F3F3]'>
+        <div className='fixed w-full bg-[#F3F3F3] z-10'>
         {/* gray section */}
 
 

@@ -4,7 +4,7 @@ import Navbar from "../shared/navbar/Navbar";
 
 const Root = () => {
     return (
-        <div className="bg-[#F3F3F3]">
+        <div>
             <Navbar/>
             <Outlet/>
         </div>

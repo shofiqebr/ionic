@@ -2,7 +2,7 @@ import { FaAngleRight } from "react-icons/fa";
 
 const BannerText = () => {
     return (
-        <div className="flex justify-end flex-col lg:flex-row  gap-10  pt-44 mr-20">
+        <div className="flex justify-end flex-col lg:flex-row  gap-10  pt-44 mr-20 ">
             <section className=" lg:text-right ">
                 <div className="text-[36px] font-semibold text-[#969696]">আইওনিক কর্পোরেশন <br className="hidden lg:block" /> বাংলাদেশের একটি বিশ্বস্ত <br className="hidden lg:block" /> ডিজিটাল আইটি সলিউশন <br className="hidden lg:block" /> কোম্পানি ।</div>
                 <div className="md:w-[550px] mt-5 h-1 bg-[#F8001F]"></div>
