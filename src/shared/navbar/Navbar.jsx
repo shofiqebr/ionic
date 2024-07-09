@@ -5,6 +5,7 @@ import ionic from '../../assets/ionic.png'
 import ocen from '../../assets/osen.png'
 import talkcell from '../../assets/talksell.png'
 import protidhoni from '../../assets/protidhoni.png'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -47,13 +48,17 @@ const Navbar = () => {
           </svg>
         </label>
       </div>
+      <Link to='/'>
       <div className="mx-2 lg:ml-0 ml-10 flex-1 px-2">
         <img className='w-44' src={logo} alt="" />
       </div>
+      </Link>
 
         <div className='lg:block hidden'>
             <ul className='flex justify-center items-center xl:pr-44 gap-2'>
+              <Link to='/'>
                 <li className='text-lg font-bold'>Home <span className='opacity-30'>|</span> </li>
+              </Link>
                 <li className='flex justify-center items-center text-lg font-bold group relative'>Services <span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                     <ul className='group-hover:block hidden absolute left-0 top-6  bg-white w-44  p-3' >
                         <li className='flex justify-start gap-2 items-center text-sm py-3'>
@@ -91,7 +96,10 @@ const Navbar = () => {
                         </ul>
                     
                 </li>
+                <Link to='/contact'>
                 <li className='text-lg font-bold'>Contact <span className='opacity-30'>|</span></li>
+                </Link>
+               
                 <li className='flex justify-center items-center text-lg font-bold group relative'>Login<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> </span>
                         <ul className='group-hover:block hidden absolute text-base font-normal top-6 left-0 bg-white w-44 p-5'>
                             <li className='py-2'>Domain Login</li>
