@@ -1,4 +1,21 @@
 import sales from '../../assets/sales-50x50.png'
+import sales from '../../assets/service-50x50.png'
+import sales from '../../assets/marketing-50x50.png'
+import sales from '../../assets/ecommarces-50x50.png'
+import sales from '../../assets/employee.png'
+import sales from '../../assets/factory-50x50.png'
+import sales from '../../assets/repair-tools-50x50.png'
+import sales from '../../assets/project-50x50.png'
+import sales from '../../assets/subscription-model-50x50.png'
+import sales from '../../assets/intregation-50x50.png'
+import sales from '../../assets/cross-platform-50x50.png'
+import sales from '../../assets/statistics-50x50.png'
+import sales from '../../assets/vendor-50x50.png'
+import sales from '../../assets/spreadsheet-50x50.png'
+import sales from '../../assets/accounting-2-50x50.png'
+import sales from '../../assets/magnet-50x50.png'
+import sales from '../../assets/customer-50x50.png'
+import sales from '../../assets/other-50x50.png'
 
 const ImportantSubject = () => {
     return (

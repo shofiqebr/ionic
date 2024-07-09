@@ -2,6 +2,7 @@ import { FaRegComment, FaRegSmileBeam } from "react-icons/fa";
 import { FaShop } from "react-icons/fa6";
 import { GiGraduateCap } from "react-icons/gi";
 import { IoIosPaper, IoMdChatbubbles } from "react-icons/io";
+import logo from '../../assets/logo.png'
 
 
 const PartnershipReason = () => {
@@ -41,6 +42,50 @@ const PartnershipReason = () => {
                     <p className="text-5xl text-black -mt-8"><FaRegSmileBeam /></p>
                     <h1 className="py-3 font-bold text-xl">100% সন্তুষ্টি গ্যারান্টি</h1>
                     <p className="text-center text-[#898989] text-[16px]">আমরা চাই আপনি আমাদের "ERP" সিস্টেম সলিউশনের সাথে সম্পূর্ণ সন্তুষ্ট হন। আমরা আপনার সমস্ত "ERP" সম্পর্কিত উদ্বেগগুলি পরিচালনা করব, যাতে আপনি শান্তভাবে আপনার ব্যবসা পরিচালনা করতে পারেন। কোন ঝামেলা নেই, কোন সমস্যা নেই।</p>
+                </div>
+            </section>
+
+
+            <section className="text-[#7d7d7d]">
+                <div className="flex flex-col justify-center items-center py-5">
+                    <h1 className="text-3xl font-bold text-black py-3">চল শুরু করি</h1>
+                    <p className="text-white bg-[#FF0020] rounded-[4px] h-6 text-[12px] px-3 font-bold pt-[1px]">Request for Demo</p>
+                    <p className="text-center pb-5">যখন আপনার ব্যবসার জন্য এন্টারপ্রাইজ রিসোর্স প্ল্যানিং সফ্টওয়্যার বাস্তবায়নের কথা আসে। আপনার একজন বিশেষজ্ঞ প্রয়োজন। আসুন আমরা আপনাকে দেখাই যে <br /> কোনটি সম্পূর্ণ, বহুমুখী এবং শক্তিশালী ইআরপি সলিউশনটি সফল প্রতিষ্ঠানের মত দেখায়।</p>
+                    <br />
+                    <p className="text-center pb-20">শুধুমাত্র একটির পরিবর্তে বিভিন্ন সফ্টওয়্যারে সময় এবং অর্থ অপচয় করা বন্ধ করুন। আমাদের কোম্পানি অন্বেষণ করুন- IONIC Corporation.</p>
+
+                    <div className="flex gap-10 pb-5 py-10">
+                        <div >
+                            <h1 className="text-center text-xl font-bold">আপনি কি আপনার ব্যবসা পরিচালনার জন্য প্রস্তুত?</h1>
+                            <p className="text-center text-xl">আপনার মোবাইল ফোন নম্বরটি রেখে দিন, আমরা আপনাকে কল করব।</p>
+                        </div>
+                        <div>   <p className="text-white bg-[#FF0020] rounded-[4px] h-6 text-[12px] px-3 font-bold pt-[1px]">Request for Demo</p></div>
+                        <div className="text-center text-lg">
+                            <p className="text-center">অনুগ্রহ করে আমাকে কল করুন</p>
+                            <p className="text-[#FF0020] font-bold text-2xl">01958 44 22 00</p>
+                        </div>
+                    </div>
+
+
+                    <footer>
+                        <div className="flex flex-col justify-center items-center py-10">
+                            <h1 className="text-center text-lg font-bold pb-3">আইওনিক কর্পোরেশন এর পণ্য/সেবা সমূহ</h1>
+                            <p className="text-center pb-3">বাংলাদেশের এক নম্বর ক্যাটাগরির স্কুল, হাসপাতাল, ফার্মা, রেস্তোরাঁ, সেলুন, ট্রাভেল এজেন্সি, মেরামতের দোকান, দর্জির দোকান, ভাড়া ব্যবসা, ইআরপি, একাউন্ট <br /> ব্যবস্থাপনা সহ এবং যে কোন ব্যবসা ব্যবস্থাপনার সফটওয়্যার কোম্পানি আইওনিক কর্পোরেশন।</p>
+                            <p className="text-center px-[480px]">
+                            IONIC ERP তৈরিতে বিশ্বের সেরা ফ্রি এবং ওপেনসোর্স সফটওয়্যার "পাইথন প্রোগ্রামিং ভাষা" ব্যবহার করা হয়েছে। Frappe Framework হল বিশ্বের সেরা ফ্রি এবং ওপেনসোর্স ইআরপি সফটওয়্যার Framework. আইওনিক ইআরপি তৈরিতে ব্যবহার করা হয়েছে "Frappe Framework"। বাংলাদেশের জন্য স্থানীয়করণ এবং ক্লাউড হোস্ট সেবা, ট্রেনিং সেবা এবং সহায়ক হিসাবে কাজ করে- আইওনিক কর্পোরেশন।
+                            </p>
+
+
+                            <img className="w-80 py-5" src={logo} alt="" />
+
+                            <p>House # 18, Road # 01, Proschim Rayarbag, Jattrabari, Dhaka-1362.</p>
+                            <p>Email : ioniccorporation@gmail.com, Website: www.ioniccorporation.com</p>
+                            <p>Mobile No: 8801958442200</p>
+
+                            <p>Sales Line -8801958442200 <br />
+                            Customer Care -8801511142320 (24/7 Live Support)</p>
+                        </div>
+                    </footer>
                 </div>
             </section>
             
