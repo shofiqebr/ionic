@@ -12,7 +12,7 @@ const Navbar = () => {
         {/* gray section */}
 
 
-            <section className="flex justify-center items-center bg-[#E3E3E3]">
+            <section className="lg:flex justify-center items-center bg-[#E3E3E3] hidden">
                 <p className="text-[12px] text-[#797777] py-1">
                     We Are A Trusted Digital IT Solution In Bangladesh. Business Solution Software ERP, Website, Mobile Apps, Hosting, Domain, SMS Etc.
                 </p>
@@ -31,7 +31,7 @@ const Navbar = () => {
   <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content flex flex-col">
     {/* Navbar */}
-    <div className="navbar w-full">
+    <div className="navbar w-full ">
       <div className="flex-none lg:hidden">
         <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
           <svg
@@ -47,12 +47,12 @@ const Navbar = () => {
           </svg>
         </label>
       </div>
-      <div className="mx-2 flex-1 px-2">
+      <div className="mx-2 lg:ml-0 ml-10 flex-1 px-2">
         <img className='w-44' src={logo} alt="" />
       </div>
 
         <div className='lg:block hidden'>
-            <ul className='flex justify-center items-center pr-44 gap-2'>
+            <ul className='flex justify-center items-center xl:pr-44 gap-2'>
                 <li className='text-lg font-bold'>Home <span className='opacity-30'>|</span> </li>
                 <li className='flex justify-center items-center text-lg font-bold group relative'>Services <span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                     <ul className='group-hover:block hidden absolute left-0 top-6  bg-white w-44  p-3' >
@@ -134,10 +134,10 @@ const Navbar = () => {
 
             <section className="bg-black h-5 ">
             <div className="max-w-screen-2xl">
-            <div className="flex justify-end gap-3 ">
-                <p className="text-white bg-[#FF0020] rounded-[4px] h-6 text-[12px] px-3 font-bold pt-[1px]">Information : 01958442200</p>
-                <p className="text-white bg-[#FF0020] rounded-[4px] h-6 text-[12px] px-3 font-bold pt-[1px]">Helpline : 01511142320</p>
-                <p className="text-white bg-[#FF0020] rounded-[4px] h-6 text-[12px] px-3 font-bold pt-[1px]">Request for Demo</p>
+            <div className="flex lg:justify-end justify-center gap-3 ">
+                <p className="lg:block hidden text-white bg-[#FF0020] rounded-[4px] h-6 text-[12px] px-3 font-bold pt-[1px]">Information : 01958442200</p>
+                <p className="lg:block hidden text-white bg-[#FF0020] rounded-[4px] h-6 text-[12px] px-3 font-bold pt-[1px]">Helpline : 01511142320</p>
+                <p className="text-white bg-[#FF0020] rounded-[4px] lg:h-6 text-[12px] px-3 font-bold lg:pt-[1px]">Request for Demo</p>
               </div>
             </div>
             </section>
