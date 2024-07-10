@@ -5,7 +5,7 @@ import { IoIosPaper, IoMdChatbubbles } from "react-icons/io";
 import logo from '../../assets/logo.png'
 
 
-const PartnershipReason = () => {
+const Footer = () => {
     return (
         <div className="bg-[#F9F9F9]">
             <div className="h-7 bg-white"></div>
@@ -93,4 +93,4 @@ const PartnershipReason = () => {
     );
 };
 
-export default PartnershipReason;
+export default Footer;

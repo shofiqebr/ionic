@@ -1,7 +1,7 @@
 import BannerText from "./BannerText";
 import BrandProduct from "./BrandProduct";
 import ImportantSubject from "./ImportantSubject";
-import PartnershipReason from "./PartnershipReason";
+
 import ProductDetails from "./ProductDetails";
 import Technologies from "./Technologies";
 
@@ -17,7 +17,7 @@ const Home = () => {
             <Technologies/>
             </div>
          
-            <PartnershipReason/>
+       
         </div>
     );
 };

@@ -28,13 +28,13 @@ const Contact = () => {
     loading="lazy"
     referrerPolicy="no-referrer-when-downgrade"
   ></iframe>
-        <div className="bg-[#F3F3F3] flex gap-10">
+        <div className="bg-[#F3F3F3] flex gap-10 lg:flex-row flex-col px-2">
 
 
 
   {/* form part starts */}
 
-      <section className="py-20 w-1/2 pl-80 ">
+      <section className="py-20 lg:w-1/2 lg:pl-80 ">
       <p className="text-3xl font-bold pb-10">Support Center</p>
       <form className="flex flex-col gap-5" onSubmit={handleSubmit(onSubmit)}>
 
@@ -59,7 +59,7 @@ const Contact = () => {
 
 
         <p className="flex justify-start items-center"><FaGear />Reason for enquiry</p>
-        <div className="flex flex-wrap gap-2">
+        <div className="grid grid-cols-3 gap-2">
         <button
         className={`bg-[#F91414] rounded p-1 border border-black font-bold text-white cursor-pointer w-36 ${selectedReason === 'general' ? 'selected' : ''}`}
         onClick={() => handleButtonClick('general')}
@@ -285,7 +285,7 @@ const Contact = () => {
    
       <div>
         <label className="flex items-center mb-2" htmlFor="textarea"><IoIosText />All Info/Massage Write</label>
-        <textarea className="w-[500px] h-[200px]"/>
+        <textarea className="lg:w-[500px] w-80 lg:h-[200px] h-44"/>
         <p className="text-xs">Type your info/massage...</p>
       </div>
       <div>
@@ -317,10 +317,10 @@ const Contact = () => {
       {/* right section */}
       <section>
         <div>
-          <div>
-            <p>Our Offices</p>
-            <ul className="bg-white text-[#E3E3E3]">
-            <p>Our Office</p>
+          <div className="py-20 ">
+            <p className="font-bold text-xl pb-5">Our Offices</p>
+            <ul className="bg-white text-[#656464] lg:w-[550px] border p-10 pr-20">
+            <p className="font-semibold text-lg text-black pb-2">Our Office</p>
               <li>Address: House # 18, Road # 01, Proschim Rayarbag, Jattrabari, Dhaka-1362</li>
               <li>Mobile : +8801958442200</li>
               <li>Email: ioniccorporation@gmail.com</li>
@@ -329,9 +329,9 @@ const Contact = () => {
           </div>
 
 
-          <div className="bg-white">
-              <p>Helpline & Business Hours</p>
-              <ul>
+          <div className="bg-white mb-20 lg:w-[550px]">
+              <ul className="bg-white text-[#656464]  border p-10 pr-20">
+              <p className="font-semibold text-lg text-black pb-2">Helpline & Business Hours</p>
                 <li>Saturday – Friday 8 AM – 8PM</li>
                 <li>24/7/365 Live Service – Imo/WhatsApp +8801511142320
                 </li>
@@ -341,8 +341,8 @@ const Contact = () => {
 
 
 
-          <div className="bg-white">
-              <p>Get in touch</p>
+          <div className=" mb-20 lg:w-[550px] bg-white text-[#656464]  border p-10 pr-20">
+              <p className="font-semibold text-lg text-black pb-2">Get in touch</p>
               
                 <p>To receive any of our support 24 hours a day, 7 days a week, call the Imo / WhatsApp number displayed above. Also use this number for details. – Thank you</p>
               
