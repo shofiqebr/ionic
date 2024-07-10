@@ -100,7 +100,9 @@ const Navbar = () => {
                 </li>
                 <li className='flex justify-center items-center text-lg font-bold group relative'>Hosting<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                         <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-3 text-base  font-normal'>
-                            <li className='py-2'>plesk premium web hosting</li>
+                           <Link to='/webHosting'>
+                           <li className='py-2'>plesk premium web hosting</li>
+                           </Link> 
                             <li className='py-2'>plesk dedicated server</li>
                             <li className='py-2'>plesk reseller server</li>
                         </ul>
