@@ -1,23 +1,31 @@
 import logo from '../../assets/logo.png'
 import logoHeader from '../../assets/logo-header.png'
 import basis from '../../assets/basis.svg'
-import { FaAngleDown, FaLinkedinIn, FaOdnoklassniki, FaPinterest, FaViber } from 'react-icons/fa';
+import { FaAngleDown, FaAngleRight, FaLinkedinIn, FaOdnoklassniki, FaPinterest, FaViber } from 'react-icons/fa';
 import ionic from '../../assets/ionic.png'
 import ocen from '../../assets/osen.png'
 import talkcell from '../../assets/talksell.png'
 import protidhoni from '../../assets/protidhoni.png'
 import { Link } from 'react-router-dom';
-import { RxCross2 } from 'react-icons/rx';
+import { RxCross1, RxCross2 } from 'react-icons/rx';
 import { useForm } from 'react-hook-form';
 import { RiFacebookFill } from 'react-icons/ri';
 import { FaXTwitter } from 'react-icons/fa6';
 import { MdEmail } from 'react-icons/md';
 import { BsTelegram, BsWhatsapp } from 'react-icons/bs';
 import { ImVk } from 'react-icons/im';
+import { useState } from 'react';
+
 
 const Navbar = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = data => console.log(data);
+
+  const [open, setOpen] = useState(false)
+  const [open1, setOpen1] = useState(false)
+  const [open2, setOpen2] = useState(false)
+  const [open3, setOpen3] = useState(false)
+ 
     return (
         <div className='fixed w-full bg-[#F3F3F3] z-10'>
         {/* gray section */}
@@ -104,7 +112,9 @@ const Navbar = () => {
                            <li className='py-2'>plesk premium web hosting</li>
                            </Link> 
                             <li className='py-2'>plesk dedicated server</li>
+                            <Link to='/resellerServer'>
                             <li className='py-2'>plesk reseller server</li>
+                            </Link>
                         </ul>
                     
                 </li>
@@ -136,12 +146,101 @@ const Navbar = () => {
     {/* Page content here */}
     {/* Content */}
   </div>
-  <div className="drawer-side">
-    <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
-    <ul className="menu bg-base-200 min-h-full w-80 p-4">
+  <div className="drawer-side ">
+    <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay "></label>
+    <ul className="menu bg-white min-h-full w-80 p-0 p ">
       {/* Sidebar content here */}
-      <li><a>Sidebar Item 1</a></li>
-      <li><a>Sidebar Item 2</a></li>
+      {/* আইওনিক এসএমএস আইওনিক ওসেন টকসেল প্রতিধ্বনি ডোমেইন আন্তর্জাতিক ডোমেইন বিডি ডোমেইন হোস্টিং Plesk প্রিমিয়াম ওয়েব হোস্টিং Plesk ডেডিকেটেড সার্ভার Plesk রিসেলার সার্ভার যোগাযোগ লগইন ডোমেইন লগইন হোস্টিং লগইন এসএমএস লগইন স্টাফ লগইন এজেন্ট হেল্প */}
+  
+      <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay flex justify-end items-center text-xl font-semibold p-3"><RxCross1 />close</label>
+      <hr />
+
+
+     
+
+
+
+
+      <p className='text-xl font-semibold bg-[#F5F5F5] py-4 text-center border-b-[#FF0020]'>MENU</p>
+
+
+      <li className='py-3  font-semibold text-[#FF0020]'><a>হোম </a></li>
+      <hr />
+      <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>সেবা সমূহ</p><p onClick={()=>setOpen(!open)}>{open?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
+      <hr className='p-0' />
+
+      {open && <>
+        <li className='h-14 flex justify-center font-medium w-full'>আইওনিক এসএমএস</li>
+        <hr className='p-0'/>
+        <li className='h-14 flex justify-center font-medium w-full'>আইওনিক ওসেন</li>
+        <hr className='p-0'/>
+        <li className='h-14 flex justify-center font-medium w-full'> টকসেল</li>
+        <hr className='p-0'/>
+        <li className='h-14 flex justify-center font-medium w-full'> প্রতিধ্বনি</li>
+        <hr className='p-0'/>
+      </>}
+      
+      </li>
+      <hr className='p-0'/>
+      <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>ডোমেইন </p><p onClick={()=>setOpen1(!open1)}>{open1?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
+      <hr className='p-0' />
+
+      {open1 && <>
+        <li className='h-14 flex justify-center font-medium w-full'>আন্তর্জাতিক ডোমেইন বিডি ডোমেইন</li>
+        <hr className='p-0'/>
+        <li className='h-14 flex justify-center font-medium w-full'> বিডি ডোমেইন</li>
+        <hr className='p-0'/>
+      </>}
+      
+      </li>
+      <hr className='p-0'/>
+      <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>হোস্টিং</p><p onClick={()=>setOpen2(!open2)}>{open2?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
+      <hr className='p-0' />
+
+      {open2 && <>
+        <li className='h-14 flex justify-center font-medium w-full' >Plesk প্রিমিয়াম ওয়েব হোস্টিং </li>
+        <hr className='p-0'/>
+        <li className='h-14 flex justify-center font-medium w-full'>Plesk ডেডিকেটেড সার্ভার </li>
+        <hr className='p-0'/>
+        <Link to='/resellerServer'>
+        <li className='h-14 flex justify-center font-medium w-full'>Plesk রিসেলার সার্ভার</li>
+        </Link>
+        <hr className='p-0'/>
+      </>}
+      
+      </li>
+      <hr className='p-0'/>
+      
+  
+      
+  
+
+
+    
+
+      <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white '> যোগাযোগ  </a></li>
+      <hr />
+
+
+      <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>লগইন</p><p onClick={()=>setOpen3(!open3)}>{open3?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
+      <hr className='p-0' />
+
+      {open3 && <>
+        <li className='h-14 flex justify-center font-medium w-full'>ডোমেইন লগইন </li>
+        <hr className='p-0' />
+          <li className='h-14 flex justify-center font-medium w-full'>হোস্টিং লগইন </li>
+          <hr className='p-0' />
+          <li className='h-14 flex justify-center font-medium w-full'>এসএমএস লগইন </li>
+          <hr className='p-0' />
+          <li className='h-14 flex justify-center font-medium w-full'>স্টাফ লগইন </li>
+          <hr className='p-0' />
+          <li className='h-14 flex justify-center font-medium w-full'>এজেন্ট হেল্প</li>
+          <hr className='p-0' />
+      </>}
+      
+      </li>
+      
+      <hr />
     </ul>
   </div>
 </div>

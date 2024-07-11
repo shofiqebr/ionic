@@ -1,4 +1,6 @@
-
+import backupImg from '../../assets/backup-image.png'
+import uptimeImg from '../../assets/uptime-image.png'
+import moneybackImg from '../../assets/moneyBack.png'
 
 const WebHosting = () => {
     return (
@@ -41,20 +43,20 @@ const WebHosting = () => {
 
                     </div>
                     <div className="card1 text-center bg-white border mb-10 pb-10">
-                        <h2 className="text-[#FF0020] text-2xl py-1 font-bold pt-5">Basic</h2>
-                        <h2 className="text-xl font-bold py-1">প্রতি বছর খরচ মাত্র <br />3500 টাকা</h2>
+                        <h2 className="text-[#FF0020] text-2xl py-1 font-bold pt-5">Professional</h2>
+                        <h2 className="text-xl font-bold py-1">প্রতি বছর খরচ মাত্র <br />7000 টাকা</h2>
                         <section className="flex flex-col gap-2 pb-5">
-                            <p>3 GB SSD Storage</p>
-                            <p>300 GB Monthly Bandwidth</p>
-                            <p>3 Addon Domain</p>
-                            <p>10 Sub Domain</p>
-                            <p>10 FTP Account</p>
-                            <p>20 Database</p>
-                            <p>30 Email Account</p>
+                            <p>6 GB SSD Storage</p>
+                            <p>600 GB Monthly Bandwidth</p>
+                            <p>6 Addon Domain</p>
+                            <p>20 Sub Domain</p>
+                            <p>20 FTP Account</p>
+                            <p>40 Database</p>
+                            <p>60 Email Account</p>
                             <p>Free SSL Certificate</p>
                             <p>Plesk Control Panel</p>
-                            <p>2 Core CPU Limit</p>
-                            <p>2 MB RAM</p>
+                            <p>4 Core CPU Limit</p>
+                            <p>4 MB RAM</p>
                             <p>100 MB/s I/O</p>
                             <p>LiteSpeed Server</p>
                             <p>Imunify360 Firewall</p>
@@ -70,21 +72,21 @@ const WebHosting = () => {
 
                     </div>
                     <div className="card1 text-center bg-white border mb-10 pb-10">
-                        <h2 className="text-[#FF0020] text-2xl py-1 font-bold pt-5">Basic</h2>
-                        <h2 className="text-xl font-bold py-1">প্রতি বছর খরচ মাত্র <br />3500 টাকা</h2>
+                        <h2 className="text-[#FF0020] text-2xl py-1 font-bold pt-5">Professional Plus</h2>
+                        <h2 className="text-xl font-bold py-1">প্রতি বছর খরচ মাত্র <br />10000 টাকা</h2>
                         <section className="flex flex-col gap-2 pb-5">
-                            <p>3 GB SSD Storage</p>
-                            <p>300 GB Monthly Bandwidth</p>
-                            <p>3 Addon Domain</p>
-                            <p>10 Sub Domain</p>
-                            <p>10 FTP Account</p>
-                            <p>20 Database</p>
-                            <p>30 Email Account</p>
+                            <p>10 GB SSD Storage</p>
+                            <p>800 GB Monthly Bandwidth</p>
+                            <p>10 Addon Domain</p>
+                            <p>30 Sub Domain</p>
+                            <p>30 FTP Account</p>
+                            <p>60 Database</p>
+                            <p>60 Email Account</p>
                             <p>Free SSL Certificate</p>
                             <p>Plesk Control Panel</p>
-                            <p>2 Core CPU Limit</p>
-                            <p>2 MB RAM</p>
-                            <p>100 MB/s I/O</p>
+                            <p>6 Core CPU Limit</p>
+                            <p>6 MB RAM</p>
+                            <p>200 MB/s I/O</p>
                             <p>LiteSpeed Server</p>
                             <p>Imunify360 Firewall</p>
                             <p>Instant Activation</p>
@@ -99,21 +101,21 @@ const WebHosting = () => {
 
                     </div>
                     <div className="card1 text-center bg-white border mb-10 pb-10">
-                        <h2 className="text-[#FF0020] text-2xl py-1 font-bold pt-5">Basic</h2>
-                        <h2 className="text-xl font-bold py-1">প্রতি বছর খরচ মাত্র <br />3500 টাকা</h2>
+                        <h2 className="text-[#FF0020] text-2xl py-1 font-bold pt-5">Professional Pro</h2>
+                        <h2 className="text-xl font-bold py-1">প্রতি বছর খরচ মাত্র <br />20000 টাকা</h2>
                         <section className="flex flex-col gap-2 pb-5">
-                            <p>3 GB SSD Storage</p>
-                            <p>300 GB Monthly Bandwidth</p>
-                            <p>3 Addon Domain</p>
-                            <p>10 Sub Domain</p>
-                            <p>10 FTP Account</p>
-                            <p>20 Database</p>
-                            <p>30 Email Account</p>
+                            <p>Unlimited SSD Storage</p>
+                            <p>1TB Monthly Bandwidth</p>
+                            <p>10 Addon Domain</p>
+                            <p>Unlimited Sub Domain</p>
+                            <p>Unlimited FTP Account</p>
+                            <p>Unlimited Database</p>
+                            <p>Unlimited Email Account</p>
                             <p>Free SSL Certificate</p>
                             <p>Plesk Control Panel</p>
-                            <p>2 Core CPU Limit</p>
-                            <p>2 MB RAM</p>
-                            <p>100 MB/s I/O</p>
+                            <p>6 Core CPU Limit</p>
+                            <p>8 MB RAM</p>
+                            <p>500 MB/s I/O</p>
                             <p>LiteSpeed Server</p>
                             <p>Imunify360 Firewall</p>
                             <p>Instant Activation</p>
@@ -138,7 +140,32 @@ const WebHosting = () => {
 
 
 
+
             {/* --------------------------card part ends---------------------------- */}
+
+
+
+            <section className='flex md:flex-row flex-col gap-5 py-16'>
+                <div className='flex flex-col justify-center items-center gap-3'>
+                    <img className='bg-[#5AA1E3] rounded-full p-4' src={backupImg} alt="" />
+                    <h1 className='font-bold text-lg'>Backups Guarantee</h1>
+                    <p className='text-center'>Data protection is very important to us. That is why we offer automated daily and weekly on all hosting accounts.</p>
+                </div>
+                <div className='flex flex-col justify-center items-center gap-3'>
+                    <img className='bg-[#5AA1E3] rounded-full p-4' src={moneybackImg} alt="" />
+                    <h1 className='font-bold text-lg'>Moneyback Guarantee</h1>
+                    <p className='text-center'>We’re confident of our exceptional web hosting service, that we offer a 30 days money-back guarantee. see fit.</p>
+                </div>
+                <div className='flex flex-col justify-center items-center gap-3'>
+                    <img className='bg-[#5AA1E3] rounded-full p-4' src={uptimeImg} alt="" />
+                    <h1 className='font-bold text-lg'>99.9% Uptime Guarantee</h1>
+                    <p className='text-center'>We understand the uptime importance. We pledge to deliver in excess of 99.9% uptime, each and every month.</p>
+                </div>
+              
+            </section>
+
+
+           
         </div>
     );
 };
