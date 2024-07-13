@@ -17,17 +17,35 @@ import { ImVk } from 'react-icons/im';
 import { useState } from 'react';
 
 
+
+
 const Navbar = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = data => console.log(data);
 
   const [open, setOpen] = useState(false)
+ 
   const [open1, setOpen1] = useState(false)
   const [open2, setOpen2] = useState(false)
   const [open3, setOpen3] = useState(false)
+
+
+
+
  
     return (
-        <div className='fixed w-full bg-[#F3F3F3] z-10'>
+        <div className='fixed w-full bg-[#F3F3F3] z-10 '>
+
+
+     
+     
+          
+        
+      
+
+
+
+
         {/* gray section */}
 
 
@@ -79,30 +97,42 @@ const Navbar = () => {
               </Link>
                 <li className='flex justify-center items-center text-lg font-bold group relative'>সেবা সমূহ <span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                     <ul className='group-hover:block hidden absolute left-0 top-6  bg-white w-44  p-3' >
+                      <a href="https://ioniccorporation.com/managed-cpanel-sever/">
                         <li className='flex justify-start gap-2 items-center text-sm py-3'>
                             <img className='w-5' src={ionic} alt="" />
                             <p className='font-normal'>আইওনিক এসএমএস</p>
                         </li>
+                      </a>
+                        <a href="https://ioniccorporation.com/ionic-ocean/">
                         <li className='flex justify-start gap-2 items-center text-sm py-3'>
                             <img className='w-5' src={ocen} alt="" />
                             <p className='font-normal'>আইওনিক ওসেন</p>
                         </li>
+                        </a>
+                        <a href="https://ioniccorporation.com/talksale/">
                         <li className='flex justify-start gap-2 items-center text-sm py-3'>
                             <img className='w-5' src={talkcell} alt="" />
                             <p className='font-normal'>টকসেল </p>
                         </li>
+                        </a>
+                        <a href="http://ww25.protidhoni.com/?subid1=20240713-1518-18fc-96d6-9db661045065">
                         <li className='flex justify-start gap-2 items-center text-sm py-3'>
                             <img className='w-5' src={protidhoni} alt="" />
                             <p className='font-normal'>প্রতিধ্বনি </p>
                         </li>
+                        </a>
                     </ul> 
                  
                 
                 </li>
                 <li className='flex justify-center items-center text-lg font-bold group relative'>ডোমেইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                         <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-5 font-normal text-base '>
+                          <a href="https://ionic.supersite2.myorderbox.com/">
                             <li className='py-1'>আন্তর্জাতিক ডোমেইন</li>
+                          </a>
+                          <a href="https://bdia.btcl.com.bd/">
                             <li className='py-1'>বিডি ডোমেইন</li>
+                          </a>
                         </ul>
                 
                 </li>
@@ -126,17 +156,27 @@ const Navbar = () => {
             
                 <li className='flex justify-center items-center text-lg font-bold group relative'>লগইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> </span>
                         <ul className='group-hover:block hidden absolute text-base font-normal top-6 left-0 bg-white w-44 p-5'>
+                          <a href="https://ionic.supersite2.myorderbox.com/login.php">
                             <li className='py-2'>ডোমেইন লগইন</li>
+                          </a>
+                          <a href="https://vmi699873.contaboserver.net:8443/login_up.php?success_redirect_url=%2F">
                             <li className='py-2'>হোস্টিং লগইন</li>
+                          </a>
+                          <a href="https://sms.mimsms.com/Identity/Account/Login?ReturnUrl=%2F">
                             <li className='py-2'>এসএমএস লগইন</li>
+                          </a>
+                          <a href="https://dash.ionicshop.xyz/login">
                             <li className='py-2'>স্টাফ লগইন</li>
+                          </a>
+                          <a href="https://support.ioniccorporation.com/">
                             <li className='py-2'>এজেন্ট হেল্প</li>
+                          </a>
                         </ul>
                 
                 </li>
             </ul>
         </div>
-
+     <Link to='/'>
       <div className="hidden flex-none lg:block">
         
           {/* Navbar menu content here */}
@@ -144,6 +184,7 @@ const Navbar = () => {
           <img className='w-32 ml-20' src={basis} alt="" />
         
       </div>
+     </Link>
     </div>
     {/* Page content here */}
     {/* Content */}
@@ -253,11 +294,17 @@ const Navbar = () => {
             {/* black part */}
 
 
-            <section className="bg-black h-5 pr-5 ">
+            <section className="bg-black h-5 pr-5 relative">
             <div className="max-w-screen-2xl">
-            <div className="flex lg:justify-end justify-center gap-3 ">
-                <p className="lg:block hidden text-white bg-[#FF0020] rounded-[4px] h-6 text-[12px] px-3 font-bold pt-[1px]">Information : 01958442200</p>
-                <p className="lg:block hidden text-white bg-[#FF0020] rounded-[4px] h-6 text-[12px] px-3 font-bold pt-[1px]">Helpline : 01511142320</p>
+            <div className="flex lg:justify-end justify-center gap-3 absolute -top-[5px] right-20 ">
+            <h1 className='bg-[#FFAA00] text-black rounded-lg p-1 font-bold w-56 text-center'>
+            অনুসন্ধান: 01958442200
+                  </h1>
+            <h1 className='bg-[#FFAA00] text-black rounded-lg p-1 font-bold w-56 text-center'>
+            হেল্পলাইন : 01511142320
+                  </h1>
+               
+               
             
 
 
@@ -266,7 +313,7 @@ const Navbar = () => {
 
 
                 {/* Open the modal using document.getElementById('ID').showModal() method */}
-<button className="" onClick={()=>document.getElementById('my_modal_5').showModal()}> <p className="text-white bg-[#FF0020] rounded-[4px] lg:h-6 text-[12px] px-3 font-bold lg:pt-[1px]">Request for Demo</p>
+<button className="" onClick={()=>document.getElementById('my_modal_5').showModal()}> <p className="  px-3 py-1 bg-[#FFAA00] text-black rounded-lg   font-semibold w-60 text-center">ডেমোর জন্য অনুরোধ করুন</p>
 </button>
 <dialog id="my_modal_5" className="">
   <div className=" lg:w-[1000px]  bg-[#808285] relative">
