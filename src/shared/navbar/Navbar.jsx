@@ -73,62 +73,64 @@ const Navbar = () => {
       </Link>
 
         <div className='lg:block hidden'>
-            <ul className='flex justify-center items-center xl:pr-44 xl:pl-32 gap-2'>
+            <ul className='flex justify-center items-center xl:pr-44 xl:pl-20 gap-2'>
               <Link to='/'>
-                <li className='text-lg font-bold'>Home <span className='opacity-30'>|</span> </li>
+                <li className='text-lg font-bold'>হোম <span className='opacity-30'>|</span> </li>
               </Link>
-                <li className='flex justify-center items-center text-lg font-bold group relative'>Services <span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
+                <li className='flex justify-center items-center text-lg font-bold group relative'>সেবা সমূহ <span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                     <ul className='group-hover:block hidden absolute left-0 top-6  bg-white w-44  p-3' >
                         <li className='flex justify-start gap-2 items-center text-sm py-3'>
                             <img className='w-5' src={ionic} alt="" />
-                            <p className='font-normal'>Ionic SMS</p>
+                            <p className='font-normal'>আইওনিক এসএমএস</p>
                         </li>
                         <li className='flex justify-start gap-2 items-center text-sm py-3'>
                             <img className='w-5' src={ocen} alt="" />
-                            <p className='font-normal'>Ionic OCEN</p>
+                            <p className='font-normal'>আইওনিক ওসেন</p>
                         </li>
                         <li className='flex justify-start gap-2 items-center text-sm py-3'>
                             <img className='w-5' src={talkcell} alt="" />
-                            <p className='font-normal'>Talkcell</p>
+                            <p className='font-normal'>টকসেল </p>
                         </li>
                         <li className='flex justify-start gap-2 items-center text-sm py-3'>
                             <img className='w-5' src={protidhoni} alt="" />
-                            <p className='font-normal'>Protidhoni </p>
+                            <p className='font-normal'>প্রতিধ্বনি </p>
                         </li>
                     </ul> 
-                
+                 
                 
                 </li>
-                <li className='flex justify-center items-center text-lg font-bold group relative'>Domain<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
+                <li className='flex justify-center items-center text-lg font-bold group relative'>ডোমেইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                         <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-5 font-normal text-base '>
-                            <li className='py-1'>International Domain</li>
-                            <li className='py-1'>BD Domain</li>
+                            <li className='py-1'>আন্তর্জাতিক ডোমেইন</li>
+                            <li className='py-1'>বিডি ডোমেইন</li>
                         </ul>
                 
                 </li>
-                <li className='flex justify-center items-center text-lg font-bold group relative'>Hosting<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
+                <li className='flex justify-center items-center text-lg font-bold group relative'>হোস্টিং<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                         <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-3 text-base  font-normal'>
                            <Link to='/webHosting'>
-                           <li className='py-2'>plesk premium web hosting</li>
+                           <li className='py-2'> Plesk প্রিমিয়াম ওয়েব হোস্টিং</li>
                            </Link> 
-                            <li className='py-2'>plesk dedicated server</li>
+                           <Link to='/dedicatedServer'>
+                            <li className='py-2'>Plesk ডেডিকেটেড সার্ভার</li>
+                           </Link>
                             <Link to='/resellerServer'>
-                            <li className='py-2'>plesk reseller server</li>
+                            <li className='py-2'>Plesk রিসেলার সার্ভার</li>
                             </Link>
                         </ul>
                     
                 </li>
                 <Link to='/contact'>
-                <li className='text-lg font-bold'>Contact <span className='opacity-30'>|</span></li>
+                <li className='text-lg font-bold'>যোগাযোগ <span className='opacity-30'>|</span></li>
                 </Link>
-               
-                <li className='flex justify-center items-center text-lg font-bold group relative'>Login<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> </span>
+            
+                <li className='flex justify-center items-center text-lg font-bold group relative'>লগইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> </span>
                         <ul className='group-hover:block hidden absolute text-base font-normal top-6 left-0 bg-white w-44 p-5'>
-                            <li className='py-2'>Domain Login</li>
-                            <li className='py-2'>Hosting Login</li>
-                            <li className='py-2'>SMS Login</li>
-                            <li className='py-2'>Staff Login</li>
-                            <li className='py-2'>Agent Help</li>
+                            <li className='py-2'>ডোমেইন লগইন</li>
+                            <li className='py-2'>হোস্টিং লগইন</li>
+                            <li className='py-2'>এসএমএস লগইন</li>
+                            <li className='py-2'>স্টাফ লগইন</li>
+                            <li className='py-2'>এজেন্ট হেল্প</li>
                         </ul>
                 
                 </li>
@@ -148,9 +150,9 @@ const Navbar = () => {
   </div>
   <div className="drawer-side ">
     <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay "></label>
-    <ul className="menu bg-white min-h-full w-80 p-0 p ">
+    <ul className="menu bg-white min-h-full w-80 p-0 text-black ">
       {/* Sidebar content here */}
-      {/* আইওনিক এসএমএস আইওনিক ওসেন টকসেল প্রতিধ্বনি ডোমেইন আন্তর্জাতিক ডোমেইন বিডি ডোমেইন হোস্টিং Plesk প্রিমিয়াম ওয়েব হোস্টিং Plesk ডেডিকেটেড সার্ভার Plesk রিসেলার সার্ভার যোগাযোগ লগইন ডোমেইন লগইন হোস্টিং লগইন এসএমএস লগইন স্টাফ লগইন এজেন্ট হেল্প */}
+    
   
       <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay flex justify-end items-center text-xl font-semibold p-3"><RxCross1 />close</label>
       <hr />
