@@ -5,14 +5,14 @@ import bannerImg from '../../assets/backImgBanner.webp'
 
 const Banner = () => {
     return (
-        <div className="pt-44">
-            <section className="flex mx-16 md:flex-row flex-col" >
+        <div className="lg:pt-44 pt-32">
+            <section className="flex lg:mx-16 md:flex-row flex-col" >
 
 
-                <div className="bg-[#0B2A63] text-white flex justify-between rounded-tl-xl md:w-[70%]">
-                    <div className="pl-10 py-10 ">
+                <div className="bg-[#0B2A63] text-white flex lg:flex-row flex-col lg:justify-between md:rounded-tl-xl md:rounded-tr-none rounded-t-xl md:w-[70%] px-5 ">
+                    <div className="lg:pl-10 lg:py-10 ">
                         <p className="text-lg font-semibold text-[#95CAEB]">WordPress Hosting</p>
-                        <h1 className="text-4xl font-semibold pb-8">Faster & more reliable</h1>
+                        <h1 className="lg:text-4xl text-2xl font-semibold pb-8">Faster & more reliable</h1>
                         <div className="flex items-center gap-4 pb-5">
                             <FaCheck className=" rounded-full bg-[#2F4A7A] text-[2f4a7a] p-1 text-2xl " /> 
                             <p className="text-lg">3x faster with SSD & caching</p>
@@ -38,18 +38,18 @@ const Banner = () => {
                       </button>
 
 
-                        </div>
+                    </div>
                     <div>
-                        <img className="pt-28 " src={bannerImg} alt="" />
+                        <img className="lg:pt-28 ml-5 " src={bannerImg} alt="" />
                     </div>
                 </div>
 
 
 
 
-                {/* <div className="w-[30%] bg-[#001B41] text-white p-5 pl-10 rounded-tr-xl">
+                <div className="lg:w-[30%] bg-[#001B41] text-white p-5 lg:pl-10 px-5 lg:rounded-tr-xl">
                 <p className="text-lg font-semibold text-[#95CAEB]">IONOS Cloud</p>
-                        <h1 className="text-4xl font-semibold pb-5">Cloud IT without  <br />compromises</h1>
+                        <h1 className="xl:text-4xl text-2xl font-semibold pb-5">Cloud IT without  <br />compromises</h1>
                         <div className="flex items-center gap-4 pb-5">
                             <FaCheck className=" rounded-full bg-[#2F4A7A] text-[2f4a7a] p-1 text-2xl " /> 
                             <p className="text-lg">Highly scalable</p>
@@ -76,13 +76,19 @@ const Banner = () => {
 
 
 
-                </div> */}
+                </div>
             </section>
 
 
-{/* 
-            <section className="md:flex grid grid-cols-2 items-center  justify-center gap-5 py-3 bg-white mx-16 rounded-b-xl">
-                <div className="flex flex-col justify-center items-center border-r rounded-bl-xl  px-4 hover:scale-105">
+
+
+                {/* ----------card part----------- */}
+
+
+
+
+            <section className="xl:flex grid md:grid-cols-3 grid-cols-2 items-center  justify-center gap-5 py-3 bg-white lg:mx-16 rounded-b-xl">
+                <div className="flex flex-col justify-center items-center border-r lg:rounded-bl-xl  px-4 hover:scale-105">
 
             <img className="w-20" src="https://cs.uicdn.net/fileadmin/user_upload/Icons/on-light/icon-product-email.svg"/>
             <h4 className="font-bold">Bussiness email</h4>
@@ -117,7 +123,7 @@ const Banner = () => {
             <p className="text-[#718095]">Starting at $2/month</p>
             <a href="">Learn more</a>
                 </div>
-                <div className="flex flex-col justify-center items-center rounded-br-xl py-3 px-3 hover:scale-105">
+                <div className="flex flex-col justify-center items-center lg:rounded-br-xl py-3 px-3 hover:scale-105">
 
             <img className="w-20" src="	https://cs.uicdn.net/fileadmin/user_upload/Icons/on-light/icon-product-cloud-compute-engine.svg"/>
             <h4 className="font-bold">Computer Engine</h4>
@@ -127,7 +133,7 @@ const Banner = () => {
               
           
 
-            </section> */}
+            </section>
         </div>
     );
 };

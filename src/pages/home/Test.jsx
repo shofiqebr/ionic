@@ -10,8 +10,8 @@ const Test = () => {
     <div className='fixed w-full bg-[#F3F3F3] z-10 pr-10'>
       <div className='relative'>
         {isVisible && (
-          <div className='absolute top-72 right-[430px]'>
-            <div className='absolute -top-8 -right-5 cursor-pointer' onClick={() => setIsVisible(false)}>
+          <div className='absolute top-72 2xl:right-[430px] xl:right-20 lg:right-0 hidden lg:block'>
+            <div className='absolute -top-8 -right-5 cursor-pointer bg-black rounded-full text-[#FFAA00]' onClick={() => setIsVisible(false)}>
               <RiCloseCircleLine className='text-2xl' />
             </div>
             <div className='relative'>
