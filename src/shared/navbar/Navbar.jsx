@@ -96,7 +96,7 @@ const Navbar = () => {
                 <li className='text-lg font-bold'>হোম <span className='opacity-30'>|</span> </li>
               </Link>
                 <li className='flex justify-center items-center text-lg font-bold group relative'>সেবা সমূহ <span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
-                    <ul className='group-hover:block hidden absolute left-0 top-6  bg-white w-44  p-3' >
+                    <ul className='group-hover:block hidden absolute left-0 top-6  bg-white w-44  p-3 z-50' >
                       <a href="https://ioniccorporation.com/managed-cpanel-sever/">
                         <li className='flex justify-start gap-2 items-center text-sm py-3'>
                             <img className='w-5' src={ionic} alt="" />
@@ -121,12 +121,19 @@ const Navbar = () => {
                             <p className='font-normal'>প্রতিধ্বনি </p>
                         </li>
                         </a>
+                     <Link to='/shikkha'>
+                        <li className='flex justify-start gap-2 items-center text-sm py-3'>
+                           
+                       <p className='font-normal'> শিক্ষা চ্যাট </p>
+                        </li>
+                     </Link>
+                       
                     </ul> 
                  
                 
                 </li>
                 <li className='flex justify-center items-center text-lg font-bold group relative'>ডোমেইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
-                        <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-5 font-normal text-base '>
+                        <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-5 font-normal text-base z-50'>
                           <a href="https://ionic.supersite2.myorderbox.com/">
                             <li className='py-1'>আন্তর্জাতিক ডোমেইন</li>
                           </a>
@@ -137,7 +144,7 @@ const Navbar = () => {
                 
                 </li>
                 <li className='flex justify-center items-center text-lg font-bold group relative'>হোস্টিং<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
-                        <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-3 text-base  font-normal'>
+                        <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-3 text-base  font-normal z-50'>
                            <Link to='/webHosting'>
                            <li className='py-2'> Plesk প্রিমিয়াম ওয়েব হোস্টিং</li>
                            </Link> 
@@ -155,7 +162,7 @@ const Navbar = () => {
                 </Link>
             
                 <li className='flex justify-center items-center text-lg font-bold group relative'>লগইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> </span>
-                        <ul className='group-hover:block hidden absolute text-base font-normal top-6 left-0 bg-white w-44 p-5'>
+                        <ul className='group-hover:block hidden absolute text-base font-normal top-6 left-0 bg-white w-44 p-5 z-50'>
                           <a href="https://ionic.supersite2.myorderbox.com/login.php">
                             <li className='py-2'>ডোমেইন লগইন</li>
                           </a>
