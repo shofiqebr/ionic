@@ -294,13 +294,13 @@ const Navbar = () => {
             {/* black part */}
 
 
-            <section className="bg-black h-5 md:pr-5 relative">
+            <section className="bg-black h-5 md:pr-5 relative ">
             <div className="max-w-screen-2xl">
             <div className="flex lg:justify-end justify-center gap-3 absolute -top-[5px] lg:right-20 md:right-5 right-10">
-            <h1 className='bg-[#FFAA00] text-black rounded-lg p-1 font-bold w-56 text-center hidden md:block'>
+            <h1 className='bg-[#FFAA00] text-black rounded-lg p-1 font-semibold text-sm w-56 text-center hidden md:block'>
             অনুসন্ধান: 01958442200
                   </h1>
-            <h1 className='bg-[#FFAA00] text-black rounded-lg p-1 font-bold w-56 text-center hidden md:block'>
+            <h1 className='bg-[#FFAA00] text-black rounded-lg p-1 font-semibold text-sm w-56 text-center hidden md:block'>
             হেল্পলাইন : 01511142320
                   </h1>
                
@@ -314,7 +314,7 @@ const Navbar = () => {
 
                 {/* Open the modal using document.getElementById('ID').showModal() method */}
                 
-<button className="" onClick={()=>document.getElementById('my_modal_5').showModal()}> <p className="  px-3 py-1 bg-[#FFAA00] text-black rounded-lg   font-semibold w-60 text-center">ডেমোর জন্য অনুরোধ করুন</p>
+<button className="" onClick={()=>document.getElementById('my_modal_5').showModal()}> <p className="  px-3 py-1 bg-[#FFAA00] text-black rounded-lg   font-semibold text-sm w-60 text-center">ডেমোর জন্য অনুরোধ করুন</p>
 </button>
 <dialog id="my_modal_5" className="">
   <div className=" lg:w-[1000px]  bg-[#808285] relative">
