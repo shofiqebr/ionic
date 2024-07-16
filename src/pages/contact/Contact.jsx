@@ -36,20 +36,20 @@ const Contact = () => {
 
       <section className="py-20 lg:w-1/2 lg:pl-80 ">
       <p className="text-3xl font-bold pb-10">Support Center</p>
-      <form className="flex flex-col gap-5" onSubmit={handleSubmit(onSubmit)}>
+      <form className="flex flex-col gap-10" onSubmit={handleSubmit(onSubmit)}>
 
       <div>
-      <label htmlFor="firstName" className="flex justify-start items-center pl-3">আপনার নাম</label>
-      <input className="border w-full h-8 mt-2 rounded px-3" placeholder="আপনার নাম" {...register("name")} />
+      <label htmlFor="firstName" className="flex justify-start items-center pl-3 pb-2">আপনার নাম</label>
+      <input className="border w-full h-12 mt-2 rounded px-3" placeholder="আপনার নাম" {...register("name")} />
       </div>
       <div>
-      <label htmlFor="firstName" className="flex justify-start items-center pl-3">আপনার মোবাইল নাম্বার</label>
-      <input className="border w-full h-8 mt-2 rounded px-3" placeholder="আপনার মোবাইল নাম্বার" {...register("mobile")} />
+      <label htmlFor="firstName" className="flex justify-start items-center pl-3 pb-2">আপনার মোবাইল নাম্বার</label>
+      <input className="border w-full h-12 mt-2 rounded px-3" placeholder="আপনার মোবাইল নাম্বার" {...register("mobile")} />
       </div>
       <div>
-      <label htmlFor="firstName" className="flex justify-start items-center pl-3">যে সফ্টওয়ারটির ডেমো দেখতে চাচ্ছেন, নির্বাচন করুন</label>
+      <label htmlFor="firstName" className="flex justify-start items-center pl-3 pb-2">যে সফ্টওয়ারটির ডেমো দেখতে চাচ্ছেন, নির্বাচন করুন</label>
      
-      <select className="border w-full h-8 mt-2 rounded px-3"  {...register("software")} >
+      <select className="border w-full h-12 mt-2 rounded px-3"  {...register("software")} >
       <option value="IONIC Education">IONIC Education</option>
       <option value="IONIC Hospital">IONIC Hospital</option>
       <option value="IONIC Shop">IONIC Shop</option>
@@ -71,8 +71,8 @@ const Contact = () => {
         </select>
       </div>
       <div>
-      <label htmlFor="firstName" className="flex justify-start items-center pl-3">আপনার ব্যবসার ধরণ কি</label>
-      <input className="border w-full h-8 mt-2 rounded px-3" placeholder="আপনার ব্যবসার ধরণ কি" {...register("businessType")} />
+      <label htmlFor="firstName" className="flex justify-start items-center pl-3 pb-2">আপনার ব্যবসার ধরণ কি</label>
+      <input className="border w-full h-12 mt-2 rounded px-3" placeholder="আপনার ব্যবসার ধরণ কি" {...register("businessType")} />
       </div>
       {/* <div className="flex flex-col">
      <label htmlFor="company">Company/School/Hospital Name</label>
