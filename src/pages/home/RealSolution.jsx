@@ -21,6 +21,8 @@ import wordpress from '../../assets/wordpress.svg'
 import dedicated from '../../assets/dedicated.svg'
 import cloudBAckup from '../../assets/cloudBAckup.svg'
 import { FaArrowRightLong } from 'react-icons/fa6';
+import ModalBody from '../../shared/modalBody/ModalBody';
+import { RxCross2 } from 'react-icons/rx';
 
 
 const RealSolution = () => {
@@ -130,31 +132,158 @@ md:pt-60  md:bg-white xl:bg-transparent xl:text-white text-white md:text-black x
         <p className='text-[#2E4360] font-semibold'>CLOUD SERVERS</p>
         <h1 className='font-bold text-xl'>Easily scale resources to meet any demand</h1>
 
-        <p className='flex items-center gap-2 pt-12 text-lg font-semibold'>Learn more <FaArrowRightLong /> </p>
+    
+             {/* ---------------------modal start---------------------------- */}
+
+
+                {/* Open the modal using document.getElementById('ID').showModal() method */}
+                
+<button className="pt-10" onClick={()=>document.getElementById('my_modal_5').showModal()}> <a className='flex gap-3 text-xl font-bold items-center' href="#">Learn more <FaArrowRightLong /></a>
+</button>
+
+
+<dialog id="my_modal_5" className="">
+  <div className=" lg:w-[1000px]  bg-[#808285] relative">
+    <ModalBody/>
+
+      
+
+<div className="modal-action">
+      <form method="dialog">
+        {/* if there is a button in form, it will close the modal */}
+        <button className=" absolute top-2 right-2"><RxCross2 className='text-white text-2xl' /></button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+
+
+
+
+
+
+                {/* ---------------------modal end---------------------------- */}
 
     </div>
     <div className='bg-white rounded-xl p-5'>
         <img className='w-20' src={wordpress} alt="" />
-        <p className='text-[#2E4360] font-semibold'>CLOUD SERVERS</p>
-        <h1 className='font-bold text-xl'>Easily scale resources to meet any demand</h1>
+        <p className='text-[#2E4360] font-semibold'>MANAGED WORDPRESS</p>
+        <h1 className='font-bold text-xl'>Take control with customizable updates</h1>
 
-        <p className='flex items-center gap-2 pt-12 text-lg font-semibold'>Learn more <FaArrowRightLong /> </p>
+       
+             {/* ---------------------modal start---------------------------- */}
+
+
+                {/* Open the modal using document.getElementById('ID').showModal() method */}
+                
+<button className="pt-10" onClick={()=>document.getElementById('my_modal_5').showModal()}> <a className='flex gap-3 text-xl font-bold items-center' href="#">Learn more <FaArrowRightLong /></a>
+</button>
+
+
+<dialog id="my_modal_5" className="">
+  <div className=" lg:w-[1000px]  bg-[#808285] relative">
+    <ModalBody/>
+
+      
+
+<div className="modal-action">
+      <form method="dialog">
+        {/* if there is a button in form, it will close the modal */}
+        <button className=" absolute top-2 right-2"><RxCross2 className='text-white text-2xl' /></button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+
+
+
+
+
+
+                {/* ---------------------modal end---------------------------- */}
+
 
     </div>
     <div className='bg-white rounded-xl p-5'>
         <img className='w-20' src={dedicated} alt="" />
-        <p className='text-[#2E4360] font-semibold'>CLOUD SERVERS</p>
-        <h1 className='font-bold text-xl'>Easily scale resources to meet any demand</h1>
+        <p className='text-[#2E4360] font-semibold'>DEDICATED SERVERS</p>
+        <h1 className='font-bold text-xl'>Get optimal performance on enterprise hardware</h1>
 
-        <p className='flex items-center gap-2 pt-12 text-lg font-semibold'>Learn more <FaArrowRightLong /> </p>
+      
+             {/* ---------------------modal start---------------------------- */}
+
+
+                {/* Open the modal using document.getElementById('ID').showModal() method */}
+                
+<button className="pt-10" onClick={()=>document.getElementById('my_modal_5').showModal()}> <a className='flex gap-3 text-xl font-bold items-center' href="#">Learn more <FaArrowRightLong /></a>
+</button>
+
+
+<dialog id="my_modal_5" className="">
+  <div className=" lg:w-[1000px]  bg-[#808285] relative">
+    <ModalBody/>
+
+      
+
+<div className="modal-action">
+      <form method="dialog">
+        {/* if there is a button in form, it will close the modal */}
+        <button className=" absolute top-2 right-2"><RxCross2 className='text-white text-2xl' /></button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+
+
+
+
+
+
+                {/* ---------------------modal end---------------------------- */}
+
 
     </div>
     <div className='bg-white rounded-xl p-5'>
         <img className='w-20' src={cloudBAckup} alt="" />
-        <p className='text-[#2E4360] font-semibold'>CLOUD SERVERS</p>
-        <h1 className='font-bold text-xl'>Easily scale resources to meet any demand</h1>
+        <p className='text-[#2E4360] font-semibold'>CLOUD BACKUP</p>
+        <h1 className='font-bold text-xl'>Protect your work and your server</h1>
 
-        <p className='flex items-center gap-2 pt-12 text-lg font-semibold'>Learn more <FaArrowRightLong /> </p>
+       
+             {/* ---------------------modal start---------------------------- */}
+
+
+                {/* Open the modal using document.getElementById('ID').showModal() method */}
+                
+<button className="pt-10" onClick={()=>document.getElementById('my_modal_5').showModal()}> <a className='flex gap-3 text-xl font-bold items-center' href="#">Learn more <FaArrowRightLong /></a>
+</button>
+
+
+<dialog id="my_modal_5" className="">
+  <div className=" lg:w-[1000px]  bg-[#808285] relative">
+    <ModalBody/>
+
+      
+
+<div className="modal-action">
+      <form method="dialog">
+        {/* if there is a button in form, it will close the modal */}
+        <button className=" absolute top-2 right-2"><RxCross2 className='text-white text-2xl' /></button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+
+
+
+
+
+
+                {/* ---------------------modal end---------------------------- */}
+
 
     </div>
    

@@ -2,6 +2,8 @@ import { RiCloseCircleLine } from 'react-icons/ri';
 import { useState } from 'react';
 import { FaArrowRightLong } from 'react-icons/fa6';
 import fixedImg from '../../assets/fixedImg.webp'; 
+import ModalBody from '../../shared/modalBody/ModalBody';
+import { RxCross2 } from 'react-icons/rx';
 
 const Test = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -27,7 +29,45 @@ const Test = () => {
 
                   <p className='pt-44 font-bold text-xl pb-4'>Personal <br /> consultant</p>
                   <p className='pb-4 text-sm font-bold'>Your own direct line to <br />tailored support.</p>
-                  <a className='flex gap-3 text-xl font-bold items-center' href="#">Learn more <FaArrowRightLong /></a>
+                 
+
+
+                   {/* ---------------------modal start---------------------------- */}
+
+
+                {/* Open the modal using document.getElementById('ID').showModal() method */}
+                
+<button className="" onClick={()=>document.getElementById('my_modal_5').showModal()}> <a className='flex gap-3 text-xl font-bold items-center' href="#">Learn more <FaArrowRightLong /></a>
+</button>
+
+
+<dialog id="my_modal_5" className="">
+  <div className=" lg:w-[1000px]  bg-[#808285] relative">
+    <ModalBody/>
+
+      
+
+<div className="modal-action">
+      <form method="dialog">
+        {/* if there is a button in form, it will close the modal */}
+        <button className=" absolute top-2 right-2"><RxCross2 className='text-white text-2xl' /></button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+
+
+
+
+
+
+                {/* ---------------------modal end---------------------------- */}
+
+
+
+
+
                   </div>
                 </div>
               </section>

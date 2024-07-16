@@ -1,5 +1,8 @@
 import { FaCheck } from "react-icons/fa";
 import bannerImg from '../../assets/backImgBanner.webp'
+import ModalBody from "../../shared/modalBody/ModalBody";
+import { RxCross2 } from "react-icons/rx";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 
 
@@ -70,9 +73,41 @@ const Banner = () => {
                             </p>
 
 
-                      <button className="bg-[#7FE4F6] text-[#0C2A63] rounded-full p-2 text-xl font-semibold my-10 px-5">
+                     
+
+                                {/* ---------------------modal start---------------------------- */}
+
+
+                {/* Open the modal using document.getElementById('ID').showModal() method */}
+                
+<button className="" onClick={()=>document.getElementById('my_modal_5').showModal()}>  <p className="bg-[#7FE4F6] text-[#0C2A63] rounded-full p-2 text-xl font-semibold my-10 px-5">
                         Learn More
-                      </button>
+                      </p>
+</button>
+
+
+<dialog id="my_modal_5" className="">
+  <div className=" lg:w-[1000px]  bg-[#808285] relative">
+    <ModalBody/>
+
+      
+
+<div className="modal-action">
+      <form method="dialog">
+        {/* if there is a button in form, it will close the modal */}
+        <button className=" absolute top-2 right-2"><RxCross2 className='text-white text-2xl' /></button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+
+
+
+
+
+
+                {/* ---------------------modal end---------------------------- */}
 
 
 

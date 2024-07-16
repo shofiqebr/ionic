@@ -1,18 +1,18 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { useForm } from "react-hook-form";
-import { FaArrowAltCircleRight, FaUser } from "react-icons/fa";
-import { FaGear } from "react-icons/fa6";
-import { IoIosText } from "react-icons/io";
-import { LuArrowUpFromLine } from "react-icons/lu";
-import { MdCall, MdEmail } from "react-icons/md";
+// import { FaArrowAltCircleRight, FaUser } from "react-icons/fa";
+// import { FaGear } from "react-icons/fa6";
+// import { IoIosText } from "react-icons/io";
+// import { LuArrowUpFromLine } from "react-icons/lu";
+// import { MdCall, MdEmail } from "react-icons/md";
 
 
 const Contact = () => {
-  const [selectedReason, setSelectedReason] = useState('');
+  // const [selectedReason, setSelectedReason] = useState('');
 
-  const handleButtonClick = (reason) => {
-    setSelectedReason(reason);
-  };
+  // const handleButtonClick = (reason) => {
+  //   setSelectedReason(reason);
+  // };
 
   const { register, handleSubmit } = useForm();
   const onSubmit = data => console.log(data);
@@ -39,14 +39,46 @@ const Contact = () => {
       <form className="flex flex-col gap-5" onSubmit={handleSubmit(onSubmit)}>
 
       <div>
-      <label htmlFor="firstName" className="flex justify-start items-center"><FaUser />Your name</label>
-      <input className="border w-full h-8 mt-2 rounded" {...register("firstName")} />
+      <label htmlFor="firstName" className="flex justify-start items-center pl-3">আপনার নাম</label>
+      <input className="border w-full h-8 mt-2 rounded px-3" placeholder="আপনার নাম" {...register("name")} />
       </div>
-      <div className="flex flex-col">
+      <div>
+      <label htmlFor="firstName" className="flex justify-start items-center pl-3">আপনার মোবাইল নাম্বার</label>
+      <input className="border w-full h-8 mt-2 rounded px-3" placeholder="আপনার মোবাইল নাম্বার" {...register("mobile")} />
+      </div>
+      <div>
+      <label htmlFor="firstName" className="flex justify-start items-center pl-3">যে সফ্টওয়ারটির ডেমো দেখতে চাচ্ছেন, নির্বাচন করুন</label>
+     
+      <select className="border w-full h-8 mt-2 rounded px-3"  {...register("software")} >
+      <option value="IONIC Education">IONIC Education</option>
+      <option value="IONIC Hospital">IONIC Hospital</option>
+      <option value="IONIC Shop">IONIC Shop</option>
+      <option value="IONIC ERP">IONIC ERP</option>
+      <option value="IONIC HRM">IONIC HRM</option>
+      <option value="IONIC Pharma">IONIC Pharma</option>
+      <option value="IONIC Repair">IONIC Repair</option>
+      <option value="IONIC Tailor">IONIC Tailor</option>
+      <option value="IONIC Travel">IONIC Travel</option>
+      <option value="IONIC Trasport">IONIC Trasport</option>
+      <option value="IONIC Store">IONIC Store</option>
+      <option value="IONIC Real State">IONIC Real State</option>
+      <option value="Go Account">Go Account</option>
+      <option value="My Bhara">My Bhara</option>
+      <option value="My Restura">My Restura</option>
+      <option value="My Diagnostic">My Diagnostic</option>
+       
+
+        </select>
+      </div>
+      <div>
+      <label htmlFor="firstName" className="flex justify-start items-center pl-3">আপনার ব্যবসার ধরণ কি</label>
+      <input className="border w-full h-8 mt-2 rounded px-3" placeholder="আপনার ব্যবসার ধরণ কি" {...register("businessType")} />
+      </div>
+      {/* <div className="flex flex-col">
      <label htmlFor="company">Company/School/Hospital Name</label>
       <input className="border h-8 mt-2" {...register("company")} />
-      </div>
-      <div className="flex gap-5">
+      </div> */}
+      {/* <div className="flex gap-5">
               <div className="flex flex-col">
             <label className="flex justify-start items-center" htmlFor="email"><MdEmail /> Email address</label>
               <input className="border mt-2 w-full h-8" {...register("email")} />
@@ -55,11 +87,11 @@ const Contact = () => {
               <label className="flex  justify-start items-center" htmlFor="MobileNo"><MdCall />Mobile No</label>
                 <input className="border mt-2 w-full h-8" {...register("MobileNo")} />
               </div>
-      </div>
+      </div> */}
 
 
-        <p className="flex justify-start items-center"><FaGear />Reason for enquiry</p>
-        <div className="grid grid-cols-3 gap-2">
+        {/* <p className="flex justify-start items-center"><FaGear />Reason for enquiry</p> */}
+        {/* <div className="grid grid-cols-3 gap-2">
         <button
         className={`bg-[#F91414] rounded p-1 border border-black font-bold text-white cursor-pointer w-36 ${selectedReason === 'general' ? 'selected' : ''}`}
         onClick={() => handleButtonClick('general')}
@@ -279,16 +311,16 @@ const Contact = () => {
       
         
         
-        </div>
+        </div> */}
    
 
    
-      <div>
+      {/* <div>
         <label className="flex items-center mb-2" htmlFor="textarea"><IoIosText />All Info/Massage Write</label>
         <textarea className="lg:w-[500px] w-80 lg:h-[200px] h-44"/>
         <p className="text-xs">Type your info/massage...</p>
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <p>Upload File</p>
       <label htmlFor="myfile" className="custom-file-upload">
         <span className="flex items-center gap-1 font-bold"> Browse<LuArrowUpFromLine /></span>
@@ -296,16 +328,16 @@ const Contact = () => {
       </label>
       <input type="file" id="myfile" name="myfile" style={{ display: 'none' }} />
 
-      </div>
+      </div> */}
 
 
-      <div>
+      {/* <div>
       <label htmlFor="send" className="custom-file-upload">
         <span className="flex items-center gap-5 w-44 justify-center font-bold">send<FaArrowAltCircleRight /></span>
       </label>
       <input type="submit" id="send" name="send" style={{ display: 'none' }} />
 
-      </div>
+      </div> */}
       
 
 

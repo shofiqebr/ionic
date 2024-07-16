@@ -1,6 +1,9 @@
 import { FaCheck } from "react-icons/fa";
 import global from '../../assets/global.webp'
 import domainCount from '../../assets/domain count.svg'
+import customerCount from '../../assets/customerCount.svg'
+import dedicated from '../../assets/dedicated.svg'
+import employee from '../../assets/employee.png'
 
 
 const DigitalPartner = () => {
@@ -37,27 +40,27 @@ const DigitalPartner = () => {
             <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 
              items-center pt-10">
                 <div className="bg-[#d8dadb] rounded-xl p-5 pr-10">
-                    <img src={domainCount} alt="" />
+                    <img className="w-16" src={domainCount} alt="" />
                     <p className="text-4xl font-semibold py-10">22,000,000</p>
                     <p className="text-2xl font-medium">domains</p>
                    
                 </div>
                 <div className="bg-[#d8dadb] rounded-xl p-5 pr-10">
-                    <img src={domainCount} alt="" />
-                    <p className="text-4xl font-semibold py-10">22,000,000</p>
-                    <p className="text-2xl font-medium">domains</p>
+                    <img className="w-16" src={customerCount} alt="" />
+                    <p className="text-4xl font-semibold py-10">6,100,000</p>
+                    <p className="text-2xl font-medium">customers</p>
                    
                 </div>
                 <div className="bg-[#d8dadb] rounded-xl  p-5 pr-10">
-                    <img src={domainCount} alt="" />
-                    <p className="text-4xl font-semibold py-10">22,000,000</p>
-                    <p className="text-2xl font-medium">domains</p>
+                    <img className="w-16" src={dedicated} alt="" />
+                    <p className="text-4xl font-semibold py-10">100,000</p>
+                    <p className="text-2xl font-medium">servers</p>
                    
                 </div>
                 <div className="bg-[#d8dadb] rounded-xl p-5 pr-10">
-                    <img src={domainCount} alt="" />
-                    <p className="text-4xl font-semibold py-10">22,000,000</p>
-                    <p className="text-2xl font-medium">domains</p>
+                    <img className="w-16" src={employee} alt="" />
+                    <p className="text-4xl font-semibold py-10">4,300</p>
+                    <p className="text-2xl font-medium">employees</p>
                    
                 </div>
               
