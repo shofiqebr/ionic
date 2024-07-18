@@ -92,7 +92,7 @@ const Navbar = () => {
                 <li className='text-lg font-bold'>হোম <span className='opacity-30'>|</span> </li>
               </Link>
                 <li className='flex justify-center items-center text-lg font-bold group relative'>সেবা সমূহ <span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
-                    <ul className='group-hover:block hidden absolute left-0 top-6  bg-white w-44  p-3 z-50' >
+                    <ul className='group-hover:block hidden absolute left-0 top-6  bg-white w-56  p-3 z-50' >
                       <a href="https://ioniccorporation.com/managed-cpanel-sever/">
                         <li className='flex justify-start gap-2 items-center text-sm py-3'>
                             <img className='w-5' src={ionic} alt="" />
@@ -192,7 +192,15 @@ const Navbar = () => {
     {/* Page content here */}
     {/* Content */}
   </div>
-  <div className="drawer-side ">
+ 
+ 
+                      {/* -------------------------side bar----------------------- */}
+ 
+ 
+ 
+ 
+ 
+  <div className="drawer-side  z-50">
     <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay "></label>
     <ul className="menu bg-white min-h-full w-80 p-0 text-black ">
       {/* Sidebar content here */}
@@ -209,21 +217,35 @@ const Navbar = () => {
 
       <p className='text-xl font-semibold bg-[#F5F5F5] py-4 text-center border-b-[#FF0020]'>MENU</p>
 
-
+      <Link to='/'>
       <li className='py-3  font-semibold text-[#FF0020]'><a>হোম </a></li>
+      </Link>
       <hr />
       <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>সেবা সমূহ</p><p onClick={()=>setOpen(!open)}>{open?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
       <hr className='p-0' />
 
       {open && <>
+        <a href="https://ioniccorporation.com/managed-cpanel-sever/">
         <li className='h-14 flex justify-center font-medium w-full'>আইওনিক এসএমএস</li>
+        </a>
         <hr className='p-0'/>
+        <a href="https://ioniccorporation.com/ionic-ocean/">
         <li className='h-14 flex justify-center font-medium w-full'>আইওনিক ওসেন</li>
+        </a>
         <hr className='p-0'/>
+        <a href="https://ioniccorporation.com/talksale/">
         <li className='h-14 flex justify-center font-medium w-full'> টকসেল</li>
+        </a>
         <hr className='p-0'/>
+        <a href="http://ww25.protidhoni.com/?subid1=20240713-1518-18fc-96d6-9db661045065">
         <li className='h-14 flex justify-center font-medium w-full'> প্রতিধ্বনি</li>
+        </a>
         <hr className='p-0'/>
+        <Link to='/shikkha'>
+             <li className='flex justify-start gap-2 items-center text-sm py-3'>                      
+                  <p className='font-normal'> শিক্ষা চ্যাট </p>
+              </li>
+        </Link>
       </>}
       
       </li>
@@ -232,9 +254,13 @@ const Navbar = () => {
       <hr className='p-0' />
 
       {open1 && <>
+        <a href="https://ionic.supersite2.myorderbox.com/">
         <li className='h-14 flex justify-center font-medium w-full'>আন্তর্জাতিক ডোমেইন বিডি ডোমেইন</li>
+        </a>
         <hr className='p-0'/>
+        <a href="https://bdia.btcl.com.bd/">
         <li className='h-14 flex justify-center font-medium w-full'> বিডি ডোমেইন</li>
+        </a>
         <hr className='p-0'/>
       </>}
       
@@ -242,11 +268,17 @@ const Navbar = () => {
       <hr className='p-0'/>
       <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>হোস্টিং</p><p onClick={()=>setOpen2(!open2)}>{open2?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
       <hr className='p-0' />
+     
+
 
       {open2 && <>
+        <Link to='/webHosting'>
         <li className='h-14 flex justify-center font-medium w-full' >Plesk প্রিমিয়াম ওয়েব হোস্টিং </li>
+        </Link>
         <hr className='p-0'/>
+        <Link to='/dedicatedServer'>
         <li className='h-14 flex justify-center font-medium w-full'>Plesk ডেডিকেটেড সার্ভার </li>
+        </Link>
         <hr className='p-0'/>
         <Link to='/resellerServer'>
         <li className='h-14 flex justify-center font-medium w-full'>Plesk রিসেলার সার্ভার</li>
@@ -263,24 +295,48 @@ const Navbar = () => {
 
 
     
-
+      <Link to='/contact'>
       <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white '> যোগাযোগ  </a></li>
+      </Link>
       <hr />
 
 
       <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>লগইন</p><p onClick={()=>setOpen3(!open3)}>{open3?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
       <hr className='p-0' />
 
+      {/* 
+  
+
+
+
+
+                          </a>
+
+ 
+
+  */}
+
       {open3 && <>
+        <a href="https://ionic.supersite2.myorderbox.com/login.php">
         <li className='h-14 flex justify-center font-medium w-full'>ডোমেইন লগইন </li>
+        </a>
         <hr className='p-0' />
+        <a href="https://vmi699873.contaboserver.net:8443/login_up.php?success_redirect_url=%2F">
           <li className='h-14 flex justify-center font-medium w-full'>হোস্টিং লগইন </li>
+        </a>
           <hr className='p-0' />
+          <a href="https://sms.mimsms.com/Identity/Account/Login?ReturnUrl=%2F">
           <li className='h-14 flex justify-center font-medium w-full'>এসএমএস লগইন </li>
+          </a>
           <hr className='p-0' />
+          <a href="https://dash.ionicshop.xyz/login">
+          
           <li className='h-14 flex justify-center font-medium w-full'>স্টাফ লগইন </li>
+          </a>
           <hr className='p-0' />
+          <a href="https://support.ioniccorporation.com/">
           <li className='h-14 flex justify-center font-medium w-full'>এজেন্ট হেল্প</li>
+          </a>
           <hr className='p-0' />
       </>}
       
