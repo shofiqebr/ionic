@@ -21,19 +21,19 @@ import wordpress from '../../assets/wordpress.svg'
 import dedicated from '../../assets/dedicated.svg'
 import cloudBAckup from '../../assets/cloudBAckup.svg'
 import { FaArrowRightLong } from 'react-icons/fa6';
-import ModalBody from '../../shared/modalBody/ModalBody';
-import { RxCross2 } from 'react-icons/rx';
+// import ModalBody from '../../shared/modalBody/ModalBody';
+// import { RxCross2 } from 'react-icons/rx';
 
 
 const RealSolution = () => {
     return (
             <div>
-                    <h1 className='text-4xl font-semibold py-5 pt-20 px-14'>Real solutions for real web pros</h1>
-                    <p className='text-xl pb-5 px-14'>That’s code for IONIC.</p>
+                    {/* <h1 className='text-4xl font-semibold py-5 pt-20 px-14'>Real solutions for real web pros</h1>
+                    <p className='text-xl pb-5 px-14'>That’s code for IONIC.</p> */}
 
 
 
-                <div className='lg:p-[50px]  flex flex-col  gap-10 xl:flex-row pt-20'>
+                <div className='lg:px-[50px] lg:py-10  flex flex-col  gap-10 xl:flex-row pt-20'>
 
 
 
@@ -129,161 +129,39 @@ md:pt-60  md:bg-white xl:bg-transparent xl:text-white text-white md:text-black x
 <section className='xl:w-[50%] grid-cols-1 grid md:grid-cols-2 px-3 pt-5 md:pt-0 gap-5 '>
     <div className='bg-white rounded-xl p-5'>
         <img className='w-20' src={cloud} alt="" />
-        <p className='text-[#2E4360] font-semibold'>CLOUD SERVERS</p>
+        <p className='text-[#2E4360] font-semibold'>ক্লাউড স্টোরেজ</p>
         <h1 className='font-bold text-xl'>Easily scale resources to meet any demand</h1>
 
     
-             {/* ---------------------modal start---------------------------- */}
-
-
-                {/* Open the modal using document.getElementById('ID').showModal() method */}
-                
-<button className="pt-10" onClick={()=>document.getElementById('my_modal_5').showModal()}> <a className='flex gap-3 text-xl font-bold items-center' href="#">Learn more <FaArrowRightLong /></a>
-</button>
-
-
-<dialog id="my_modal_5" className="">
-  <div className=" lg:w-[1000px]  bg-[#808285] relative">
-    <ModalBody/>
-
-      
-
-<div className="modal-action">
-      <form method="dialog">
-        {/* if there is a button in form, it will close the modal */}
-        <button className=" absolute top-2 right-2"><RxCross2 className='text-white text-2xl' /></button>
-      </form>
-    </div>
-  </div>
-</dialog>
-
-
-
-
-
-
-
-                {/* ---------------------modal end---------------------------- */}
-
+        
     </div>
     <div className='bg-white rounded-xl p-5'>
         <img className='w-20' src={wordpress} alt="" />
-        <p className='text-[#2E4360] font-semibold'>MANAGED WORDPRESS</p>
+        <p className='text-[#2E4360] font-semibold'>ওয়েবসাইট ডেভেলপমেন্ট</p>
         <h1 className='font-bold text-xl'>Take control with customizable updates</h1>
 
        
-             {/* ---------------------modal start---------------------------- */}
-
-
-                {/* Open the modal using document.getElementById('ID').showModal() method */}
-                
-<button className="pt-10" onClick={()=>document.getElementById('my_modal_5').showModal()}> <a className='flex gap-3 text-xl font-bold items-center' href="#">Learn more <FaArrowRightLong /></a>
-</button>
-
-
-<dialog id="my_modal_5" className="">
-  <div className=" lg:w-[1000px]  bg-[#808285] relative">
-    <ModalBody/>
-
-      
-
-<div className="modal-action">
-      <form method="dialog">
-        {/* if there is a button in form, it will close the modal */}
-        <button className=" absolute top-2 right-2"><RxCross2 className='text-white text-2xl' /></button>
-      </form>
-    </div>
-  </div>
-</dialog>
-
-
-
-
-
-
-
-                {/* ---------------------modal end---------------------------- */}
+       
 
 
     </div>
     <div className='bg-white rounded-xl p-5'>
         <img className='w-20' src={dedicated} alt="" />
-        <p className='text-[#2E4360] font-semibold'>DEDICATED SERVERS</p>
+        <p className='text-[#2E4360] font-semibold'>সফটওয়্যার ডেভেলপমেন্ট</p>
         <h1 className='font-bold text-xl'>Get optimal performance on enterprise hardware</h1>
 
       
-             {/* ---------------------modal start---------------------------- */}
-
-
-                {/* Open the modal using document.getElementById('ID').showModal() method */}
-                
-<button className="pt-10" onClick={()=>document.getElementById('my_modal_5').showModal()}> <a className='flex gap-3 text-xl font-bold items-center' href="#">Learn more <FaArrowRightLong /></a>
-</button>
-
-
-<dialog id="my_modal_5" className="">
-  <div className=" lg:w-[1000px]  bg-[#808285] relative">
-    <ModalBody/>
-
-      
-
-<div className="modal-action">
-      <form method="dialog">
-        {/* if there is a button in form, it will close the modal */}
-        <button className=" absolute top-2 right-2"><RxCross2 className='text-white text-2xl' /></button>
-      </form>
-    </div>
-  </div>
-</dialog>
-
-
-
-
-
-
-
-                {/* ---------------------modal end---------------------------- */}
+            
 
 
     </div>
     <div className='bg-white rounded-xl p-5'>
         <img className='w-20' src={cloudBAckup} alt="" />
-        <p className='text-[#2E4360] font-semibold'>CLOUD BACKUP</p>
+        <p className='text-[#2E4360] font-semibold'>হোস্টিং ও ডোমেন</p>
         <h1 className='font-bold text-xl'>Protect your work and your server</h1>
 
        
-             {/* ---------------------modal start---------------------------- */}
-
-
-                {/* Open the modal using document.getElementById('ID').showModal() method */}
-                
-<button className="pt-10" onClick={()=>document.getElementById('my_modal_5').showModal()}> <a className='flex gap-3 text-xl font-bold items-center' href="#">Learn more <FaArrowRightLong /></a>
-</button>
-
-
-<dialog id="my_modal_5" className="">
-  <div className=" lg:w-[1000px]  bg-[#808285] relative">
-    <ModalBody/>
-
-      
-
-<div className="modal-action">
-      <form method="dialog">
-        {/* if there is a button in form, it will close the modal */}
-        <button className=" absolute top-2 right-2"><RxCross2 className='text-white text-2xl' /></button>
-      </form>
-    </div>
-  </div>
-</dialog>
-
-
-
-
-
-
-
-                {/* ---------------------modal end---------------------------- */}
-
+          
 
     </div>
    

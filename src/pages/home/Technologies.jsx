@@ -24,25 +24,25 @@ const Technologies = () => {
                 <div className='w-10 h-[3px] bg-[#b3b2b2]'></div>
             </section>
 
-            <section className='flex flex-wrap gap-12 justify-center items-center pt-10'>
+            <section className='flex flex-wrap gap-16 justify-center items-center pt-10 px-20 pb-10'>
 
-                <img className='md:w-40 w-32' src={python} alt="" />
-                <img className='md:w-40 w-32' src={frappe} alt="" />
-                <img className='md:w-40 w-32' src={javascript} alt="" />
-                <img className='md:w-40 w-32' src={react} alt="" />
-                <img className='md:w-40 w-32' src={redux} alt="" />
-                <img className='md:w-40 w-32' src={firebase} alt="" />
-                <img className='md:w-40 w-32' src={plesk} alt="" />
-                <img className='md:w-40 w-32' src={ubuntu} alt="" />
-                <img className='md:w-40 w-32' src={ionos} alt="" />
-                <img className='md:w-40 w-32' src={debian} alt="" />
-                <img className='md:w-40 w-32' src={nginx} alt="" />
-                <img className='md:w-40 w-32' src={apache} alt="" />
-                <img className='md:w-40 w-32' src={figma} alt="" />
-                <img className='md:w-40 w-32' src={wordpress} alt="" />
-                <img className='md:w-40 w-32' src={flutter} alt="" />
-                <img className='md:w-40 w-32' src={andriod} alt="" />
-                <img className='md:w-40 w-32' src={swift} alt="" />
+                <img className='w-32' src={python} alt="" />
+                <img className='w-32' src={frappe} alt="" />
+                <img className='w-32' src={javascript} alt="" />
+                <img className='w-32' src={react} alt="" />
+                <img className='w-32' src={redux} alt="" />
+                <img className='w-32' src={firebase} alt="" />
+                <img className='w-32' src={plesk} alt="" />
+                <img className='w-32' src={ubuntu} alt="" />
+                <img className='w-32' src={ionos} alt="" />
+                <img className='w-32' src={debian} alt="" />
+                <img className='w-32' src={nginx} alt="" />
+                <img className='w-32' src={apache} alt="" />
+                <img className='w-32' src={figma} alt="" />
+                <img className='w-32' src={wordpress} alt="" />
+                <img className='w-32' src={flutter} alt="" />
+                <img className='w-32' src={andriod} alt="" />
+                <img className='w-32' src={swift} alt="" />
             </section>
             
         </div>

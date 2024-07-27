@@ -21,11 +21,11 @@ const Home = () => {
                 <Banner/>
                 <RealSolution/>
                 <DigitalPartner/>
-            <BannerText/>
+            {/* <BannerText/> */}
    
             <BrandProduct/>
             <ProductDetails/>
-            <ImportantSubject/>
+            {/* <ImportantSubject/> */}
             <Technologies/>
             </div>
          

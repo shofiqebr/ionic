@@ -12,11 +12,11 @@ const Test = () => {
     <div className='fixed w-full bg-[#F3F3F3] z-10 pr-10'>
       <div className='relative'>
         {isVisible && (
-          <div className='absolute top-72 2xl:right-[430px] xl:right-20 lg:right-0 hidden lg:block'>
+          <div className='absolute top-72 2xl:right-[430px] xl:right-20 lg:right-0 hidden lg:block '>
             <div className='absolute -top-8 -right-5 cursor-pointer bg-black rounded-full text-[#FFAA00]' onClick={() => setIsVisible(false)}>
               <RiCloseCircleLine className='text-2xl' />
             </div>
-            <div className='relative'>
+            <div className='relative '>
               <section className='bg-gradient-to-b from-[#1574C4] to-[#001B42] w-44 rounded-2xl h-96'>
                 <div className='text-white'>
                   <div className='relative'>
@@ -27,8 +27,8 @@ const Test = () => {
                   </h1>
                   <div className='pl-3'>
 
-                  <p className='pt-44 font-bold text-xl pb-4'>Personal <br /> consultant</p>
-                  <p className='pb-4 text-sm font-bold'>Your own direct line to <br />tailored support.</p>
+                  <p className='pt-44 font-bold text-lg pb-4'>Personal <br /> consultant</p>
+                  <p className='pb-4 text-xs font-bold'>Your own direct line to <br />tailored support.</p>
                  
 
 
@@ -37,7 +37,7 @@ const Test = () => {
 
                 {/* Open the modal using document.getElementById('ID').showModal() method */}
                 
-<button className="" onClick={()=>document.getElementById('my_modal_5').showModal()}> <a className='flex gap-3 text-xl font-bold items-center' href="#">Learn more <FaArrowRightLong /></a>
+<button className="" onClick={()=>document.getElementById('my_modal_5').showModal()}> <a className='flex gap-3 text-lg font-bold items-center pr-2' href="#">ডেমোর জন্য অনুরোধ করুন <FaArrowRightLong className='text-5xl' /></a>
 </button>
 
 
