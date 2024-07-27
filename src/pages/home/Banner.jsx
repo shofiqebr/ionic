@@ -11,6 +11,21 @@ import go from '../../assets/new logo/go-account-logo.png'
 import shakti from '../../assets/new logo/bikroy-shakti-logo.png'
 
 
+import restoraImg from '../../assets/new logo/my-restura-logo.png'
+import shopImg from '../../assets/new logo/ionic-shop-logo.png'
+import myBhara from '../../assets/new logo/my-bhara-logo.png'
+import pharma from '../../assets/new logo/ionic-pharma-logo.png'
+import transport from '../../assets/new logo/ionic-transport-logo.png'
+import travel from '../../assets/new logo/ionic-travel-logo.png'
+import ocean from '../../assets/new logo/ionic-ocean-logo.png'
+
+
+
+// import ionicErp from '../../assets/new logo/ionic-erp-logo.png'
+// import ionicCorporationLogo from '../../assets/new logo/ionic-corporation-logo.png'
+// import tailor from '../../assets/new logo/my-tailor-logo.png'
+
+
 
 
 const Banner = () => {
@@ -241,30 +256,32 @@ const Banner = () => {
                 
                     <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105 bg-white">
 
-                <img className="w-32 pb-5" src={ionicLOgo}/>
-                <h4 className="font-bold text-lg">আইওনিক ইআরপি</h4>
-                <p className="text-[#718095]  text-[13px]"> শিল্প ও উৎপাদন সফটওয়্যার</p>
+                <img className="w-32 pb-5" src={restoraImg}/>
+                <h4 className="font-bold text-lg">মাই রেস্তোরাঁ
+               </h4>
+                <p className="text-[#718095]  text-[13px]">  রেস্তোরাঁ  সফটওয়্যার</p>
                 <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicerp.xyz/">বিস্তারিত</a>
                     </div>
                     <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105 bg-white">
 
-                <img className="w-32 pb-5" src={ionicLOgo}/>
-                <h4 className="font-bold text-lg">আইওনিক ইআরপি</h4>
-                <p className="text-[#718095]  text-[13px]"> শিল্প ও উৎপাদন সফটওয়্যার</p>
+                <img className="w-32 pb-5" src={shopImg}/>
+                <h4 className="font-bold text-lg">আইওনিক সপ
+                </h4>
+                <p className="text-[#718095]  text-[13px]"> সপ ম্যানেজমেন্ট সফটওয়্যার</p>
                 <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicerp.xyz/">বিস্তারিত</a>
                     </div>
                     <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105 bg-white">
 
-                <img className="w-32 pb-5" src={ionicLOgo}/>
-                <h4 className="font-bold text-lg">আইওনিক ইআরপি</h4>
-                <p className="text-[#718095]  text-[13px]"> শিল্প ও উৎপাদন সফটওয়্যার</p>
+                <img className="w-32 pb-5" src={myBhara}/>
+                <h4 className="font-bold text-lg">মাই ভাড়া</h4>
+                <p className="text-[#718095]  text-[13px]"> ভাড়া ম্যানেজমেন্ট সফটওয়্যার</p>
                 <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicerp.xyz/">বিস্তারিত</a>
                     </div>
                     <div className="flex flex-col justify-center items-center rounded-br-2xl   p-4 hover:scale-105 bg-white">
 
-                <img className="w-32 pb-5" src={ionicLOgo}/>
-                <h4 className="font-bold text-lg">আইওনিক ইআরপি</h4>
-                <p className="text-[#718095]  text-[13px]"> শিল্প ও উৎপাদন সফটওয়্যার</p>
+                <img className="w-32 pb-5" src={ocean}/>
+                <h4 className="font-bold text-lg">আইওনিক ওসেন</h4>
+                <p className="text-[#718095]  text-[13px]"> স্টোরেজ সফটওয়্যার</p>
                 <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicerp.xyz/">বিস্তারিত</a>
                     </div>
                     <div className="bg-[#F3F3F3] w-full h-full scale-110 -ml-[10px]"></div>
@@ -286,16 +303,17 @@ const Banner = () => {
                 
                     <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105 bg-white">
 
-                <img className="w-32 pb-5" src={ionicLOgo}/>
-                <h4 className="font-bold text-lg">আইওনিক ইআরপি</h4>
-                <p className="text-[#718095]  text-[13px]"> শিল্প ও উৎপাদন সফটওয়্যার</p>
+                <img className="w-32 pb-5" src={transport}/>
+                <h4 className="font-bold text-lg">আইওনিক ট্রান্সপোর্ট</h4>
+                <p className="text-[#718095]  text-[13px]">ট্রান্সপোর্ট সফটওয়্যার</p>
                 <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicerp.xyz/">বিস্তারিত</a>
                     </div>
                     <div className="flex flex-col justify-center items-center    p-4 hover:scale-105 bg-white">
 
-                <img className="w-32 pb-5" src={ionicLOgo}/>
-                <h4 className="font-bold text-lg">আইওনিক ইআরপি</h4>
-                <p className="text-[#718095]  text-[13px]"> শিল্প ও উৎপাদন সফটওয়্যার</p>
+                <img className="w-32 pb-5" src={travel}/>
+                <h4 className="font-bold text-lg">আইওনিক ট্রাভেল
+                </h4>
+                <p className="text-[#718095]  text-[12px]"> ট্রাভেল ম্যানেজমেন্ট সফটওয়্যার</p>
                 <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicerp.xyz/">বিস্তারিত</a>
                     </div>
                    
@@ -316,11 +334,11 @@ const Banner = () => {
 
              <section className="lg:grid-cols-6 grid md:grid-cols-3 grid-cols-2 items-center  justify-center gap-5 pt-3 bg-white lg:mx-16 rounded-br-xl  ">
                 
-                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105 bg-white">
+                <div className="flex flex-col justify-center items-center   p-4 hover:scale-105 bg-white">
 
-            <img className="w-32 pb-5" src={ionicLOgo}/>
-            <h4 className="font-bold text-lg">আইওনিক ইআরপি</h4>
-            <p className="text-[#718095]  text-[13px]"> শিল্প ও উৎপাদন সফটওয়্যার</p>
+            <img className="w-32 pb-5" src={pharma}/>
+            <h4 className="font-bold text-lg">আইওনিক ফার্মা</h4>
+            <p className="text-[#718095]  text-[13px]">ফার্মা ম্যানেজমেন্ট সফটওয়্যার</p>
             <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicerp.xyz/">বিস্তারিত</a>
                 </div>
                 
