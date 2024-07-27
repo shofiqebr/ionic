@@ -90,7 +90,7 @@ const Banner = () => {
 
 
                 <div className="lg:w-[30%] bg-[#001B41] text-white p-5 lg:pl-10 px-5 lg:rounded-tr-xl">
-                <p className=" font-semibold text-[#95CAEB] pb-3 text-center">আমাদের সেবা সমূহ</p>
+                <p className=" font-semibold text-[#95CAEB] pb-3 text-lg">আমাদের সেবা সমূহ</p>
                         <h1 className="xl:text-[25px] text-2xl font-semibold pb-2 ">যে কোন বিজনেস </h1>
                         <h1 className="xl:text-[20px] text-2xl font-semibold pb-5 ">সলিউশন সফটওয়্যার</h1>
                         <div className="flex items-center gap-4 pb-5">
@@ -345,7 +345,7 @@ const Banner = () => {
                
                 <div className="bg-[#F3F3F3] w-full h-full scale-110 -ml-[10px]"></div>
                 <div className="bg-[#F3F3F3]  h-full scale-110 -ml-[10px] w-56"></div>
-                <div className="bg-[#F3F3F3] w-full h-full scale-110 -ml-[10px]"></div>
+                <div className="bg-[#F3F3F3]  h-full scale-110 -ml-[10px] w-56"></div>
                 <div className="bg-[#F3F3F3]  h-full scale-110 -ml-[10px] w-56"></div>
                 <div className="bg-[#F3F3F3]  h-full scale-110 -ml-[10px] w-56"></div>
          </section>

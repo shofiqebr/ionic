@@ -24,25 +24,65 @@ const Technologies = () => {
                 <div className='w-10 h-[3px] bg-[#b3b2b2]'></div>
             </section>
 
-            <section className='flex flex-wrap gap-16 justify-center items-center pt-10 px-20 pb-10'>
+           
+            <section className="lg:grid-cols-6 grid md:grid-cols-3 grid-cols-2 items-center  justify-center gap-5 pt-3 mt-5 bg-white lg:mx-32 rounded-lg ">
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={python}/>
+                </div>
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={frappe}/>
+                </div>
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={javascript}/>
+                </div>
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={react}/>
+                </div>
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={redux}/>
+                </div>
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={firebase}/>
+                </div>
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={plesk}/>
+                </div>
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={ubuntu}/>
+                </div>
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={ionos}/>
+                </div>
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={debian}/>
+                </div>
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={nginx}/>
+                </div>
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={apache}/>
+                </div>
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={figma}/>
+                </div>
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={wordpress}/>
+                </div>
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={flutter}/>
+                </div>
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={andriod}/>
+                </div>
+                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={swift}/>
+                </div>
+               
+              
+          
+              
+          
 
-                <img className='w-32' src={python} alt="" />
-                <img className='w-32' src={frappe} alt="" />
-                <img className='w-32' src={javascript} alt="" />
-                <img className='w-32' src={react} alt="" />
-                <img className='w-32' src={redux} alt="" />
-                <img className='w-32' src={firebase} alt="" />
-                <img className='w-32' src={plesk} alt="" />
-                <img className='w-32' src={ubuntu} alt="" />
-                <img className='w-32' src={ionos} alt="" />
-                <img className='w-32' src={debian} alt="" />
-                <img className='w-32' src={nginx} alt="" />
-                <img className='w-32' src={apache} alt="" />
-                <img className='w-32' src={figma} alt="" />
-                <img className='w-32' src={wordpress} alt="" />
-                <img className='w-32' src={flutter} alt="" />
-                <img className='w-32' src={andriod} alt="" />
-                <img className='w-32' src={swift} alt="" />
             </section>
             
         </div>

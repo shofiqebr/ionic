@@ -45,8 +45,8 @@ const Navbar = () => {
         {/* gray section */}
 
 
-            <section className="lg:flex justify-center items-center bg-[#E3E3E3] hidden">
-                <p className="text-[12px] text-[#797777] py-1">
+            <section className="lg:flex justify-center items-center bg-[#001B41] hidden">
+                <p className="text-[12px] text-white py-1">
                     We Are A Trusted Digital IT Solution In Bangladesh. Business Solution Software ERP, Website, Mobile Apps, Hosting, Domain, SMS Etc.
                 </p>
             </section>
@@ -59,12 +59,12 @@ const Navbar = () => {
 
 
 
-            <section className="max-w-screen-xl mx-auto">
+            <section className=" bg-white">
             <div className="drawer ">
   <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content flex flex-col">
     {/* Navbar */}
-    <div className="navbar w-full ">
+    <div className="navbar w-full flex justify-evenly items-center xl:px-48 ">
       <div className="flex-none lg:hidden">
         <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
           <svg
@@ -80,6 +80,10 @@ const Navbar = () => {
           </svg>
         </label>
       </div>
+
+
+
+
       <Link to='/'>
       <div className="mx-2 lg:ml-0 ml-10 flex-1 px-2">
         <img className='w-44' src={logo} alt="" />
@@ -87,11 +91,11 @@ const Navbar = () => {
       </Link>
 
         <div className='lg:block hidden'>
-            <ul className='flex justify-center items-center xl:pr-44 xl:pl-20 gap-2'>
+            <ul className='flex justify-center items-center gap-2'>
               <Link to='/'>
                 <li className='text-lg font-bold'>হোম <span className='opacity-30'>|</span> </li>
               </Link>
-                <li className='flex justify-center items-center text-lg font-bold group relative'>সেবা সমূহ <span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
+                {/* <li className='flex justify-center items-center text-lg font-bold group relative'>সেবা সমূহ <span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                     <ul className='group-hover:block hidden absolute left-0 top-6  bg-white w-56  p-3 z-50' >
                       <a href="https://ioniccorporation.com/managed-cpanel-sever/">
                         <li className='flex justify-start gap-2 items-center text-sm py-3'>
@@ -127,7 +131,7 @@ const Navbar = () => {
                     </ul> 
                  
                 
-                </li>
+                </li> */}
                 <li className='flex justify-center items-center text-lg font-bold group relative'>ডোমেইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                         <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-5 font-normal text-base z-50'>
                           <a href="https://ionic.supersite2.myorderbox.com/">
@@ -188,6 +192,8 @@ const Navbar = () => {
         
       </div>
      </Link>
+    
+     
     </div>
     {/* Page content here */}
     {/* Content */}
@@ -221,7 +227,7 @@ const Navbar = () => {
       <li className='py-3  font-semibold text-[#FF0020]'><a>হোম </a></li>
       </Link>
       <hr />
-      <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>সেবা সমূহ</p><p onClick={()=>setOpen(!open)}>{open?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
+      {/* <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>সেবা সমূহ</p><p onClick={()=>setOpen(!open)}>{open?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
       <hr className='p-0' />
 
       {open && <>
@@ -249,7 +255,7 @@ const Navbar = () => {
       </>}
       
       </li>
-      <hr className='p-0'/>
+      <hr className='p-0'/> */}
       <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>ডোমেইন </p><p onClick={()=>setOpen1(!open1)}>{open1?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
       <hr className='p-0' />
 
@@ -353,14 +359,14 @@ const Navbar = () => {
             {/* black part */}
 
 
-            <section className="bg-black h-5 md:pr-5 relative ">
+            <section className="bg-[#001B41] h-1 md:pr-5 relative mt-2 ‍ shadow-2xl ">
             <div className="max-w-screen-2xl">
-            <div className="flex lg:justify-end justify-center gap-3 absolute -top-[5px] lg:right-20 md:right-5 right-10">
-            <h1 className='bg-[#FFAA00] text-black rounded-lg p-1 font-semibold text-sm w-56 text-center hidden md:block'>
-            অনুসন্ধান: 01958442200
+            <div className="flex lg:justify-end justify-center gap-3 absolute -top-[13px] lg:right-[375px] md:right-5 right-10">
+            <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center hidden md:block'>
+           বিক্রয় প্রতিনিধি : 01958442200
                   </h1>
-            <h1 className='bg-[#FFAA00] text-black rounded-lg p-1 font-semibold text-sm w-56 text-center hidden md:block'>
-            হেল্পলাইন : 01511142320
+            <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center hidden md:block'>
+            কাষ্টমার কেয়ার : 01511142320
                   </h1>
                
                
@@ -368,37 +374,7 @@ const Navbar = () => {
 
 
 
-                {/* ---------------------modal start---------------------------- */}
-
-
-                {/* Open the modal using document.getElementById('ID').showModal() method */}
-                
-<button className="" onClick={()=>document.getElementById('my_modal_5').showModal()}> <p className="  px-3 py-1 bg-[#FFAA00] text-black rounded-lg   font-semibold text-sm w-60 text-center">ডেমোর জন্য অনুরোধ করুন</p>
-</button>
-
-
-<dialog id="my_modal_5" className="">
-  <div className=" lg:w-[1000px]  bg-[#808285] relative">
-    <ModalBody/>
-
-      
-
-<div className="modal-action">
-      <form method="dialog">
-        {/* if there is a button in form, it will close the modal */}
-        <button className=" absolute top-2 right-2"><RxCross2 className='text-white text-2xl' /></button>
-      </form>
-    </div>
-  </div>
-</dialog>
-
-
-
-
-
-
-
-                {/* ---------------------modal end---------------------------- */}
+            
 
 
               </div>
