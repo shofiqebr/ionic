@@ -19,11 +19,12 @@ const Home = () => {
             <div className="max-w-screen-xl mx-auto">
                 <Test/>
                 <Banner/>
-                <RealSolution/>
+                {/* <RealSolution/> */}
                 <DigitalPartner/>
             {/* <BannerText/> */}
    
             <BrandProduct/>
+            {/* <Product */}
             <ProductDetails/>
             {/* <ImportantSubject/> */}
             <Technologies/>

@@ -1,7 +1,7 @@
 import { RiCloseCircleLine } from 'react-icons/ri';
 import { useState } from 'react';
-import { FaArrowRightLong } from 'react-icons/fa6';
-import fixedImg from '../../assets/fixedImg.webp'; 
+// import { FaArrowRightLong } from 'react-icons/fa6';
+import fixedImg from '../../assets/new logo/care-call-2.png'; 
 import ModalBody from '../../shared/modalBody/ModalBody';
 import { RxCross2 } from 'react-icons/rx';
 
@@ -16,19 +16,19 @@ const Test = () => {
             <div className='absolute -top-8 -right-5 cursor-pointer bg-black rounded-full text-[#FFAA00]' onClick={() => setIsVisible(false)}>
               <RiCloseCircleLine className='text-2xl' />
             </div>
-            <div className='relative '>
-              <section className='bg-gradient-to-b from-[#1574C4] to-[#001B42] w-44 rounded-2xl h-96'>
+            <div className='relative  '>
+              <section className='bg-gradient-to-b from-[#1574C4] to-[#001B42] w-44 rounded-2xl h- px-1 pb-2'>
                 <div className='text-white'>
                   <div className='relative'>
                     <img className='-mt-3 absolute -top-10' src={fixedImg} alt="" />
                   </div>
                   <h1 className='bg-[#FFAA00] text-black absolute top-[135px] -left-[20px] rounded-lg p-1 font-bold w-44 text-center'>
-                    Only at IONIC
+                   রিসোর্স প্ল্যানিং করতে
                   </h1>
-                  <div className='pl-3'>
+                  <div className='px-1'>
 
-                  <p className='pt-44 font-bold text-lg pb-4'>Personal <br /> consultant</p>
-                  <p className='pb-4 text-xs font-bold'>Your own direct line to <br />tailored support.</p>
+                  <p className='pt-44 font- text-sm pb-4 text-center'>যখন আপনার ব্যবসার জন্য এন্টারপ্রাইজ রিসোর্স প্ল্যানিং সফ্টওয়্যার বাস্তবায়নের কথা চিন্তায় আসে?</p>
+                  <p className='pb-4 text-xs font-medium text-center'>আপনার ব্যবসা এন্টারপ্রাইজ রিসোর্স প্ল্যানিং প্রস্তুত করতে।</p>
                  
 
 
@@ -37,7 +37,10 @@ const Test = () => {
 
                 {/* Open the modal using document.getElementById('ID').showModal() method */}
                 
-<button className="" onClick={()=>document.getElementById('my_modal_5').showModal()}> <a className='flex gap-3 text-lg font-bold items-center pr-2' href="#">ডেমোর জন্য অনুরোধ করুন <FaArrowRightLong className='text-5xl' /></a>
+<button className="" onClick={()=>document.getElementById('my_modal_5').showModal()}> <a className='flex gap-3 text-lg font-bold items-center pr-2' href="#">আমাকে কল করুন
+01958442200
+{/* <FaArrowRightLong className='text-5xl' /> */}
+</a>
 </button>
 
 
