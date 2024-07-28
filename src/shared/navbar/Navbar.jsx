@@ -362,10 +362,10 @@ const Navbar = () => {
             {/* black part */}
 
 
-            <section className="bg-[#001B41] h-1  mt-2 ‍ shadow-2xl ">   </section>
+            <section className="bg-[#001B41] h-1  mt-2 ‍ shadow-2xl  ">   </section>
             <div className="max-w-screen-xl mx-auto -mt-5">
             {/* <div className="flex lg:justify-end justify-center gap-3 absolute -top-[13px] xl:right-[376px] lg:right-[] md:right-5 right-10"> */}
-            <div className="flex lg:justify-end justify-center gap-3 xl:mr-16 lg:mr-[75px]   max-w-screen-2xl ">
+            <div className="flex lg:justify-end justify-center gap-3 xl:mr-[65px] lg:mr-[75px]   max-w-screen-xl ">
             <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center hidden md:block'>
            বিক্রয় প্রতিনিধি : 01958442200
                   </h1>
