@@ -15,8 +15,8 @@ import Test from "./Test";
 
 const Home = () => {
     return (
-        <div  className=' bg-[#F3F3F3] '>
-            <div className="max-w-screen-xl mx-auto">
+       
+            <div className="max-w-screen-xl mx-auto bg-[#F3F3F3] ">
                 <Test/>
                 <Banner/>
                 {/* <RealSolution/> */}
@@ -31,7 +31,7 @@ const Home = () => {
             </div>
          
        
-        </div>
+       
     );
 };
 

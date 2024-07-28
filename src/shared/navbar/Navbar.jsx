@@ -3,15 +3,16 @@ import basis from '../../assets/basis.svg'
 
 import { FaAngleDown, FaAngleRight } from 'react-icons/fa';
 
-import ionic from '../../assets/ionic.png'
-import ocen from '../../assets/osen.png'
-import talkcell from '../../assets/talksell.png'
-import protidhoni from '../../assets/protidhoni.png'
+// import ionic from '../../assets/ionic.png'
+// import ocen from '../../assets/osen.png'
+// import talkcell from '../../assets/talksell.png'
+// import protidhoni from '../../assets/protidhoni.png'
 import { Link } from 'react-router-dom';
-import { RxCross1, RxCross2 } from 'react-icons/rx';
+// import { RxCross1, RxCross2 } from 'react-icons/rx';
 
 import { useState } from 'react';
-import ModalBody from '../modalBody/ModalBody';
+import { RxCross1 } from 'react-icons/rx';
+// import ModalBody from '../modalBody/ModalBody';
 
 
 
@@ -19,7 +20,7 @@ import ModalBody from '../modalBody/ModalBody';
 const Navbar = () => {
 
 
-  const [open, setOpen] = useState(false)
+  // const [open, setOpen] = useState(false)
  
   const [open1, setOpen1] = useState(false)
   const [open2, setOpen2] = useState(false)
@@ -30,7 +31,7 @@ const Navbar = () => {
 
  
     return (
-        <div className='fixed w-full bg-[#F3F3F3] z-10 '>
+        <div className='fixed w-full bg-[#F3F3F3] z-50 '>
 
 
      
@@ -64,7 +65,7 @@ const Navbar = () => {
   <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content flex flex-col">
     {/* Navbar */}
-    <div className="navbar w-full flex justify-evenly items-center xl:px-48 ">
+    <div className="navbar w-full flex justify-evenly items-center max-w-screen-2xl mx-auto">
       <div className="flex-none lg:hidden">
         <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
           <svg
@@ -183,15 +184,17 @@ const Navbar = () => {
                 </li>
             </ul>
         </div>
-     <Link to='/'>
-      <div className="hidden flex-none lg:block">
+    
+      <div className="hidden flex-none md:block">
         
           {/* Navbar menu content here */}
+          <a href="https://basis.org.bd/company-profile/23-01-033">
         
-          <img className='w-32 ml-20' src={basis} alt="" />
+          <img className='w-32 ml-20 mr-3' src={basis} alt="" />
+          </a>
         
       </div>
-     </Link>
+
     
      
     </div>
@@ -359,13 +362,13 @@ const Navbar = () => {
             {/* black part */}
 
 
-            <section className="bg-[#001B41] h-1 md:pr-5 relative mt-2 ‍ shadow-2xl ">
+            <section className="bg-[#001B41] h-1 relative mt-2 ‍ shadow-2xl ">
             <div className="max-w-screen-2xl">
-            <div className="flex lg:justify-end justify-center gap-3 absolute -top-[13px] lg:right-[375px] md:right-5 right-10">
+            <div className="flex lg:justify-end justify-center gap-3 absolute -top-[13px] xl:right-[376px] lg:right-[] md:right-5 right-10">
             <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center hidden md:block'>
            বিক্রয় প্রতিনিধি : 01958442200
                   </h1>
-            <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center hidden md:block'>
+            <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center'>
             কাষ্টমার কেয়ার : 01511142320
                   </h1>
                

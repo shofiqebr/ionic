@@ -27,7 +27,7 @@ const BrandProduct = () => {
                 <h1 className='text-[#898989] font-semibold text-center'>আমাদের বিভিন্ন ব্র্যান্ডের পণ্য সমূহ</h1>
                 <div className='w-10 h-[3px] bg-[#b3b2b2]'></div>
             </section>
-            <div className='flex mt-10 flex-col gap-36 px-20  md:flex-row max-w-screen-xl mx-auto '>
+            <div className='flex mt-10 flex-col lg:gap-36 md:gap-10 gap-20 px-20  md:flex-row max-w-screen-xl mx-auto '>
                 <section>
                     <Carousel 
                         autoPlay

@@ -9,7 +9,7 @@ const Test = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   return (
-    <div className='fixed w-full bg-[#F3F3F3] z-10 pr-10'>
+    <div className='fixed w-full bg-[#F3F3F3] z-10 pr-28'>
       <div className='relative'>
         {isVisible && (
           <div className='absolute top-72 2xl:right-[430px] xl:right-20 lg:right-0 hidden lg:block '>
