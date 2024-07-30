@@ -286,7 +286,7 @@ const Banner = () => {
             <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicerp.xyz/">বিস্তারিত</a>
                 </div>
                     
-                    <div className="bg-[#F3F3F3]  h-full scale-110 xl:-ml-[10px] xl:w-56"></div>
+                    <div className="bg-[#F3F3F3]  h-full xl:h-56 xl:-mt-3 xl:-mb-3  xl:w-56"></div>
                     <div className="bg-[#F3F3F3]  h-full scale-110 -ml-[10px] xl:w-56"></div>
              </section>
              {/* bg-[#F3F3F3] hidden md:block  h-full -mb-2 xl:-ml-[10px] xl:w-56 */}
@@ -325,9 +325,17 @@ const Banner = () => {
             <p className="text-[#718095] text-center   text-[12px]"> টেইলার্স ম্যানেজমেন্ট সফটওয়্যার</p>
             <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionictailor.com/">বিস্তারিত</a>
                 </div>
+
+                <div className=" md:hidden flex flex-col justify-center items-center   py-5 px-3 hover:scale-105 bg-white">
+
+<img className="w-32 pb-5" src={pharma}/>
+<h4 className="font-bold text-[15px]">আইওনিক ফার্মা</h4>
+<p className="text-[#718095] text-center   text-[13px]">ফার্মা ম্যানেজমেন্ট সফটওয়্যার</p>
+<a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicrepair.com/lander">বিস্তারিত</a>
+    </div>
               
-                <div className="bg-[#F3F3F3] hidden md:block  h-full lg:-mt-1 lg:h-56 -mb-2 xl:-ml-[10px] xl:w-56"></div>
-                <div className="bg-[#F3F3F3] hidden md:block  h-full lg:mt-4 lg:rounded-tl-xl scale-110 -ml-[10px] xl:w-56"></div>
+                <div className="bg-[#F3F3F3] hidden md:block  h-full lg:-mt-1 lg:h-56 -mb-2  xl:w-56"></div>
+                <div className="bg-[#F3F3F3] hidden md:block  h-full lg:mt-4 lg:rounded-tl-xl scale-110  xl:w-56"></div>
                 <div className="bg-[#F3F3F3] hidden md:block  h-full scale-110 -ml-[10px] xl:w-56"></div>
          </section>
 
@@ -359,11 +367,24 @@ const Banner = () => {
                 <p className="text-[#718095] text-center   text-[12px]"> ট্রাভেল ম্যানেজমেন্ট সফটওয়্যার</p>
                 <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionictravel.xyz/">বিস্তারিত</a>
                     </div>
+                    <div className=" hidden lg:hidden md:flex flex-col justify-center items-center   py-5 px-3 hover:scale-105 bg-white">
+
+<img className="w-32 pb-5" src={pharma}/>
+<h4 className="font-bold text-[15px]">আইওনিক ফার্মা</h4>
+<p className="text-[#718095] text-center   text-[13px]">ফার্মা ম্যানেজমেন্ট সফটওয়্যার</p>
+<a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicrepair.com/lander">বিস্তারিত</a>
+    </div>
                    
-                    <div className="bg-[#F3F3F3]  h-full xl:scale-110 lg:-mt-2 lg:h-56 xl:-ml-[10px] xl:w-56"></div>
-                    <div className="bg-[#F3F3F3]  h-full xl:scale-110 lg:h-56 lg:-mt-2 lg:rounded-tl-xl -ml-[10px] xl:w-56"></div>
+                    <div className="bg-[#F3F3F3]  h-full  lg:-mt-2 xl:-mt-5 lg:h-56  xl:w-56"></div>
+                    <div className="bg-[#F3F3F3]  h-full xl:scale-110 lg:h-56 lg:-mt-2  lg:rounded-tl-xl  xl:w-56"></div>
                     <div className="bg-[#F3F3F3]  h-full scale-110 -ml-[10px] xl:w-56"></div>
                     <div className="bg-[#F3F3F3]  h-full scale-110 -ml-[10px] xl:w-56"></div>
+
+
+
+
+
+             
              </section>
 
 
@@ -375,7 +396,7 @@ const Banner = () => {
                    {/* ----------card part5 start----------- */}
 
 
-                   <section className="lg:grid-cols-6 xl:grid md:grid-cols-3 grid-cols-2 items-center  justify-center pt-3 bg-white xl:mx-16 rounded-br-xl hidden  ">
+                   <section className="lg:grid-cols-6 lg:grid md:grid-cols-3 grid-cols-2 items-center  justify-center pt-3 bg-white xl:mx-16 rounded-br-xl hidden ">
                 
                 <div className="flex flex-col justify-center items-center   py-5 px-3 hover:scale-105 bg-white">
 
@@ -386,8 +407,8 @@ const Banner = () => {
                 </div>
                 
                
-                <div className="bg-[#F3F3F3]  h-full xl:scale-110 lg:h-56 lg:-mt-3 xl:-ml-[10px] xl:w-56"></div>
-                <div className="bg-[#F3F3F3]  h-full xl:scale-110 lg:h-56 lg:-mt-3 lg:rounded-tl-xl -ml-[10px] xl:w-56"></div>
+                <div className="bg-[#F3F3F3]  h-full  lg:h-56 xl:h-60 lg:-mt-3 xl:-mt-5 xl:w-56"></div>
+                <div className="bg-[#F3F3F3]  h-full xl:scale-110 lg:h-56 lg:-mt-3 lg:rounded-tl-xl xl:w-56"></div>
                 <div className="bg-[#F3F3F3]  h-full scale-110 lg:h-56 lg:-mt-3 -ml-[10px] xl:w-56"></div>
                 <div className="bg-[#F3F3F3]  h-full scale-110 -ml-[10px] xl:w-56"></div>
                 <div className="bg-[#F3F3F3]  h-full scale-110 -ml-[10px] xl:w-56"></div>
