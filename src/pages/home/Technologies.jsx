@@ -18,7 +18,7 @@ import swift from '../../assets/swift-1.png'
 
 const Technologies = () => {
     return (
-        <div className='pb-5'>
+        <div className='pb-5 -mt-7'>
               <section className='flex flex-col justify-center items-center gap-2 mt-16 '>
                 <h1 className=' text-[#898989] font-semibold  text-center'>আমাদের সফটওয়্যার এর ব্যবহৃত টেকনোলজি সমূহ</h1>
                 <div className='w-10 h-[3px] bg-[#b3b2b2]'></div>

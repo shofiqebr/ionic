@@ -8,7 +8,7 @@ import global from '../../assets/global.webp'
 
 const DigitalPartner = () => {
     return (
-        <div className="md:px-10 px-3">
+        <div className="md:px-10 px-3 mt-5">
             <section className="flex px-5 pt-1">
                 {/* <div className="md:w-[20%]">
                     <h1 className="text-4xl font-bold pb-10">Your digital <br /> partner</h1>
