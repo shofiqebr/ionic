@@ -42,16 +42,16 @@ const Banner = () => {
                     <div className="lg:pl-10 pt-10  z-10 bannerTExt">
                        
                         
-                    <div className="bannerHeading ">
+                    <div className="bannerHeading pl-5 lg:pl-5 ">
 
-<p className="pb-3 font-bold text-[#FFAA00] text-lg mt-[70px] ">আইওনিক কর্পোরেশন</p>
+<p className="pb-3 font-bold text-[#FFAA00] text-lg lg:mt-[135px]  ">আইওনিক কর্পোরেশন</p>
 <h1 className="lg:text-[26px] text-2xl font-semibold pb-3 ">বাংলাদেশের একটি বিশ্বস্ত   </h1>
 <h1 className="lg:text-[19px] text-xl font-semibold lg:pb-8 ">ডিজিটাল আইটি সলিউশন প্রতিষ্ঠান</h1>
 
 </div>
 
 
-                        <p className="lg:text-[19px] xl:text-[16px] lg:py-5 text-justify pr-3 md:w-[350px] lg:w-auto p-5  ">
+                        <p className="lg:text-[15px] xl:text-[16px] lg:py-5 text-justify pr-3 md:w-[350px] lg:w-auto p-5  ">
 
                             {/* Starting at $4/month */}
                                 বাংলাদেশে প্রথমবার সবচেয়ে সহজ ও নির্ভূল
@@ -73,7 +73,7 @@ const Banner = () => {
 
 
 
-                        <button className="pl-5 pt-9" onClick={() => document.getElementById('my_modal_5').showModal()}>  <p className="bg-[#FFAA00] text-[#001B41] rounded-full p-2 text-[16px] font-extrabold my-10 px-5">
+                        <button className="pl-5 xl:pt-9 lg:pt-[260px]" onClick={() => document.getElementById('my_modal_5').showModal()}>  <p className="bg-[#FFAA00] text-[#001B41] rounded-full p-2 text-[16px] font-extrabold my-10 px-5">
                             অনুরোধ করুন
                         </p>
                         </button>
@@ -98,7 +98,7 @@ const Banner = () => {
 
                     </div>
                     <div className="relative z-10 lg:w-[500px]  ">
-                        <img className="lg:pt-[225px] lg:ml-5 md:ml-[50px] xl:ml-0  lg:absolute lg:bottom-0 lg:right-0 bannerImg " src={bannerImg} alt="" />
+                        <img className="lg:pt-[10px] lg:ml-5 md:ml-[50px] xl:ml-0  lg:absolute lg:bottom-0 lg:right-0 bannerImg " src={bannerImg} alt="" />
                     </div>
                 </div>
 
@@ -398,11 +398,11 @@ const Banner = () => {
 
                 {/* <section className="lg:grid-cols-6 grid md:grid-cols-3 grid-cols-2 items-center  justify-center pt-3 bg-white xl:mx-16 rounded-br-xl  ">
                  */}
-                 <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start items-center lg:mr-[483px]">
+                 <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start items-center lg:mr-[484px]">
 
                     <div className="flex flex-col justify-center items-center border-r   py-5 px-3 hover:scale-105 bg-white text-center lg:w-44 cards">
 
-                        <img className="w-32 pb-5" src={transport} />
+                        <img className="w-32 pb-5 pt-[1px]" src={transport} />
                         <h4 className="font-bold  text-[12px]">আইওনিক ট্রান্সপোর্ট</h4>
                         <p className="text-[#718095] cardType text-center   text-[13px]">ট্রান্সপোর্ট সফটওয়্যার</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicrepair.com/lander">বিস্তারিত</a>
@@ -445,8 +445,7 @@ const Banner = () => {
 
 
                 {/* <section className="lg:grid-cols-6 lg:grid md:grid-cols-3 grid-cols-2 items-center  justify-center pt-3 bg-white xl:mx-16 rounded-br-xl hidden "> */}
-                <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start  items-center mr-[603
-                px]">
+                <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start  items-center mr-[603px]">
                     <div className="lg:flex flex-col justify-center items-center border-r   py-5 px-3 hover:scale-105 bg-white lg:w-44 cards hidden">
 
                         <img className="w-32 pb-5" src={pharma} />

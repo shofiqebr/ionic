@@ -64,7 +64,7 @@
     width: 63.1% !important;
   }
   .bannerTExt{
-    width: 70% !important;
+    width: 100% !important;
     margin-top: -165px;
     margin-left: -30px !important;
   }
@@ -73,8 +73,8 @@
    padding-left: 30px;
   }
   .bannerImg{
-    width:60% !important;
-    right: -20px !important;
+    width:70% !important;
+    right: 20px !important;
    
   }
   .cardWidth{
@@ -158,10 +158,10 @@
     margin-left: 50px;
   }
 
-  .bannerWidth{
+  /* .bannerWidth{
     width: 59.3% !important;
     margin-left: 55px;
-  }
+  } */
   .bannerTExt{
     width: 60% !important;
     margin-top: -100px;
