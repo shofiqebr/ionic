@@ -32,7 +32,7 @@ const Navbar = () => {
 
  
     return (
-        <div className='fixed w-full bg-[#F3F3F3] z-50 '>
+        <div className='fixed  bg-[#F3F3F3] z-50  max-w-[1920px] mx-auto w-full'>
 
 
      
@@ -61,12 +61,12 @@ const Navbar = () => {
 
 
 
-            <section className=" bg-white md:pb-2 pb-5 ">
+            <section className=" bg-white lg:pb-2 pb-5 ">
             <div className="drawer navWidth mx-auto ">
   <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content flex flex-col">
     {/* Navbar */}
-    <div className="navbar w-full flex justify-evenly items-center max-w-screen-2xl mx-auto">
+    <div className="navbar w-full flex justify-evenly md:justify-between items-center max-w-screen-2xl mx-auto">
       <div className="flex-none lg:hidden">
         <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
           <svg
@@ -87,7 +87,7 @@ const Navbar = () => {
 
 
       <Link to='/'>
-      <div className="mx-2 lg:ml-0 ml-10 flex-1 px-2">
+      <div className="mx-2 lg:ml-0 md:ml-32 ml-10 flex-1 px-2">
         <img className='w-44' src={logo} alt="" />
       </div>
       </Link>
@@ -95,10 +95,10 @@ const Navbar = () => {
         <div className='lg:block hidden'>
             <ul className='flex justify-center items-center gap-2'>
               <Link to='/'>
-                <li className='xl:text-lg text-[15px] font-bold'>হোম <span className='opacity-30'>|</span> </li>
+                <li className='xl:text-lg text-[14px] font-bold'>হোম <span className='opacity-30'>|</span> </li>
               </Link>
                
-                <li className='flex justify-center items-center xl:text-lg text-[15px] font-bold group relative'>ডোমেইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
+                <li className='flex justify-center items-center xl:text-lg text-[14px] font-bold group relative'>ডোমেইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                         <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-5 font-normal text-base z-50'>
                           <a href="https://ionic.supersite2.myorderbox.com/">
                             <li className='py-1'>আন্তর্জাতিক ডোমেইন</li>
@@ -109,7 +109,7 @@ const Navbar = () => {
                         </ul>
                 
                 </li>
-                <li className='flex justify-center items-center xl:text-lg text-[15px] font-bold group relative'>হোস্টিং<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
+                <li className='flex justify-center items-center xl:text-lg text-[14px] font-bold group relative'>হোস্টিং<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                         <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-3 text-base  font-normal z-50'>
                            <Link to='/webHosting'>
                            <li className='py-2'> Plesk প্রিমিয়াম ওয়েব হোস্টিং</li>
@@ -124,10 +124,10 @@ const Navbar = () => {
                     
                 </li>
                 <Link to='/contact'>
-                <li className='xl:text-lg text-[15px] font-bold'>যোগাযোগ <span className='opacity-30'>|</span></li>
+                <li className='xl:text-lg text-[14px] font-bold'>যোগাযোগ <span className='opacity-30'>|</span></li>
                 </Link>
             
-                <li className='flex justify-center items-center xl:text-lg text-[15px] font-bold group relative'>লগইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> </span>
+                <li className='flex justify-center items-center xl:text-lg text-[14px] font-bold group relative'>লগইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> </span>
                         <ul className='group-hover:block hidden absolute text-base font-normal top-6 left-0 bg-white w-44 p-5 z-50'>
                           <a href="https://ionic.supersite2.myorderbox.com/login.php">
                             <li className='py-2'>ডোমেইন লগইন</li>
@@ -155,7 +155,7 @@ const Navbar = () => {
           {/* Navbar menu content here */}
           <a href="https://basis.org.bd/company-profile/23-01-033">
         
-          <img className='w-32 ml-20 mr-3' src={basis} alt="" />
+          <img className='w-32 ml-20 mr-1' src={basis} alt="" />
           </a>
         
       </div>
@@ -290,9 +290,9 @@ const Navbar = () => {
 
 
             <section className="bg-[#001B41] h-1    shadowCustom  ">   </section>
-            <div className="max-w-screen-xl mx-auto -mt-5 xl:mr-6">
+            <div className="max-w-screen-xl md:-mr-[283px] mx-auto -mt-5 xl:mr-6">
             {/* <div className="flex lg:justify-end justify-center gap-3 absolute -top-[13px] xl:right-[376px] lg:right-[] md:right-5 right-10"> */}
-            <div className="navLine flex lg:justify-end justify-center gap-3 xl:mr-[65px] lg:mr-[75px]   max-w-screen-xl blackSquare ">
+            <div className="navLine flex lg:justify-end justify-center gap-3 xl:mr-[65px] lg:mr-[80px]   max-w-screen-xl blackSquare ">
             <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center hidden md:block'>
            বিক্রয় প্রতিনিধি : 01958442200
                   </h1>
@@ -323,12 +323,12 @@ const Navbar = () => {
                   <div className='relative'>
                     <img className='-mt-3 absolute -top-10' src={fixedImg} alt="" />
                   </div>
-                  <h1 className= 'orangeSquare bg-[#FFAA00] text-black absolute 2xl:top-[139px] xl:top-[98px] lg:top-[80px] -left-[12px]  pt-[4px] font-bold 2xl:w-44  text-center '>
+                  <h1 className= 'orangeSquare bg-[#FFAA00] text-black absolute xl:top-[98px] lg:top-[80px] -left-[12px]  pt-[4px] font-bold 2xl:w-44  text-center '>
                    রিসোর্স প্ল্যানিং করতে
                   </h1>
                   <div className='px-1'>
 
-                  <p className=' xl:pt-36 lg:pt-28  xl:font-semibold text-sm xl:pb-4 lg:pb-2 xl:text-xs text-center'>যখন আপনার ব্যবসার জন্য এন্টারপ্রাইজ রিসোর্স প্ল্যানিং সফ্টওয়্যার বাস্তবায়নের কথা চিন্তায় আসে?</p>
+                  <p className=' xl:pt-36 lg:pt-28  xl:font-semibold text-sm xl:pb-4 lg:pb-2 xl:text-xs text-center lg:text-[11px]'>যখন আপনার ব্যবসার জন্য এন্টারপ্রাইজ রিসোর্স প্ল্যানিং সফ্টওয়্যার বাস্তবায়নের কথা চিন্তায় আসে?</p>
                   <p className='xl:pb-4 text-xs 2xl:font-medium xl:font-semibold text-center xl:text-xs'>আপনার ব্যবসা এন্টারপ্রাইজ রিসোর্স প্ল্যানিং প্রস্তুত করতে।</p>
                  
 
@@ -337,11 +337,11 @@ const Navbar = () => {
 
                 
 <section className="flex flex-col justify-center items-center" > 
-            <div className=' 2xl:text-lg  font-bold '>আমাকে কল করুন
+            <div className=' 2xl:text-lg  font-bold  pt-4'>আমাকে কল করুন
             
           {/* <FaArrowRightLong className='text-5xl' /> */}
             </div>
-          <div className='text-[22px] font-extrabold number  text-[#ffbd3a]'>
+          <div className='xl:text-[22px] lg:text-[18px] font-extrabold  number  text-[#ffbd3a]'>
 
           01958442200
           </div>

@@ -7,13 +7,13 @@ import cap from '../../assets/new logo/cap.jpg'
 import home from '../../assets/new logo/home.png'
 import msg from '../../assets/new logo/message.png'
 import msgbubble from '../../assets/new logo/messageBubble.png'
-import smile from '../../assets/new logo/smile.jpg'
+import smile from '../../assets/new logo/smile.png'
 import speechBubble from '../../assets/new logo/speech-bubble.png'
 
 
 const Footer = () => {
     return (
-        <div className="bg-[#F9F9F9]  md:pt-0  pt-32 ">
+        <div className="bg-[#F9F9F9]  md:pt-10 pt-32 md:mx-3 ">
             {/* <div className="h-7 bg-white"></div> */}
 
             <section className='flex flex-col justify-center items-center gap-2 md:mt-16  pt-5 pb-10'>
@@ -23,33 +23,33 @@ const Footer = () => {
             {/* <section className="pt-20 pb-14 footerWidth mx-auto">
                 <h1 className=" text-2xl text-center font-bold ">আইওনিক কর্পোরেশন সাথে অংশীদার হওয়ার ৬ <br className="md:block hidden" /> টি কারণ</h1>
             </section> */}
-            <section className=" md:mx-[550px]  xl:flex  xl:flex-wrap  grid md:grid-cols-3  justify-center items-center  lg:gap-10 gap-10 lg:px-0   footerWidth ">
-                <div className="border bg-[#F7F7F7] w-60    flex flex-col justify-center items-center p-2">
+            <section className="    flex  flex-wrap justify-center items-center  lg:gap-5  md:gap-5 gap-10   md:mx-3 lg:mx-20  footerWidth ">
+                <div className="border bg-[#F7F7F7] md:w-56 footerCard   flex flex-col justify-center items-center p-2">
                     <p className="text-5xl text-black -mt-8"><img className="w-12" src={speechBubble} alt="" /></p>
                     <h1 className="py-3 font-bold text-xl">দ্রুত প্রতিক্রিয়া</h1>
                     <p className="text-center text-[#898989] text-[16px]">বিক্রয়ের পরে, আপনি যদি কোনও সমস্যার সম্মুখীন হন তবে আমরা দ্রুত পরিচালনা করতে পারি এবং রিমোটের মাধ্যমে সমস্যার প্রশ্নগুলি সমাধান করতে সহায়তা দিতে পারি। আমাদের মাল্টিচ্যানেল সাপোর্ট সিস্টেমের সাহায্যে আমরা দীর্ঘক্ষণ অপেক্ষা না করে এবং আপনার অবস্থানে ভ্রমণ না করে অবিলম্বে যেকোনো সমস্যা সমাধান করতে পারি।</p>
                 </div>
-                <div className="border bg-[#F7F7F7] w-60    flex flex-col justify-center items-center p-2 pb-20">
-                    <p className="text-5xl text-black -mt-14"><GiGraduateCap className="text-[#2196F3]" /></p>
+                <div className="border bg-[#F7F7F7] md:w-56 footerCard   flex flex-col justify-center items-center p-2 pb-20 py-14">
+                    <p className="text-5xl text-black -mt-20"><GiGraduateCap className="text-[#2196F3] text-6xl" /></p>
                     <h1 className="py-3 font-bold text-xl">অভিজ্ঞ পেশাদার</h1>
-                    <p className="text-center text-[#898989] text-[16px]">আমরা বিগত 14+ বছর ধরে 100+ অভিজ্ঞ ইআরপি ব্রেইনের সাথে ইআরপি সলিউশন পরিবেশন করে আসছি এবং প্রযুক্তি, শিল্প এবং অ্যাপ্লিকেশন প্রকারের বিস্তৃত বর্ণালী সহ বিশ্ব বাজারের প্রয়োজনীয়তা পূরণ করছি।</p>
+                    <p className="text-center text-[#898989] text-[16px] flex-grow">আমরা বিগত 14+ বছর ধরে 100+ অভিজ্ঞ ইআরপি ব্রেইনের সাথে ইআরপি সলিউশন পরিবেশন করে আসছি এবং প্রযুক্তি, শিল্প এবং অ্যাপ্লিকেশন প্রকারের বিস্তৃত বর্ণালী সহ বিশ্ব বাজারের প্রয়োজনীয়তা পূরণ করছি।</p>
                 </div>
-                <div className="border bg-[#F7F7F7] w-60    flex flex-col justify-center items-center p-2 pb-20">
+                <div className="border bg-[#F7F7F7] md:w-56 footerCard   flex flex-col justify-center items-center p-2 pb-20">
                     <p className="text-5xl text-black -mt-8"><img className="w-14" src={msgbubble} alt="" /></p>
                     <h1 className="py-3 font-bold text-xl">কোন গীক কথা না</h1>
                     <p className="text-center text-[#898989] text-[16px]">আপনি আপনার প্রশ্নগুলি সরল সহজ যোগাযোগে উত্তর পাওয়ার যোগ্য। আমাদের পরামর্শদাতা এবং বিকাশকারীরা কী ঘটছে তা স্পষ্টভাবে ব্যাখ্যা করবে যাতে আপনি সমস্ত জিনিস খুব সহজেই বুঝতে পারেন এবং মূল্যবান অন্তর্দৃষ্টিগুলি জানেন৷</p>
                 </div>
-                <div className="border bg-[#F7F7F7] w-60    flex flex-col justify-center items-center p-2 pb-24">
+                <div className="border bg-[#F7F7F7] md:w-56 footerCard   flex flex-col justify-center items-center p-2 pb-24">
                     <p className="text-5xl text-black -mt-8"><img className="w-14" src={msg} alt="" /></p>
                     <h1 className="py-3 font-bold text-xl">ব্যবসা কাণ্ডজ্ঞান</h1>
                     <p className="text-center text-[#898989] text-[16px]">আমরা আপনার প্রতিষ্ঠানের জন্য ব্যবসায়িক সুবিধার পুঙ্খানুপুঙ্খ বোঝার থেকে "IONIC ERP" সিস্টেম ডিজাইন, মূল্যায়ন এবং ন্যায়সঙ্গত করি। এটি আপনার দৈনন্দিন ক্রিয়াকলাপকে সহজ করতে সহায়তা করে।</p>
                 </div>
-                <div className="border bg-[#F7F7F7] w-60    flex flex-col justify-center items-center p-2 pb-20">
-                    <p className="text-5xl text-black -mt-8"><img className="w-14" src={home} alt="" /></p>
+                <div className="border bg-[#F7F7F7] md:w-56 footerCard   flex flex-col justify-center items-center p-2 pb-20 py-14 ">
+                    <p className="text-5xl text-black -mt-16"><img className="w-14" src={home} alt="" /></p>
                     <h1 className="py-3 font-bold text-xl">ওয়ান স্টপ শপ</h1>
-                    <p className="text-center text-[#898989] text-[16px]">আমরা ইআরপি সফ্টওয়্যারের সমস্ত দিক পরিচালনা করি যা আপনার ব্যবসায়িক কর্মক্ষমতা যেমন ইআরপি ডেভেলপমেন্ট, ইআরপি কাস্টমাইজেশন, ইআরপি প্রশিক্ষণ এবং অন্য যেকোন সম্পর্কিত ইআরপি চাহিদা বাড়াতে সহায়ক হতে পারে।</p>
+                    <p className="text-center text-[#898989] text-[16px] flex-grow">আমরা ইআরপি সফ্টওয়্যারের সমস্ত দিক পরিচালনা করি যা আপনার ব্যবসায়িক কর্মক্ষমতা যেমন ইআরপি ডেভেলপমেন্ট, ইআরপি কাস্টমাইজেশন, ইআরপি প্রশিক্ষণ এবং অন্য যেকোন সম্পর্কিত ইআরপি চাহিদা বাড়াতে সহায়ক হতে পারে।</p>
                 </div>
-                <div className="border bg-[#F7F7F7] w-60    flex flex-col justify-center items-center p-2 pb-20">
+                <div className="border bg-[#F7F7F7] md:w-56 footerCard   flex flex-col justify-center items-center p-2 pb-20">
                     <p className="text-5xl text-black -mt-8"><img className="w-14" src={smile} alt="" /></p>
                     <h1 className="py-3 font-bold text-xl">100% সন্তুষ্টি গ্যারান্টি</h1>
                     <p className="text-center text-[#898989] text-[16px]">আমরা চাই আপনি আমাদের "ERP" সিস্টেম সলিউশনের সাথে সম্পূর্ণ সন্তুষ্ট হন। আমরা আপনার সমস্ত "ERP" সম্পর্কিত উদ্বেগগুলি পরিচালনা করব, যাতে আপনি শান্তভাবে আপনার ব্যবসা পরিচালনা করতে পারেন। কোন ঝামেলা নেই, কোন সমস্যা নেই।</p>
@@ -57,7 +57,7 @@ const Footer = () => {
             </section>
 
 
-            <section className="text-[#7d7d7d] footerWidth mx-auto  px-2">
+            <section className="text-[#7d7d7d] footerText mx-auto  px-2">
                 <div className="flex flex-col justify-center items-center pt-">
                     <h1 className="text-xl font-bold text-black pt-10 pb-5">আমাদের সাথে আইটির যাত্রা শুরু করুন</h1>
                     <div className="text-center my-2">
@@ -107,7 +107,7 @@ const Footer = () => {
                             Customer Care -8801511142320 (WhatsApp) (24/7 Live Support)</p>
 
 
-                            <p className="pt-10">The "Frappe" Code is Licensed As GNU General Public License (v3) And The Documentation is Licensed As Creative Commons (CC-BY-SA-3.0) And The Copyright is Owned By IONIC Corporation. <a href="https://basis.org.bd/company-profile/23-01-033">(Member of BASIS-GE-23-01-033)</a>.</p>
+                            <p className="pt-10 text-[12px]">The "Frappe" Code is Licensed As GNU General Public License (v3) And The Documentation is Licensed As Creative Commons (CC-BY-SA-3.0) And The Copyright is Owned By IONIC Corporation. <a href="https://basis.org.bd/company-profile/23-01-033">(Member of BASIS-GE-23-01-033)</a>.</p>
                         </div>
                     </div>
                 </div>

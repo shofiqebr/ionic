@@ -34,6 +34,9 @@
     top: 200px;
 
   }
+  /* .blackSquare{
+    margin-right: 355px !important;
+  } */
   .number{
     font-size: 20px;
   }
@@ -46,33 +49,47 @@
     font-size: 15px;
   }
  .navWidth{
-    max-width: 850px;
-    margin-left: 60px;
+    max-width: 755px;
+    /* margin-left: 60px; */
   }
   .navLine{
-    padding-right: 75px;
+    padding-right: 350px;
+  }
+  .banner{
+    width: 73.1%;
+    margin-left: 140px;
   }
 
   .bannerWidth{
     width: 63.1% !important;
   }
   .bannerTExt{
-    width: 60% !important;
-    margin-top: -100px;
+    width: 70% !important;
+    margin-top: -165px;
+    margin-left: -30px !important;
   }
   .bannerHeading{
    padding-top: 20px;
    padding-left: 30px;
   }
   .bannerImg{
-    width:40% !important;
+    width:60% !important;
     right: -20px !important;
    
   }
   .cardWidth{
-    width: 78.5% !important;
-    margin-left: 78px;
+    /* width: 78.5% !important; */
+    /* margin-left: 78px; */
 
+  }
+  .cards{
+    width: 125px !important;
+  }
+  .cardHeading{
+    font-size: 13px !important;
+  }
+  .cardType{
+    font-size: 8px;
   }
   .brandWidth{
     max-width: 940px;
@@ -98,7 +115,11 @@
    
   }
   .footerWidth{
-    width: 725px !important;
+    /* width: 725px !important; */
+  }
+  .footerText{
+    margin-right: 140px !important;
+    margin-left: 140px !important; 
   }
 }
 
@@ -113,6 +134,7 @@
     top: 200px;
 
   }
+
   .number{
     /* font-size: 20px; */
   }
@@ -125,11 +147,15 @@
     /* font-size: 15px; */
   }
  .navWidth{
-    max-width: 1160px;
+    max-width: 980px;
     /* margin-right: 50px !important; */
   }
   .navLine{
     padding-right: 75px;
+  }
+  .banner{
+    width: 88.3%;
+    margin-left: 50px;
   }
 
   .bannerWidth{
@@ -146,13 +172,16 @@
   }
   .bannerImg{
     width:60% !important;
-    right: -125px !important;
+    right: -60px !important;
    
   }
   .cardWidth{
-    width: 90.5% !important;
-    margin-left: 55px;
+    width: 96.5% !important;
+    margin-left: 119px !important;
 
+  }
+  .cards{
+    width: 158px !important;
   }
  
   .imgWidth{
@@ -181,9 +210,12 @@
    
   }
   .footerWidth{
-    width: 952px !important;
-   
-   
+    margin-right: 190px !important;
+    margin-left: 190px !important; 
+  }
+  .footerText{
+    margin-right: 150px !important;
+    margin-left: 150px !important; 
   }
 }
 
@@ -260,11 +292,12 @@
    
   }
   .footerWidth{
-    width: 1030px !important;
-    padding-left: 10px !important;
-
-   
-   
+    margin-right: 300px !important;
+    margin-left: 300px !important; 
+  }
+  .footerText{
+    margin-right: 145px !important;
+    margin-left: 145px !important; 
   }
 }
 
@@ -345,11 +378,16 @@
    
   }
   .footerWidth{
-    width: 1071px !important;
-    padding-left: 30px !important;
+    margin-right: 320px !important;
+    margin-left: 320px !important; 
    
    
   }
+  .footerText{
+    margin-right: 150px !important;
+    margin-left: 150px !important; 
+  }
+  
 }
 
 
@@ -522,10 +560,12 @@
    
   }
   .footerWidth{
-    width: 1020px !important;
-    padding-left: 10px !important;
-   
-   
+    margin-right: 400px !important;
+    margin-left: 400px !important; 
+  }
+  .footerText{
+    margin-right: 250px !important;
+    margin-left: 250px !important; 
   }
 }
 @media (min-width: 1680px) {
@@ -606,10 +646,12 @@
    
   }
   .footerWidth{
-    width: 1020px !important;
-    padding-left: 10px !important;
-   
-   
+    margin-right: 400px !important;
+    margin-left: 400px !important; 
+  }
+  .footerText{
+    margin-right: 280px !important;
+    margin-left: 280px !important; 
   }
 }
 @media (min-width: 1920px) {
@@ -690,10 +732,12 @@
    
   }
   .footerWidth{
-    width: 1020px !important;
-    padding-left: 10px !important;
-   
-   
+    margin-right: 500px !important;
+    margin-left: 500px !important; 
+  }
+  .footerText{
+    margin-right: 400px !important;
+    margin-left: 400px !important; 
   }
 }
    

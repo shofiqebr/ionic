@@ -10,7 +10,7 @@ import DigitalPartner from "./DigitalPartner";
 import ProductDetails from "./ProductDetails";
 // import RealSolution from "./RealSolution";
 import Technologies from "./Technologies";
-import Test from "./Test";
+
 
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
        
             <div className="max-w-screen-xl mx-auto bg-[#F3F3F3] ">
                
-                {/* <Banner/> */}
+                <Banner/>
                
                 {/* <DigitalPartner/> */}
 
