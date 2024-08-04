@@ -24,7 +24,677 @@
     margin: 0 auto;
 }
 
+.shadowCustom{
+  box-shadow: 0px 3px 8px 0px #0B2A63;
+}
 
+@media (min-width: 1024px) {
+  .test {
+    right: -135px;
+    top: 200px;
+
+  }
+  .number{
+    font-size: 20px;
+  }
+  .testSection{
+    width: 130px;
+  }
+  .orangeSquare{
+    left: 0px;
+    width: 130px !important;
+    font-size: 15px;
+  }
+ .navWidth{
+    max-width: 850px;
+    margin-left: 60px;
+  }
+  .navLine{
+    padding-right: 75px;
+  }
+
+  .bannerWidth{
+    width: 63.1% !important;
+  }
+  .bannerTExt{
+    width: 60% !important;
+    margin-top: -100px;
+  }
+  .bannerHeading{
+   padding-top: 20px;
+   padding-left: 30px;
+  }
+  .bannerImg{
+    width:40% !important;
+    right: -20px !important;
+   
+  }
+  .cardWidth{
+    width: 78.5% !important;
+    margin-left: 78px;
+
+  }
+  .brandWidth{
+    max-width: 940px;
+  /* border :2px solid darkblue; */
+  margin-left: 2px;
+  }
+ 
+  .imgWidth{
+    max-width: 922px;
+    margin-left: 8px;
+    
+  }
+ 
+  .banner{
+    max-width: 1000px;
+  }
+  .detailsWidth{
+    max-width: 912px;
+    margin-left: 15px;
+  }
+  .technology{
+    max-width: 980px;
+   
+  }
+  .footerWidth{
+    width: 725px !important;
+  }
+}
+
+
+
+
+ 
+
+@media (min-width: 1280px) {
+  .test {
+    right: -150px;
+    top: 200px;
+
+  }
+  .number{
+    /* font-size: 20px; */
+  }
+  .testSection{
+    width: 145px;
+  }
+  .orangeSquare{
+    /* left: 0px; */
+    width: 145px !important;
+    /* font-size: 15px; */
+  }
+ .navWidth{
+    max-width: 1160px;
+    /* margin-right: 50px !important; */
+  }
+  .navLine{
+    padding-right: 75px;
+  }
+
+  .bannerWidth{
+    width: 59.3% !important;
+    margin-left: 55px;
+  }
+  .bannerTExt{
+    width: 60% !important;
+    margin-top: -100px;
+  }
+  .bannerHeading{
+   padding-top: 20px;
+   padding-left: 30px;
+  }
+  .bannerImg{
+    width:60% !important;
+    right: -125px !important;
+   
+  }
+  .cardWidth{
+    width: 90.5% !important;
+    margin-left: 55px;
+
+  }
+ 
+  .imgWidth{
+    max-width: 1094px;
+    margin-left: 50px;
+    
+  }
+  .brandWidth{
+    max-width: 1120px;
+  /* border :2px solid darkblue; */
+  margin-left: 30px;
+  }
+ 
+ 
+  .banner{
+    max-width: 1200px;
+  }
+  .detailsWidth{
+    max-width: 1090px;
+    margin-left: 50px;
+  }
+  .technology{
+    max-width: 1113px;
+    /* border :2px solid darkblue; */
+    
+   
+  }
+  .footerWidth{
+    width: 952px !important;
+   
+   
+  }
+}
+
+@media (min-width: 1360px) {
+  .test {
+    right: -150px;
+    top: 200px;
+
+  }
+
+  .testSection{
+    width: 145px;
+  }
+  .orangeSquare{
+    
+    width: 145px !important;
+   
+  }
+ .navWidth{
+    max-width: 1260px;
+  }
+  .navLine{
+    padding-right: 75px;
+  }
+  .banner{
+    max-width: 1200px;
+  }
+
+  .bannerWidth{
+    width: 64.4% !important;
+    margin-left: 40px;
+  }
+  .bannerTExt{
+    width: 60% !important;
+    margin-top: -100px;
+  }
+  .bannerHeading{
+   padding-top: 20px;
+   padding-left: 30px;
+  }
+  .bannerImg{
+    width:60% !important;
+    right: -180px !important;
+   
+  }
+  .cardWidth{
+    width: 94.9% !important;
+    margin-left: 41px;
+
+  }
+ 
+  .imgWidth{
+    max-width: 1146px;
+    margin-left: 38px;
+    
+  }
+  .brandWidth{
+    max-width: 1190px;
+  /* border :2px solid darkblue; */
+  margin-left: 10px;
+  }
+ 
+ 
   
+  .detailsWidth{
+    max-width: 1140px;
+    margin-left: 40px;
+  }
+  .technology{
+    max-width: 1171px;
+    margin-left: 25px;
+    /* border :2px solid darkblue; */
+    
+   
+  }
+  .footerWidth{
+    width: 1030px !important;
+    padding-left: 10px !important;
+
+   
+   
+  }
+}
+
+
+@media (min-width: 1400px) {
+  /* .test {
+    right: -150px;
+    top: 200px;
+
+  } */
+
+  /* .testSection{
+    width: 145px;
+  } */
+  /* .orangeSquare{
+   
+    width: 145px !important;
   
+  } */
+ .navWidth{
+    max-width: 1320px;
+    
+   
+  }
+  /* .navLine{
+    padding-right: 75px;
+  } */
+  .banner{
+    max-width: 1228px;
+    margin-left: 24px;
+  }
+
+  .bannerWidth{
+    /* width: 64.4% !important;
+    margin-left: 40px; */
+  }
+  .bannerTExt{
+    /* width: 60% !important;
+    margin-top: -100px; */
+  }
+  .bannerHeading{
+   /* padding-top: 20px;
+   padding-left: 30px; */
+  }
+  .bannerImg{
+    /* width:60% !important;
+    right: -180px !important; */
+   
+  }
+  .cardWidth{
+    /* width: 94.9% !important;
+    margin-left: 41px; */
+
+  }
+ 
+  .imgWidth{
+    max-width: 1175px;
+    margin-left: 59px;
+    
+  }
+  .brandWidth{
+    max-width: 1250px;
+  /* border :2px solid darkblue; */
+  margin-left: 10px;
+  }
+ 
+ 
+  
+  .detailsWidth{
+    max-width: 1170px;
+    margin-left: 60px;
+  }
+  .technology{
+    max-width: 1201px;
+    margin-left: 45px;
+   
+    
+   
+  }
+  .footerWidth{
+    width: 1071px !important;
+    padding-left: 30px !important;
+   
+   
+  }
+}
+
+
+@media (min-width: 1440px) {
+  /* .test {
+    right: -150px;
+    top: 200px;
+
+  } */
+
+  /* .testSection{
+    width: 145px;
+  } */
+  /* .orangeSquare{
+   
+    width: 145px !important;
+  
+  } */
+ .navWidth{
+    max-width: 1335px;
+    padding-left: 20px;
+  }
+  .blackSquare{
+    margin-right: 85px !important;
+  }
+  /* .navLine{
+    padding-right: 75px;
+  } */
+  .banner{
+    /* max-width: 1228px;
+    margin-left: 24px; */
+  }
+
+  .bannerWidth{
+    /* width: 64.4% !important;
+    margin-left: 40px; */
+  }
+  .bannerTExt{
+    /* width: 60% !important;
+    margin-top: -100px; */
+  }
+  .bannerHeading{
+   /* padding-top: 20px;
+   padding-left: 30px; */
+  }
+  .bannerImg{
+    /* width:60% !important;
+    right: -180px !important; */
+   
+  }
+  .cardWidth{
+    /* width: 94.9% !important;
+    margin-left: 41px; */
+
+  }
+ 
+  .imgWidth{
+    /* max-width: 1175px;
+    margin-left: 59px; */
+    
+  }
+  .brandWidth{
+    /* max-width: 1250px; */
+  /* border :2px solid darkblue; */
+  /* margin-left: 10px; */
+  }
+ 
+ 
+  
+  .detailsWidth{
+    /* max-width: 1170px;
+    margin-left: 60px; */
+  }
+  .technology{
+    /* max-width: 1201px;
+    margin-left: 45px; */
+   
+    
+   
+  }
+  .footerWidth{
+    /* width: 1071px !important;
+    padding-left: 30px !important; */
+   
+   
+  }
+}
+
+
+
+
+
+
+
+@media (min-width: 1600px) {
+  /* .test {
+    right: -150px;
+    top: 200px;
+
+  } */
+
+  /* .testSection{
+    width: 145px;
+  } */
+  /* .orangeSquare{
+   
+    width: 145px !important;
+  
+  } */
+ .navWidth{
+    max-width: 1420px;
+    padding-left: 100px;
+  }
+  .blackSquare{
+    margin-right: 165px !important;
+  }
+  /* .navLine{
+    padding-right: 75px;
+  } */
+  .banner{
+    /* max-width: 1228px;
+    margin-left: 24px; */
+  }
+
+  .bannerWidth{
+    /* width: 64.4% !important;
+    margin-left: 40px; */
+  }
+  .bannerTExt{
+    /* width: 60% !important;
+    margin-top: -100px; */
+  }
+  .bannerHeading{
+   /* padding-top: 20px;
+   padding-left: 30px; */
+  }
+  .bannerImg{
+    /* width:60% !important;
+    right: -180px !important; */
+   
+  }
+  .cardWidth{
+    /* width: 94.9% !important;
+    margin-left: 41px; */
+
+  }
+ 
+  .imgWidth{
+    /* max-width: 1175px;
+    margin-left: 59px; */
+    
+  }
+  .brandWidth{
+    /* max-width: 1250px; */
+  /* border :2px solid darkblue; */
+  /* margin-left: 10px; */
+  }
+ 
+ 
+  
+  .detailsWidth{
+    /* max-width: 1170px;
+    margin-left: 60px; */
+  }
+  .technology{
+    /* max-width: 1201px;
+    margin-left: 45px; */
+   
+    
+   
+  }
+  .footerWidth{
+    width: 1020px !important;
+    padding-left: 10px !important;
+   
+   
+  }
+}
+@media (min-width: 1680px) {
+  /* .test {
+    right: -150px;
+    top: 200px;
+
+  } */
+
+  /* .testSection{
+    width: 145px;
+  } */
+  /* .orangeSquare{
+   
+    width: 145px !important;
+  
+  } */
+ .navWidth{
+    max-width: 1450px;
+    padding-left: 135px;
+  }
+  .blackSquare{
+    margin-right: 205px !important;
+  }
+  /* .navLine{
+    padding-right: 75px;
+  } */
+  .banner{
+    /* max-width: 1228px;
+    margin-left: 24px; */
+  }
+
+  .bannerWidth{
+    /* width: 64.4% !important;
+    margin-left: 40px; */
+  }
+  .bannerTExt{
+    /* width: 60% !important;
+    margin-top: -100px; */
+  }
+  .bannerHeading{
+   /* padding-top: 20px;
+   padding-left: 30px; */
+  }
+  .bannerImg{
+    /* width:60% !important;
+    right: -180px !important; */
+   
+  }
+  .cardWidth{
+    /* width: 94.9% !important;
+    margin-left: 41px; */
+
+  }
+ 
+  .imgWidth{
+    /* max-width: 1175px;
+    margin-left: 59px; */
+    
+  }
+  .brandWidth{
+    /* max-width: 1250px; */
+  /* border :2px solid darkblue; */
+  /* margin-left: 10px; */
+  }
+ 
+ 
+  
+  .detailsWidth{
+    /* max-width: 1170px;
+    margin-left: 60px; */
+  }
+  .technology{
+    /* max-width: 1201px;
+    margin-left: 45px; */
+   
+    
+   
+  }
+  .footerWidth{
+    width: 1020px !important;
+    padding-left: 10px !important;
+   
+   
+  }
+}
+@media (min-width: 1920px) {
+  /* .test {
+    right: -150px;
+    top: 200px;
+
+  } */
+
+  /* .testSection{
+    width: 145px;
+  } */
+  /* .orangeSquare{
+   
+    width: 145px !important;
+  
+  } */
+ .navWidth{
+    max-width: 1570px;
+    padding-left: 255px;
+  }
+  .blackSquare{
+    margin-right: 316px !important;
+  }
+  /* .navLine{
+    padding-right: 75px;
+  } */
+  .banner{
+    /* max-width: 1228px;
+    margin-left: 24px; */
+  }
+
+  .bannerWidth{
+    /* width: 64.4% !important;
+    margin-left: 40px; */
+  }
+  .bannerTExt{
+    /* width: 60% !important;
+    margin-top: -100px; */
+  }
+  .bannerHeading{
+   /* padding-top: 20px;
+   padding-left: 30px; */
+  }
+  .bannerImg{
+    /* width:60% !important;
+    right: -180px !important; */
+   
+  }
+  .cardWidth{
+    /* width: 94.9% !important;
+    margin-left: 41px; */
+
+  }
+ 
+  .imgWidth{
+    /* max-width: 1175px;
+    margin-left: 59px; */
+    
+  }
+  .brandWidth{
+    /* max-width: 1250px; */
+  /* border :2px solid darkblue; */
+  /* margin-left: 10px; */
+  }
+ 
+ 
+  
+  .detailsWidth{
+    /* max-width: 1170px;
+    margin-left: 60px; */
+  }
+  .technology{
+    /* max-width: 1201px;
+    margin-left: 45px; */
+   
+    
+   
+  }
+  .footerWidth{
+    width: 1020px !important;
+    padding-left: 10px !important;
+   
+   
+  }
+}
+   
   

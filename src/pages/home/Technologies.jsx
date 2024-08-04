@@ -18,14 +18,14 @@ import swift from '../../assets/swift-1.png'
 
 const Technologies = () => {
     return (
-        <div className='pb-5 -mt-7'>
+        <div className='pb-5 -mt-7 technology mx-auto'>
               <section className='flex flex-col justify-center items-center gap-2 mt-16 '>
                 <h1 className=' text-[#898989] font-semibold  text-center'>আমাদের সফটওয়্যার এর ব্যবহৃত টেকনোলজি সমূহ</h1>
                 <div className='w-10 h-[3px] bg-[#b3b2b2]'></div>
             </section>
 
            
-            <section className="lg:grid-cols-6 grid md:grid-cols-3 grid-cols-2 items-center  justify-center gap-5 pt-3 mt-5 bg-white lg:mx-32 rounded-lg ">
+            <section className="lg:grid-cols-6 grid md:grid-cols-3 grid-cols-2 items-center  justify-center gap-5 pt-3 mt-5 bg-white xl:mx-20 lg:mx-32 rounded-lg ">
                 <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={python}/>
                 </div>

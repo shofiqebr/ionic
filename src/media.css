@@ -1,0 +1,50 @@
+
+@media (min-width: 1280px) {
+    .test {
+    
+    }
+  }
+  
+  
+  @media (min-width: 1360px) {
+    .test{
+    
+    }
+  }
+  
+ 
+  @media (min-width: 1366px) {
+    .test {
+    
+    }
+  }
+  
+
+  @media (min-width: 1400px) {
+    .test {
+ 
+    }
+  }
+  
+ 
+  @media (min-width: 1440px) {
+    .test {
+        right: 495px;
+  
+    }
+  }
+  @media (min-width: 1600px) {
+    .test {
+  
+    }
+  }
+  @media (min-width: 1680px) {
+    .test {
+  
+    }
+  }
+  @media (min-width: 1920px) {
+    .test {
+  
+    }
+  }

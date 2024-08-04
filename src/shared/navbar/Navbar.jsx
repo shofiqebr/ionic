@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 
 import { useState } from 'react';
 import { RxCross1 } from 'react-icons/rx';
+import fixedImg from '../../assets/new logo/care-call-2.png'; 
 // import ModalBody from '../modalBody/ModalBody';
 
 
@@ -60,8 +61,8 @@ const Navbar = () => {
 
 
 
-            <section className=" bg-white">
-            <div className="drawer ">
+            <section className=" bg-white md:pb-2 pb-5 ">
+            <div className="drawer navWidth mx-auto ">
   <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content flex flex-col">
     {/* Navbar */}
@@ -94,46 +95,10 @@ const Navbar = () => {
         <div className='lg:block hidden'>
             <ul className='flex justify-center items-center gap-2'>
               <Link to='/'>
-                <li className='text-lg font-bold'>হোম <span className='opacity-30'>|</span> </li>
+                <li className='xl:text-lg text-[15px] font-bold'>হোম <span className='opacity-30'>|</span> </li>
               </Link>
-                {/* <li className='flex justify-center items-center text-lg font-bold group relative'>সেবা সমূহ <span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
-                    <ul className='group-hover:block hidden absolute left-0 top-6  bg-white w-56  p-3 z-50' >
-                      <a href="https://ioniccorporation.com/managed-cpanel-sever/">
-                        <li className='flex justify-start gap-2 items-center text-sm py-3'>
-                            <img className='w-5' src={ionic} alt="" />
-                            <p className='font-normal'>আইওনিক এসএমএস</p>
-                        </li>
-                      </a>
-                        <a href="https://ioniccorporation.com/ionic-ocean/">
-                        <li className='flex justify-start gap-2 items-center text-sm py-3'>
-                            <img className='w-5' src={ocen} alt="" />
-                            <p className='font-normal'>আইওনিক ওসেন</p>
-                        </li>
-                        </a>
-                        <a href="https://ioniccorporation.com/talksale/">
-                        <li className='flex justify-start gap-2 items-center text-sm py-3'>
-                            <img className='w-5' src={talkcell} alt="" />
-                            <p className='font-normal'>টকসেল </p>
-                        </li>
-                        </a>
-                        <a href="http://ww25.protidhoni.com/?subid1=20240713-1518-18fc-96d6-9db661045065">
-                        <li className='flex justify-start gap-2 items-center text-sm py-3'>
-                            <img className='w-5' src={protidhoni} alt="" />
-                            <p className='font-normal'>প্রতিধ্বনি </p>
-                        </li>
-                        </a>
-                     <Link to='/shikkha'>
-                        <li className='flex justify-start gap-2 items-center text-sm py-3'>
-                           
-                       <p className='font-normal'> শিক্ষা চ্যাট </p>
-                        </li>
-                     </Link>
-                       
-                    </ul> 
-                 
-                
-                </li> */}
-                <li className='flex justify-center items-center text-lg font-bold group relative'>ডোমেইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
+               
+                <li className='flex justify-center items-center xl:text-lg text-[15px] font-bold group relative'>ডোমেইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                         <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-5 font-normal text-base z-50'>
                           <a href="https://ionic.supersite2.myorderbox.com/">
                             <li className='py-1'>আন্তর্জাতিক ডোমেইন</li>
@@ -144,7 +109,7 @@ const Navbar = () => {
                         </ul>
                 
                 </li>
-                <li className='flex justify-center items-center text-lg font-bold group relative'>হোস্টিং<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
+                <li className='flex justify-center items-center xl:text-lg text-[15px] font-bold group relative'>হোস্টিং<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                         <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-3 text-base  font-normal z-50'>
                            <Link to='/webHosting'>
                            <li className='py-2'> Plesk প্রিমিয়াম ওয়েব হোস্টিং</li>
@@ -159,10 +124,10 @@ const Navbar = () => {
                     
                 </li>
                 <Link to='/contact'>
-                <li className='text-lg font-bold'>যোগাযোগ <span className='opacity-30'>|</span></li>
+                <li className='xl:text-lg text-[15px] font-bold'>যোগাযোগ <span className='opacity-30'>|</span></li>
                 </Link>
             
-                <li className='flex justify-center items-center text-lg font-bold group relative'>লগইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> </span>
+                <li className='flex justify-center items-center xl:text-lg text-[15px] font-bold group relative'>লগইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> </span>
                         <ul className='group-hover:block hidden absolute text-base font-normal top-6 left-0 bg-white w-44 p-5 z-50'>
                           <a href="https://ionic.supersite2.myorderbox.com/login.php">
                             <li className='py-2'>ডোমেইন লগইন</li>
@@ -211,7 +176,7 @@ const Navbar = () => {
  
   <div className="drawer-side  z-50">
     <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay "></label>
-    <ul className="menu bg-white min-h-full w-80 p-0 text-black ">
+    <ul className="menu bg-white min-h-full w-80 p-0 text-black text-lg  ">
       {/* Sidebar content here */}
     
   
@@ -230,41 +195,13 @@ const Navbar = () => {
       <li className='py-3  font-semibold text-[#FF0020]'><a>হোম </a></li>
       </Link>
       <hr />
-      {/* <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>সেবা সমূহ</p><p onClick={()=>setOpen(!open)}>{open?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
-      <hr className='p-0' />
-
-      {open && <>
-        <a href="https://ioniccorporation.com/managed-cpanel-sever/">
-        <li className='h-14 flex justify-center font-medium w-full'>আইওনিক এসএমএস</li>
-        </a>
-        <hr className='p-0'/>
-        <a href="https://ioniccorporation.com/ionic-ocean/">
-        <li className='h-14 flex justify-center font-medium w-full'>আইওনিক ওসেন</li>
-        </a>
-        <hr className='p-0'/>
-        <a href="https://ioniccorporation.com/talksale/">
-        <li className='h-14 flex justify-center font-medium w-full'> টকসেল</li>
-        </a>
-        <hr className='p-0'/>
-        <a href="http://ww25.protidhoni.com/?subid1=20240713-1518-18fc-96d6-9db661045065">
-        <li className='h-14 flex justify-center font-medium w-full'> প্রতিধ্বনি</li>
-        </a>
-        <hr className='p-0'/>
-        <Link to='/shikkha'>
-             <li className='flex justify-start gap-2 items-center text-sm py-3'>                      
-                  <p className='font-normal'> শিক্ষা চ্যাট </p>
-              </li>
-        </Link>
-      </>}
-      
-      </li>
-      <hr className='p-0'/> */}
+    
       <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>ডোমেইন </p><p onClick={()=>setOpen1(!open1)}>{open1?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
       <hr className='p-0' />
 
       {open1 && <>
         <a href="https://ionic.supersite2.myorderbox.com/">
-        <li className='h-14 flex justify-center font-medium w-full'>আন্তর্জাতিক ডোমেইন বিডি ডোমেইন</li>
+        <li className='h-14 flex justify-center font-medium w-full'>আন্তর্জাতিক ডোমেইন</li>
         </a>
         <hr className='p-0'/>
         <a href="https://bdia.btcl.com.bd/">
@@ -313,17 +250,7 @@ const Navbar = () => {
       <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>লগইন</p><p onClick={()=>setOpen3(!open3)}>{open3?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
       <hr className='p-0' />
 
-      {/* 
-  
-
-
-
-
-                          </a>
-
- 
-
-  */}
+   
 
       {open3 && <>
         <a href="https://ionic.supersite2.myorderbox.com/login.php">
@@ -362,17 +289,88 @@ const Navbar = () => {
             {/* black part */}
 
 
-            <section className="bg-[#001B41] h-1  mt-2 ‍ shadow-2xl  ">   </section>
-            <div className="max-w-screen-xl mx-auto -mt-5">
+            <section className="bg-[#001B41] h-1    shadowCustom  ">   </section>
+            <div className="max-w-screen-xl mx-auto -mt-5 xl:mr-6">
             {/* <div className="flex lg:justify-end justify-center gap-3 absolute -top-[13px] xl:right-[376px] lg:right-[] md:right-5 right-10"> */}
-            <div className="flex lg:justify-end justify-center gap-3 xl:mr-[65px] lg:mr-[75px]   max-w-screen-xl ">
+            <div className="navLine flex lg:justify-end justify-center gap-3 xl:mr-[65px] lg:mr-[75px]   max-w-screen-xl blackSquare ">
             <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center hidden md:block'>
            বিক্রয় প্রতিনিধি : 01958442200
                   </h1>
-            <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center '>
+            <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center relative'>
             কাষ্টমার কেয়ার : 01511142320
-                  </h1>
+                
                
+
+
+
+
+               {/* -------------side fixed popup------------------ */}
+
+
+
+
+
+               <div className='w-full bg-[#F3F3F3] z-50 absolute'>
+      <div className=''>
+        
+          <div className='absolute top-72 test hidden lg:block'>
+            {/* <div className='absolute -top-8 -right-5 cursor-pointer bg-black rounded-full text-[#FFAA00]' onClick={() => setIsVisible(false)}>
+              <RiCloseCircleLine className='text-2xl' />
+            </div> */}
+            <div className='relative  '>
+              <section className='bg-gradient-to-b from-[#1574C4] to-[#001B42] testSection w-44 rounded-2xl h- px-1 pb-2'>
+                <div className='text-white'>
+                  <div className='relative'>
+                    <img className='-mt-3 absolute -top-10' src={fixedImg} alt="" />
+                  </div>
+                  <h1 className= 'orangeSquare bg-[#FFAA00] text-black absolute 2xl:top-[139px] xl:top-[98px] lg:top-[80px] -left-[12px]  pt-[4px] font-bold 2xl:w-44  text-center '>
+                   রিসোর্স প্ল্যানিং করতে
+                  </h1>
+                  <div className='px-1'>
+
+                  <p className=' xl:pt-36 lg:pt-28  xl:font-semibold text-sm xl:pb-4 lg:pb-2 xl:text-xs text-center'>যখন আপনার ব্যবসার জন্য এন্টারপ্রাইজ রিসোর্স প্ল্যানিং সফ্টওয়্যার বাস্তবায়নের কথা চিন্তায় আসে?</p>
+                  <p className='xl:pb-4 text-xs 2xl:font-medium xl:font-semibold text-center xl:text-xs'>আপনার ব্যবসা এন্টারপ্রাইজ রিসোর্স প্ল্যানিং প্রস্তুত করতে।</p>
+                 
+
+
+
+
+                
+<section className="flex flex-col justify-center items-center" > 
+            <div className=' 2xl:text-lg  font-bold '>আমাকে কল করুন
+            
+          {/* <FaArrowRightLong className='text-5xl' /> */}
+            </div>
+          <div className='text-[22px] font-extrabold number  text-[#ffbd3a]'>
+
+          01958442200
+          </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        
+      </div>
+                </div>
+
+
+                </h1>
                
             
 

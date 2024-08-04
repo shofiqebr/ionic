@@ -14,17 +14,17 @@ const ResellerServer = () => {
     return (
         <div className="bg-[#F3F3F3] xl:px-40 2xl:px-96 px-3">
             <h1 className="text-4xl text-center font-bold pt-44 pb-5">আমাদের রিসেলার হোস্টিং</h1>
-            <p className="text-z[#E3E3E3] text-center pb-5">আইওনিক হোস্টে, আমরা পৃষ্ঠা লোডিং গতি, নিরাপত্তা এবং দ্রুত গ্রাহক সহায়তার গুরুত্ব বুঝি। তাই আমরা আমাদের সার্ভারের জন্য RAID-10 সহ উচ্চ কার্যক্ষমতার অত্যাধুনিক বিশুদ্ধ SSD ওয়েব হোস্টিং প্যাকেজ ব্যবহার করছি। আপনাকে সাইট লোডিং গতি সম্পর্কে চিন্তা করতে হবে না। এছাড়াও, সর্বোত্তম নিরাপত্তার জন্য আপনার ডেটা সুরক্ষিত এবং বিচ্ছিন্ন রাখতে আমরা আমাদের ওয়েব হোস্টিংয়ের সাথে CloudLinux ব্যবহার করছি। আমাদের গ্রাহক সমর্থন 24x7x365। বাংলাদেশে আমাদের সেরা ওয়েব হোস্টিং প্যাকেজের সাথে, আপনি আমাদের বিশেষজ্ঞ সহায়তা দলে 24×7 অ্যাক্সেসও পাবেন। অবশেষে, আমরা আপনাকে সাধারণ বিলিং অনুশীলনের মাধ্যমে আমাদের ব্যতিক্রমী পরিষেবা প্রদান করার প্রতিশ্রুতি দিচ্ছি। আমাদের কোনো সেটআপ বা লুকানো চার্জ নেই। এ কারণেই আমরা বাংলাদেশের সেরা ওয়েব হোস্টিং কোম্পানি হিসেবে বিবেচিত।</p>
+            <p className="text-xl text-center pb-5">আইওনিক হোস্টে, আমরা পৃষ্ঠা লোডিং গতি, নিরাপত্তা এবং দ্রুত গ্রাহক সহায়তার গুরুত্ব বুঝি। তাই আমরা আমাদের সার্ভারের জন্য RAID-10 সহ উচ্চ কার্যক্ষমতার অত্যাধুনিক বিশুদ্ধ SSD ওয়েব হোস্টিং প্যাকেজ ব্যবহার করছি। আপনাকে সাইট লোডিং গতি সম্পর্কে চিন্তা করতে হবে না। এছাড়াও, সর্বোত্তম নিরাপত্তার জন্য আপনার ডেটা সুরক্ষিত এবং বিচ্ছিন্ন রাখতে আমরা আমাদের ওয়েব হোস্টিংয়ের সাথে CloudLinux ব্যবহার করছি। আমাদের গ্রাহক সমর্থন 24x7x365। বাংলাদেশে আমাদের সেরা ওয়েব হোস্টিং প্যাকেজের সাথে, আপনি আমাদের বিশেষজ্ঞ সহায়তা দলে 24×7 অ্যাক্সেসও পাবেন। অবশেষে, আমরা আপনাকে সাধারণ বিলিং অনুশীলনের মাধ্যমে আমাদের ব্যতিক্রমী পরিষেবা প্রদান করার প্রতিশ্রুতি দিচ্ছি। আমাদের কোনো সেটআপ বা লুকানো চার্জ নেই। এ কারণেই আমরা বাংলাদেশের সেরা ওয়েব হোস্টিং কোম্পানি হিসেবে বিবেচিত।</p>
 
 
             {/* --------------------------card part starts---------------------------- */}
 
             
-                <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:gap-10 lg:gap-5 ">
-                    <div className="card1 text-center bg-white border mb-10 pb-10">
-                        <h2 className="text-[#FF0020] text-2xl py-1 font-bold pt-5">Ultimate Pro</h2>
-                        <h2 className="text-xl font-bold py-1">প্রতি বছর খরচ মাত্র <br />5000 টাকা</h2>
-                        <section className="flex flex-col gap-2 pb-5">
+            <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  lg:gap-7 ">
+                    <div className="card1 text-center bg-white border mb-10 pb-10 flex flex-col justify-center items-center pt-5">
+                        <h2 className="text-[#FF0020] text-xl py-1 font-bold pt-5">Ultimate Pro</h2>
+                        <h2 className=" font-bold py-1">প্রতি বছর খরচ মাত্র <br />5000 টাকা</h2>
+                        <section className="flex flex-col gap-2 pb-5 text-sm flex-grow">
                             <p>5 GB Disk Space</p>
                             <p>50 GB Bandwidth</p>
                             <p>5 cPanel Account</p>
@@ -42,10 +42,10 @@ const ResellerServer = () => {
                         <button className="bg-[#FF0020] text-white font-semibold p-2 rounded ">আবেদন করুন</button>
 
                     </div>
-                    <div className="card1 text-center bg-white border mb-10 pb-10">
-                        <h2 className="text-[#FF0020] text-2xl py-1 font-bold pt-5">Super Ultimate Pro</h2>
-                        <h2 className="text-xl font-bold py-1">প্রতি বছর খরচ মাত্র <br />10000 টাকা</h2>
-                        <section className="flex flex-col gap-2 pb-5">
+                    <div className="card1 text-center bg-white border mb-10 pb-10 flex flex-col justify-center items-center pt-5">
+                    <h2 className="text-[#FF0020] text-xl py-1 font-bold pt-5">Super Ultimate Pro</h2>
+                        <h2 className=" font-bold py-1">প্রতি বছর খরচ মাত্র <br />10000 টাকা</h2>
+                        <section className="flex flex-col gap-2 pb-5 text-sm flex-grow">
                             <p>10 GB Disk Space</p>
                             <p>100 GB Bandwidth</p>
                             <p>10 cPanel Account</p>
@@ -62,10 +62,10 @@ const ResellerServer = () => {
                         <button className="bg-[#FF0020] text-white font-semibold p-2 rounded ">আবেদন করুন</button>
 
                     </div>
-                    <div className="card1 text-center bg-white border mb-10 pb-10">
-                        <h2 className="text-[#FF0020] text-2xl py-1 font-bold pt-5">Ultimate Pro MAX</h2>
-                        <h2 className="text-xl font-bold py-1">প্রতি বছর খরচ মাত্র <br />15000 টাকা</h2>
-                        <section className="flex flex-col gap-2 pb-5">
+                    <div className="card1 text-center bg-white border mb-10 pb-10 flex flex-col justify-center items-center pt-5">
+                        <h2 className="text-[#FF0020] text-xl py-1 font-bold pt-5">Ultimate Pro MAX</h2>
+                        <h2 className=" font-bold py-1">প্রতি বছর খরচ মাত্র <br />15000 টাকা</h2>
+                        <section className="flex flex-col gap-2 pb-5 text-sm flex-grow">
                             <p>20 GB Disk Space</p>
                             <p>200 GB Bandwidth</p>
                             <p>20 cPanel Account</p>
@@ -82,10 +82,10 @@ const ResellerServer = () => {
                         <button className="bg-[#FF0020] text-white font-semibold p-2 rounded ">আবেদন করুন</button>
 
                     </div>
-                    <div className="card1 text-center bg-white border mb-10 pb-10">
-                        <h2 className="text-[#FF0020] text-2xl py-1 font-bold pt-5">Super Ultimate Pro Max</h2>
-                        <h2 className="text-xl font-bold py-1">প্রতি বছর খরচ মাত্র <br />20000 টাকা</h2>
-                        <section className="flex flex-col gap-2 pb-5">
+                    <div className="card1 text-center bg-white border mb-10 pb-10 flex flex-col justify-center items-center pt-5 px-2">
+                    <h2 className="text-[#FF0020] text-xl py-1 font-bold pt-5">Super Ultimate Pro Max</h2>
+                        <h2 className=" font-bold py-1">প্রতি বছর খরচ মাত্র <br />20000 টাকা</h2>
+                        <section className="flex flex-col gap-2 pb-5 text-sm flex-grow">
                             <p>50 GB Disk Space</p>
                             <p>500 GB Bandwidth</p>
                             <p>50 cPanel Account</p>

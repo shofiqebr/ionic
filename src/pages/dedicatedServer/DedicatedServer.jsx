@@ -8,9 +8,9 @@ const DedicatedServer = () => {
     return (
         <div className="bg-[#F3F3F3] xl:px-40 2xl:px-96 px-3">
             <h1 className="text-4xl text-center font-bold pt-44 pb-5">LIGHTNING FAST Dedicated HOSTING IN BANGLADESH</h1>
-            <p className="text-z[#E3E3E3] text-center pb-5">Our Virtual Private Server hosting plans are designed that’s are capable of gives you more power than traditional hosting. Our VPS hosting solutions are affordable and easier to manage than a dedicated server. Ideal for heavy traffic websites, our VPS hosting plans is powered by cloud technology managed directly from Bangladeshi data center which starts from 1650 BDT /Month</p>
+            <p className="text-lg text-center pb-5">Our Virtual Private Server hosting plans are designed that’s are capable of gives you more power than traditional hosting. Our VPS hosting solutions are affordable and easier to manage than a dedicated server. Ideal for heavy traffic websites, our VPS hosting plans is powered by cloud technology managed directly from Bangladeshi data center which starts from 1650 BDT /Month</p>
             <br />
-            <p className="text-z[#E3E3E3] text-center pb-5">If you are seeking a managed VPS server then Dianahost will be the best managed VPS server provider of the market. The feature enriched server will give you the most world class browsing and data storage experience. Our Virtual Private Server hosting plans are designed that are capable of giving you more power than traditional hosting. Our VPS hosting solutions are affordable and easier to manage than a dedicated server. Ideal for heavy traffic websites, our VPS hosting plans is powered by cloud technology managed directly from Bangladeshi data center which starts from 1650 BDT /Month
+            <p className="text-lg text-center pb-5">If you are seeking a managed VPS server then Dianahost will be the best managed VPS server provider of the market. The feature enriched server will give you the most world class browsing and data storage experience. Our Virtual Private Server hosting plans are designed that are capable of giving you more power than traditional hosting. Our VPS hosting solutions are affordable and easier to manage than a dedicated server. Ideal for heavy traffic websites, our VPS hosting plans is powered by cloud technology managed directly from Bangladeshi data center which starts from 1650 BDT /Month
 
 </p>
 
@@ -22,11 +22,11 @@ const DedicatedServer = () => {
             <h1 className="text-4xl text-center font-bold pt-20 pb-10">Premium Managed Plesk Dedicated Hosting Plans</h1>
 
             
-                <section className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:gap-10 lg:gap-5 ">
-                    <div className="card1 text-center bg-white border mb-10 pb-10">
-                        <h2 className="text-[#FF0020] text-2xl py-1 font-bold pt-5">cPanel Managed VPS 5</h2>
-                        <h2 className="text-xl font-bold py-1">প্রতি বছর খরচ মাত্র <br />৫০০০ টাকা</h2>
-                        <section className="flex flex-col gap-2 pb-5">
+            <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:gap-10 lg:gap-5 ">
+                    <div className="card1 text-center bg-white border mb-10 pb-10 flex flex-col justify-center items-center pt-5 px-10">
+                        <h2 className="text-[#FF0020] text-xl py-1 font-bold pt-5">cPanel Managed VPS 5</h2>
+                        <h2 className=" font-bold py-1">প্রতি বছর খরচ মাত্র <br />৫০০০ টাকা</h2>
+                        <section className="flex flex-col gap-2 pb-5 text-sm flex-grow">
                             <p>1 x 1.2 GHz vCPU Power</p>
                             <p>50 GB Pure SSD storage</p>
                             <p>2 GB dedicated RAM</p>
@@ -51,10 +51,10 @@ const DedicatedServer = () => {
                         <button className="bg-[#FF0020] text-white font-semibold p-2 rounded ">আবেদন করুন</button>
 
                     </div>
-                    <div className="card1 text-center bg-white border mb-10 pb-10">
-                        <h2 className="text-[#FF0020] text-2xl py-1 font-bold pt-5">cPanel Managed VPS 6</h2>
-                        <h2 className="text-xl font-bold py-1">প্রতি বছর খরচ মাত্র <br />১০০০০ টাকা</h2>
-                        <section className="flex flex-col gap-2 pb-5">
+                    <div className="card1 text-center bg-white border mb-10 pb-10 flex flex-col justify-center items-center pt-5 px-10">
+                        <h2 className="text-[#FF0020] text-xl py-1 font-bold pt-5">cPanel Managed VPS 6</h2>
+                        <h2 className=" font-bold py-1">প্রতি বছর খরচ মাত্র <br />১০০০০ টাকা</h2>
+                        <section className="flex flex-col gap-2 pb-5 text-sm flex-grow">
                             <p>1 x 2 GHz vCPU Power</p>
                             <p>50 GB Pure SSD storage</p>
                             <p>2 GB dedicated RAM</p>
@@ -80,10 +80,10 @@ const DedicatedServer = () => {
 
                     </div>
                  
-                    <div className="card1 text-center bg-white border mb-10 pb-10">
-                        <h2 className="text-[#FF0020] text-2xl py-1 font-bold pt-5">cPanel Managed VPS 6</h2>
-                        <h2 className="text-xl font-bold py-1">প্রতি বছর খরচ মাত্র <br />১৫০০০ টাকা</h2>
-                        <section className="flex flex-col gap-2 pb-5">
+                    <div className="card1 text-center bg-white border mb-10 pb-10 flex flex-col justify-center items-center pt-5 px-10">
+                    <h2 className="text-[#FF0020] text-xl py-1 font-bold pt-5">cPanel Managed VPS 6</h2>
+                        <h2 className=" font-bold py-1">প্রতি বছর খরচ মাত্র <br />১৫০০০ টাকা</h2>
+                        <section className="flex flex-col gap-2 pb-5 text-sm flex-grow">
                             <p>2 vCPU Power</p>
                             <p>50 GB Pure SSD storage</p>
                             <p>2 GB dedicated RAM</p>

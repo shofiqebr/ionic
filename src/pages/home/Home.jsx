@@ -17,17 +17,18 @@ const Home = () => {
     return (
        
             <div className="max-w-screen-xl mx-auto bg-[#F3F3F3] ">
-                <Test/>
-                <Banner/>
-                {/* <RealSolution/> */}
-                <DigitalPartner/>
-            {/* <BannerText/> */}
+               
+                {/* <Banner/> */}
+               
+                {/* <DigitalPartner/> */}
+
+           
    
-            <BrandProduct/>
-            {/* <Product */}
-            <ProductDetails/>
-            {/* <ImportantSubject/> */}
-            <Technologies/>
+            {/* <BrandProduct/> */}
+        
+            {/* <ProductDetails/> */}
+            
+            {/* <Technologies/> */}
             </div>
          
        
