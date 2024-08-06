@@ -19,7 +19,7 @@ import ocean from '../../assets/new logo/ionic-ocean-logo.png'
 
 const ProductDetails = () => {
     return (
-        <div className='pt-5 detailsWidth'>
+        <div className='pb-5 detailsWidth'>
             <section className='flex flex-col justify-center items-center gap-2 mt-10'>
                 <h1 className=' text-[#898989] font-semibold '>আমাদের পণ্যের বিস্তারিত জানুন</h1>
                 <div className='w-10 h-[3px] bg-[#b3b2b2]'></div>
@@ -29,7 +29,7 @@ const ProductDetails = () => {
 
             {/* cards start here */}
 
-            <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 lg:px-16 px-5 pt-10'>
+            <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 lg:px-16 px-5 pt-10 cardGrid'>
                 <div className='pb-10 bg-white pt-3  px-5  flex flex-col gap-4  items-center md:relative group transition duration-300 hover:shadow-xl rounded-md border'>
                     <img className='p-5 w-48' src={ionicErp} alt="" />
                     <h2 className='font-bold '>আইওনিক ইআরপি</h2>

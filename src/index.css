@@ -54,6 +54,10 @@
     width: 73.1%;
     margin-left: 140px;
   }
+  .banner{
+    max-width: 722px !important;
+    margin-left: 155px;
+  }
 
   .bannerWidth{
     width: 63.1% !important;
@@ -73,8 +77,8 @@
    
   }
   .cardWidth{
-    /* width: 78.5% !important; */
-    /* margin-left: 78px; */
+    width: 100% !important;
+    margin-left: 0px !important;
 
   }
   .cards{
@@ -86,26 +90,27 @@
   .cardType{
     font-size: 8px;
   }
-  .brandWidth{
-    max-width: 940px;
-  /* border :2px solid darkblue; */
-  margin-left: 2px;
-  }
+
  
   .imgWidth{
-    width: 752.5px !important;
+    width: 749px !important;
     margin-left: 140px;
     margin-top: -10px !important;
     margin-bottom: 30px !important;
     
   }
  
-  .banner{
-    max-width: 1000px;
+  
+  .brandWidth{
+    max-width: 880px;
+    margin-left: 62px;
+  }
+  .cardGrid{
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   }
   .detailsWidth{
-    max-width: 912px;
-    margin-left: 15px;
+    max-width: 862px;
+    margin-left: 80px;
   }
   .technology{
     max-width: 980px;
@@ -120,10 +125,6 @@
   }
 }
 
-
-
-
- 
 
 @media (min-width: 1280px) {
   .test {
@@ -151,8 +152,11 @@
     padding-right: 75px;
   }
   .banner{
-    width: 76% !important;
-    margin-left: 155px;
+    width: 60% !important;
+    margin-left: 170px;
+  }
+  .childBanner{
+    width: 131%;
   }
   .bannerWidth{
     width: 100% !important;
@@ -175,8 +179,8 @@
    
   }
   .cardWidth{
-    width: 97.5% !important;
-    margin-left: 12px !important;
+    width: 131% !important;
+    margin-left: 0px !important;
 
   }
   .cards{
@@ -184,18 +188,20 @@
   }
  
   .imgWidth{
-    width: 981.5px !important;
+    width: 978px !important;
     margin-left: 150px;
     
   }
   .brandWidth{
-    max-width: 1120px;
-  /* border :2px solid darkblue; */
-  margin-left: 30px;
+    max-width: 1110px;
+    margin-left: 70px;
+  }
+  .cardGrid{
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
   }
   .detailsWidth{
-    max-width: 1090px;
-    margin-left: 50px;
+    max-width: 1012px;
+    margin-left: 97px;
   }
   .technology{
     max-width: 1113px;
@@ -236,10 +242,10 @@
   }
   .banner{
     width: 100% !important;
-    margin-left: 115px;
+    margin-left: 125px;
   }
   .childBanner{
-    width: 106.9%;
+    width: 148.3%;
   }
 
   .bannerWidth{
@@ -264,23 +270,34 @@
     width: 32% !important;
   }
   .cardWidth{
-    width: 103% !important;
-    margin-left: 52px !important;
+    width: 142.7% !important;
+    margin-left: 41px !important;
 
   }
   .cards{
     width: 189px !important;
   }
-  .brandWidth{
-    max-width: 1190px;
-  /* border :2px solid darkblue; */
-  margin-left: 10px;
-  }
+  .cardSection2{
+    margin-right: 343px !important;
+   }
+   .cardSection3{
+    margin-right: 515px !important;
+   }
+   .cardSection4{
+    margin-right: 685px !important;
+   }
+   .cardSection5{
+    margin-right: 857px !important;
+   }
  
   .imgWidth{
-    width: 1061.5px !important;
+    width: 1058px !important;
     margin-left: 150px !important;
    }
+   .brandWidth{
+    max-width: 1210px;
+    margin-left: 65px;
+  }
   
   .detailsWidth{
     max-width: 1140px;
@@ -332,7 +349,7 @@
     margin-left: 75px; */
   }
   .childBanner{
-    width: 110.9%;
+    width: 153.9%;
   }
 
   .bannerWidth{
@@ -355,29 +372,28 @@
    
   }
   .cardWidth{
-    width: 106.9% !important;
+    width: 148.3% !important;
   }
  .cardSection2{
-  margin-right: 355px !important;
+  margin-right: 356px !important;
  }
  .cardSection3{
-  margin-right: 533px !important;
+  margin-right: 535px !important;
  }
  .cardSection4{
-  margin-right: 712px !important;
+  margin-right: 713px !important;
  }
  .cardSection5{
-  margin-right: 890px !important;
+  margin-right: 892px !important;
  }
 
  .imgWidth{
-  width: 1101.5px !important;
+  width: 1098px !important;
   margin-left: 150px !important;
  }
   .brandWidth{
-    max-width: 1250px;
-  /* border :2px solid darkblue; */
-  margin-left: 10px;
+    max-width: 1280px;
+    margin-left: 60px;
   }
  
  
@@ -461,7 +477,7 @@
   }
  
   .imgWidth{
-    width: 1101.5px !important;
+    width: 1098px !important;
     margin-left: 150px !important;
    }
   .brandWidth{
@@ -490,12 +506,6 @@
    
   }
 }
-
-
-
-
-
-
 
 @media (min-width: 1600px) {
   /* .test {
@@ -526,7 +536,11 @@
   } */
   .banner{
     max-width: 1124px;
+    margin-left: 157px;
     
+  }
+  .childBanner{
+    width: 173%;
   }
 
   .bannerWidth{
@@ -552,20 +566,36 @@
    
   }
   .cardWidth{
-     width: 120% !important;
+     width: 170% !important;
   }
   .cards{
     width: 201.3px !important;
   }
+  .cardSection2{
+    margin-right: 356px !important;
+   }
+   .cardSection3{
+    margin-right: 535px !important;
+   }
+   .cardSection4{
+    margin-right: 713px !important;
+   }
+   .cardSection5{
+    margin-right: 892px !important;
+   }
  
   .imgWidth{
-    width: 1101.5px !important;
-    margin-left: 150px !important;
+    
+    width: 1230.5px !important;
+    margin-left: 187px !important;
+   
    }
-  .brandWidth{
-    /* max-width: 1250px; */
-  /* border :2px solid darkblue; */
-  /* margin-left: 10px; */
+   .digitalImg{
+    width: 1230px !important;
+   }
+   .brandWidth{
+    max-width: 1610px;
+    margin-left: 0px;
   }
  
  
@@ -616,8 +646,99 @@
     padding-right: 75px;
   } */
   .banner{
-    /* max-width: 1228px;
-    margin-left: 24px; */
+    max-width: 1124px;
+    margin-left: 197px;
+    
+  }
+  .bannerWidth{
+    /* width: 64.4% !important;
+    margin-left: 40px; */
+  }
+  .bannerTExt{
+    /* width: 60% !important;
+    margin-top: -100px; */
+  }
+  .bannerHeading{
+   /* padding-top: 20px;
+   padding-left: 30px; */
+  }
+  .bannerImg{
+    /* width:60% !important;
+    right: -180px !important; */
+   
+  }
+  .cardWidth{
+    /* width: 94.9% !important;
+    margin-left: 41px; */
+
+  }
+ 
+  .imgWidth{
+    
+    /* width: 1230.5px !important; */
+    margin-left: 227px !important;
+   
+   }
+   /* .digitalImg{
+    width: 1230px !important;
+   } */
+  .brandWidth{
+    max-width: 1350px;
+  margin-left: auto;
+  }
+ 
+ 
+  
+  .detailsWidth{
+    /* max-width: 1170px;
+    margin-left: 60px; */
+  }
+  .technology{
+    /* max-width: 1201px;
+    margin-left: 45px; */
+   
+    
+   
+  }
+  .footerWidth{
+    margin-right: 400px !important;
+    margin-left: 400px !important; 
+  }
+  .footerText{
+    margin-right: 280px !important;
+    margin-left: 280px !important; 
+  }
+}
+
+@media (min-width: 1884px) {
+  /* .test {
+    right: -150px;
+    top: 200px;
+
+  } */
+
+  /* .testSection{
+    width: 145px;
+  } */
+  /* .orangeSquare{
+   
+    width: 145px !important;
+  
+  } */
+ .navWidth{
+    max-width: 1265px;
+    padding-left: 30px;
+  }
+  .blackSquare{
+    margin-right: 219px !important;
+  }
+  /* .navLine{
+    padding-right: 75px;
+  } */
+  .banner{
+    max-width: 1124px;
+    margin-left: 307px;
+    
   }
 
   .bannerWidth{
@@ -644,14 +765,15 @@
   }
  
   .imgWidth{
-    /* max-width: 1175px;
-    margin-left: 59px; */
     
-  }
-  .brandWidth{
-    /* max-width: 1250px; */
-  /* border :2px solid darkblue; */
-  /* margin-left: 10px; */
+    /* width: 1230.5px !important; */
+    margin-left: 347px !important;
+   
+   }
+   .brandWidth{
+    max-width: 1610px;
+    margin-left: auto;
+    margin-right: auto;
   }
  
  
@@ -668,12 +790,12 @@
    
   }
   .footerWidth{
-    margin-right: 400px !important;
-    margin-left: 400px !important; 
+    margin-right: 500px !important;
+    margin-left: 500px !important; 
   }
   .footerText{
-    margin-right: 280px !important;
-    margin-left: 280px !important; 
+    margin-right: 400px !important;
+    margin-left: 400px !important; 
   }
 }
 @media (min-width: 1920px) {
@@ -702,8 +824,9 @@
     padding-right: 75px;
   } */
   .banner{
-    /* max-width: 1228px;
-    margin-left: 24px; */
+    max-width: 704.5px !important;
+    margin-left: 347px;
+    
   }
 
   .bannerWidth{
@@ -724,20 +847,33 @@
    
   }
   .cardWidth{
-    /* width: 94.9% !important;
-    margin-left: 41px; */
+    width: 167.5% !important;
+    margin-left: 40px;
 
   }
+  .cardSection2{
+    margin-right: 394px !important;
+   }
+   .cardSection3{
+    margin-right: 590px !important;
+   }
+   .cardSection4{
+    margin-right: 787px !important;
+   }
+   .cardSection5{
+    margin-right: 982px !important;
+   }
  
   .imgWidth{
-    /* max-width: 1175px;
-    margin-left: 59px; */
     
-  }
-  .brandWidth{
-    /* max-width: 1250px; */
-  /* border :2px solid darkblue; */
-  /* margin-left: 10px; */
+    width: 1200.5px !important;
+    margin-left: 375px !important;
+   
+   }
+   .brandWidth{
+    max-width: 1410px;
+    margin-left: auto;
+    margin-right: auto;
   }
  
  

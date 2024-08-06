@@ -14,9 +14,19 @@ import Technologies from "./Technologies";
 
 
 const Home = () => {
+
+
+//     const screenWidth = screen.width;
+
+// // Get screen height
+// const screenHeight = screen.height;
+
+// console.log(`Screen Width: ${screenWidth}`);
+// console.log(`Screen Height: ${screenHeight}`); 
+
     return (
        
-            <div className="max-w-screen-2xl mx-auto bg-[#F3F3F3] ">
+            <div className=" bg-[#F3F3F3]">
                
                 <Banner/>
                
@@ -24,7 +34,7 @@ const Home = () => {
 
            
    
-            {/* <BrandProduct/> */}
+            <BrandProduct/>
         
             {/* <ProductDetails/> */}
             

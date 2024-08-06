@@ -8,7 +8,7 @@ const ShikkhaChat = () => {
     return (
 
         <div className=' bg-[#F3F3F3]'>
-            <div className='pt-44 max-w-screen-xl mx-auto md:px-10 px-3'>
+            <div className='pt-44 max-w-[1920px] mx-auto md:px-10 px-3'>
             <section className='flex md:flex-row flex-col-reverse gap-10'>
                 <div className='md:w-1/2 '>
                      <section className="text-left ">

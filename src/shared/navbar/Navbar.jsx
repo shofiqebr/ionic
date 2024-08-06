@@ -66,7 +66,7 @@ const Navbar = () => {
   <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content flex flex-col">
     {/* Navbar */}
-    <div className="navbar w-full flex justify-evenly md:justify-between items-center max-w-screen-2xl mx-auto">
+    <div className="navbar w-full flex justify-evenly md:justify-between items-center max-w-[1920] mx-auto">
       <div className="flex-none lg:hidden">
         <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
           <svg
@@ -290,14 +290,16 @@ const Navbar = () => {
 
 
             <section className="bg-[#001B41] h-1    shadowCustom  ">   </section>
-            <div className="max-w-screen-xl md:-mr-[283px] mx-auto -mt-5 xl:mr-6">
+            <div className="max-w-[1920px] md:-mr-[283px] mx-auto -mt-5 xl:mr-6">
             {/* <div className="flex lg:justify-end justify-center gap-3 absolute -top-[13px] xl:right-[376px] lg:right-[] md:right-5 right-10"> */}
-            <div className="navLine flex lg:justify-end justify-center gap-3 xl:mr-[65px] lg:mr-[80px]   max-w-screen-xl blackSquare ">
+            <div className="navLine flex lg:justify-end justify-center gap-3 xl:mr-[65px] lg:mr-[80px]   blackSquare ">
             <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center hidden md:block'>
-           বিক্রয় প্রতিনিধি : 01958442200
+            কাষ্টমার কেয়ার : 01511142320
+          
                   </h1>
             <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center relative'>
-            কাষ্টমার কেয়ার : 01511142320
+            বিক্রয় প্রতিনিধি : 01958442200
+            
                 
                
 

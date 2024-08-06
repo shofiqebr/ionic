@@ -22,12 +22,12 @@ import { Carousel } from 'react-responsive-carousel';
 
 const BrandProduct = () => {
     return (
-        <div className='bg-[#F3F3F3] brandWidth mx-auto'>
-            <section className='flex flex-col justify-center items-center gap-2 mt-10'>
+        <div className='bg-[#F3F3F3] brandWidth mx-auto pb-5'>
+            <section className='flex flex-col justify-center items-center gap-2 mt-5 '>
                 <h1 className='text-[#898989] font-semibold text-center'>আমাদের বিভিন্ন ব্র্যান্ডের পণ্য সমূহ</h1>
                 <div className='w-10 h-[3px] bg-[#b3b2b2]'></div>
             </section>
-            <div className='flex mt-10 flex-col  md:gap-10 gap-20 px-20  md:flex-row max-w-screen-xl mx-auto '>
+            <div className='flex mt-5 flex-col  md:gap-10 gap-20 px-20  md:flex-row max-w-[1920px] mx-auto '>
                 <section>
                     <Carousel 
                         autoPlay
