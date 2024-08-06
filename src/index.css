@@ -31,9 +31,7 @@
     top: 200px;
 
   }
-  /* .blackSquare{
-    margin-right: 355px !important;
-  } */
+ 
   .number{
     font-size: 20px;
   }
@@ -95,8 +93,10 @@
   }
  
   .imgWidth{
-    max-width: 922px;
-    margin-left: 8px;
+    width: 752.5px !important;
+    margin-left: 140px;
+    margin-top: -10px !important;
+    margin-bottom: 30px !important;
     
   }
  
@@ -150,31 +150,33 @@
   .navLine{
     padding-right: 75px;
   }
-  /* .banner{
-    width: 68.3%;
-    margin-left: 120px;
-  } */
-
+  .banner{
+    width: 76% !important;
+    margin-left: 155px;
+  }
   .bannerWidth{
-    width: 59.3% !important;
+    width: 100% !important;
     margin-left: 0px;
+  }
+  .bannerRight{
+    width: 50% !important;
   }
   .bannerTExt{
     width: 60% !important;
     margin-top: -100px;
   }
   .bannerHeading{
-   padding-top: 20px;
-   padding-left: 30px;
+   /* padding-top: 20px; */
+   /* padding-left: 30px; */
   }
   .bannerImg{
-    width:60% !important;
-    right: -60px !important;
+    width:65% !important;
+    right: -110px !important;
    
   }
   .cardWidth{
-    width: 96.5% !important;
-    margin-left: 119px !important;
+    width: 97.5% !important;
+    margin-left: 12px !important;
 
   }
   .cards{
@@ -182,19 +184,14 @@
   }
  
   .imgWidth{
-    max-width: 1094px;
-    margin-left: 50px;
+    width: 981.5px !important;
+    margin-left: 150px;
     
   }
   .brandWidth{
     max-width: 1120px;
   /* border :2px solid darkblue; */
   margin-left: 30px;
-  }
- 
- 
-  .banner{
-    max-width: 1200px;
   }
   .detailsWidth{
     max-width: 1090px;
@@ -232,17 +229,21 @@
    
   }
  .navWidth{
-    max-width: 1260px;
+    max-width: 1060px;
   }
   .navLine{
     padding-right: 75px;
   }
   .banner{
-    max-width: 1200px;
+    width: 100% !important;
+    margin-left: 115px;
+  }
+  .childBanner{
+    width: 106.9%;
   }
 
   .bannerWidth{
-    width: 64.4% !important;
+    width: 70% !important;
     margin-left: 40px;
   }
   .bannerTExt{
@@ -250,24 +251,25 @@
     margin-top: -100px;
   }
   .bannerHeading{
-   padding-top: 20px;
-   padding-left: 30px;
+  /* width: 130% !important; */
   }
-  .bannerImg{
-    width:60% !important;
-    right: -180px !important;
-   
+  .heading1{
+    font-size: 37px !important;
+  }
+  .heading2{
+    font-size: 27px !important;
+  }
+  
+  .bannerRight{
+    width: 32% !important;
   }
   .cardWidth{
-    width: 94.9% !important;
-    margin-left: 41px;
+    width: 103% !important;
+    margin-left: 52px !important;
 
   }
- 
-  .imgWidth{
-    max-width: 1146px;
-    margin-left: 38px;
-    
+  .cards{
+    width: 189px !important;
   }
   .brandWidth{
     max-width: 1190px;
@@ -275,7 +277,10 @@
   margin-left: 10px;
   }
  
- 
+  .imgWidth{
+    width: 1061.5px !important;
+    margin-left: 150px !important;
+   }
   
   .detailsWidth{
     max-width: 1140px;
@@ -315,7 +320,7 @@
   
   } */
  .navWidth{
-    max-width: 1320px;
+    max-width: 1100px;
     
    
   }
@@ -323,8 +328,11 @@
     padding-right: 75px;
   } */
   .banner{
-    max-width: 1228px;
-    margin-left: 24px;
+    /* max-width: 1228px;
+    margin-left: 75px; */
+  }
+  .childBanner{
+    width: 110.9%;
   }
 
   .bannerWidth{
@@ -332,29 +340,40 @@
     margin-left: 40px; */
   }
   .bannerTExt{
-    /* width: 60% !important;
-    margin-top: -100px; */
+    width: 58% !important;
+    padding-bottom: 30px;
+ 
+    /* margin-top: -100px; */
   }
   .bannerHeading{
    /* padding-top: 20px;
    padding-left: 30px; */
   }
   .bannerImg{
-    /* width:60% !important;
-    right: -180px !important; */
+    /* width:0% !important; */
+    right: -220px !important;
    
   }
   .cardWidth{
-    /* width: 94.9% !important;
-    margin-left: 41px; */
+    width: 106.9% !important;
+  }
+ .cardSection2{
+  margin-right: 355px !important;
+ }
+ .cardSection3{
+  margin-right: 533px !important;
+ }
+ .cardSection4{
+  margin-right: 712px !important;
+ }
+ .cardSection5{
+  margin-right: 890px !important;
+ }
 
-  }
- 
-  .imgWidth{
-    max-width: 1175px;
-    margin-left: 59px;
-    
-  }
+ .imgWidth{
+  width: 1101.5px !important;
+  margin-left: 150px !important;
+ }
   .brandWidth{
     max-width: 1250px;
   /* border :2px solid darkblue; */
@@ -404,11 +423,11 @@
   
   } */
  .navWidth{
-    max-width: 1335px;
-    padding-left: 20px;
+    max-width: 1100px;
+    margin-left: 147px;
   }
   .blackSquare{
-    margin-right: 85px !important;
+    margin-right: 105px !important;
   }
   /* .navLine{
     padding-right: 75px;
@@ -442,10 +461,9 @@
   }
  
   .imgWidth{
-    /* max-width: 1175px;
-    margin-left: 59px; */
-    
-  }
+    width: 1101.5px !important;
+    margin-left: 150px !important;
+   }
   .brandWidth{
     /* max-width: 1250px; */
   /* border :2px solid darkblue; */
@@ -495,18 +513,20 @@
   
   } */
  .navWidth{
-    max-width: 1420px;
-    padding-left: 100px;
+    max-width: 1235px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 100px; */
   }
   .blackSquare{
-    margin-right: 165px !important;
+    margin-right: 95px !important;
   }
   /* .navLine{
     padding-right: 75px;
   } */
   .banner{
-    /* max-width: 1228px;
-    margin-left: 24px; */
+    max-width: 1124px;
+    
   }
 
   .bannerWidth{
@@ -514,29 +534,34 @@
     margin-left: 40px; */
   }
   .bannerTExt{
-    /* width: 60% !important;
-    margin-top: -100px; */
+    padding-bottom: 40px ;
   }
   .bannerHeading{
    /* padding-top: 20px;
    padding-left: 30px; */
   }
+  .heading1{
+    font-size: 43px !important;
+  }
+  .heading2{
+    font-size: 31px !important;
+  }
   .bannerImg{
-    /* width:60% !important;
-    right: -180px !important; */
+    width:80% !important;
+    right: -315px !important;
    
   }
   .cardWidth{
-    /* width: 94.9% !important;
-    margin-left: 41px; */
-
+     width: 120% !important;
+  }
+  .cards{
+    width: 201.3px !important;
   }
  
   .imgWidth{
-    /* max-width: 1175px;
-    margin-left: 59px; */
-    
-  }
+    width: 1101.5px !important;
+    margin-left: 150px !important;
+   }
   .brandWidth{
     /* max-width: 1250px; */
   /* border :2px solid darkblue; */
@@ -581,11 +606,11 @@
   
   } */
  .navWidth{
-    max-width: 1450px;
-    padding-left: 135px;
+    max-width: 1235px;
+    /* padding-left: 135px; */
   }
   .blackSquare{
-    margin-right: 205px !important;
+    margin-right: 135px !important;
   }
   /* .navLine{
     padding-right: 75px;
@@ -667,11 +692,11 @@
   
   } */
  .navWidth{
-    max-width: 1570px;
-    padding-left: 255px;
+    max-width: 1235px;
+    /* padding-left: 255px; */
   }
   .blackSquare{
-    margin-right: 316px !important;
+    margin-right: 255px !important;
   }
   /* .navLine{
     padding-right: 75px;

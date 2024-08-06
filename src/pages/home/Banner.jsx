@@ -31,13 +31,13 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
     return (
-        <div className="lg:pt-40 lg:pb-10 pt-32 banner ">
-            <section className="flex xl:mx-16 md:flex-row flex-col  mx-3  " >
+        <div className="lg:pt-40 lg:pb-10 pt-32 banner  ">
+            <section className="flex  md:flex-row flex-col  mx-3 childBanner " >
 
 
                 {/* ------------banner left--------------- */}
 
-                <div className="tempWidth bg-[#0B2A63] text-white flex   flex-col lg:justify-between md:rounded-tl-xl md:rounded-tr-none rounded-t-xl  bannerWidth  md:w-[60%] pl-2 z-10  ">
+                <div className="tempWidth bg-[#0B2A63] text-white flex   flex-col lg:justify-between md:rounded-tl-xl md:rounded-tr-none rounded-t-xl  bannerWidth  md:w-[60%] pl-2 z-20  ">
 
 
              
@@ -46,9 +46,9 @@ const Banner = () => {
                         
                     <div className="bannerHeading pl-5 lg:pl-5 ">
 
-<p className="pb-3 font-bold text-[#FFAA00] text-lg  lg:mt-[135px]  ">আইওনিক কর্পোরেশন</p>
-<h1 className="lg:text-[40px] text-4xl md:text-[34px] font-semibold pb-3 ">বাংলাদেশের একটি বিশ্বস্ত   </h1>
-<h1 className="lg:text-[29px] text-[26px] md:text-[25px] font-semibold lg:pb-8 ">ডিজিটাল আইটি সলিউশন প্রতিষ্ঠান</h1>
+<p className="pb-3 font-bold text-[#FFAA00] text-lg  lg:mt-[135px] xl:mt-[70px]  ">আইওনিক কর্পোরেশন</p>
+<h1 className="lg:text-[40px] xl:text-[32px]  text-4xl md:text-[34px] font-semibold pb-3 heading1 ">বাংলাদেশের একটি বিশ্বস্ত   </h1>
+<h1 className="lg:text-[29px] xl:text-[23px] text-[26px] md:text-[25px] font-semibold lg:pb-8 heading2">ডিজিটাল আইটি সলিউশন প্রতিষ্ঠান</h1>
 
                     </div>
 
@@ -75,7 +75,7 @@ const Banner = () => {
 
 
 
-                        <button className="pl-5 xl:pt-9 lg:pt-[260px] md:pt-[120px]" onClick={() => document.getElementById('my_modal_5').showModal()}>  <p className="bg-[#FFAA00] text-[#001B41] rounded-full p-2 text-[16px] font-extrabold my-10 px-5">
+                        <button className="pl-5 xl:pt-[125px] lg:pt-[260px]  md:pt-[120px] " onClick={() => document.getElementById('my_modal_5').showModal()}>  <p className="bg-[#FFAA00] text-[#001B41] rounded-full p-2 text-[16px] font-extrabold my-10 xl:my-3 px-5">
                             অনুরোধ করুন
                         </p>
                         </button>
@@ -100,7 +100,7 @@ const Banner = () => {
 
                     </div>
                     <div className="relative z-10 lg:w-[500px] md:hidden lg:block  ">
-                        <img className="lg:pt-[10px] lg:ml-5 md:ml-[50px] xl:ml-0  lg:absolute lg:bottom-0 lg:right-0 bannerImg " src={bannerImg} alt="" />
+                        <img className="lg:pt-[10px] lg:ml-5 md:ml-[50px] lg:absolute lg:bottom-0 lg:right-0 bannerImg " src={bannerImg} alt="" />
                     </div>
                 </div>
 
@@ -116,7 +116,7 @@ const Banner = () => {
 
 
 
-                <div className="lg:w-[40%] md:w-[40%] bg-[#001B41] text-white p-5 lg:pl-10 px-5 md:rounded-tr-xl z-20">
+                <div className="lg:w-[40%] md:w-[40%] bg-[#001B41] text-white p-5 lg:pl-10 px-5 md:rounded-tr-xl z-20 bannerRight">
                     <p className=" font-semibold text-[#FFAA00] pb-3 text-lg">আমাদের সেবা সমূহ</p>
 
                             <p className="text-[15px]  text-justify  pr-[18px]">বাংলাদেশে প্রথমবার সবচেয়ে সহজ ও নির্ভূল, ব্যবসা প্রতিষ্ঠান পরিচালনার পূর্নাঙ্গ সমাধান নিয়ে, "আইওনিক কর্পোরেশন" প্রোগ্রামিং ভাষা পাইথন দিয়ে তৈরি, টোটাল সলুয়েশন ইআরপি সফ্টওয়ার উপস্খাপন করলো আপনার জন্য। যে কোন ব্যবসা ও প্রতিষ্ঠান পরিচালনার জন্য প্রতিষ্ঠান ব্যবস্থাপনা ও একাউন্টিং সিস্টেম সহ ১০০+ এর অধিক সমাধানের মডিউল নিয়ে আসলো "আইওনিক কর্পোরেশন"।</p>
@@ -192,7 +192,7 @@ const Banner = () => {
 
 
                     {/* Open the modal using document.getElementById('ID').showModal() method */}
-                    <div className="text-center">
+                    <div className="text-center 2xl:mt-5">
                         <button className="" onClick={() => document.getElementById('my_modal_5').showModal()}>  <p className="bg-[#FFAA00] text-[#001B41] rounded-full p-2 text-[16px]  font-extrabold my-3 px-5 ">
                             অনুরোধ করুন
                         </p>
@@ -238,8 +238,8 @@ const Banner = () => {
                 {/* ----------card part1 start----------- */}
 
                 {/* <section className="lg:grid-cols-6  grid md:grid-cols-3 grid-cols-2 items-center  justify-center pt-3 bg-white xl:mx-16 "> */}
-                    <section className="lg:flex grid grid-cols-2 md:grid-cols-3  items-center ">
-                    <div className="flex flex-col justify-center items-center border-r   py-5 px-3 hover:scale-105 text-center bg-white lg:w-44 cards xl">
+                    <section className="lg:flex grid grid-cols-2 md:grid-cols-3  items-center cardSection1 ">
+                    <div className="flex flex-col justify-center items-center border-r   py-5 px-3 hover:scale-105 text-center bg-white lg:w-44 cards z-10">
 
                         <img className="w-32 pb-5" src={ionicLOgo} />
                         <h4 className="font-bold cardHeading text-">আইওনিক ইআরপি</h4>
@@ -277,9 +277,9 @@ const Banner = () => {
                         <p className="text-[#718095] cardType text-center   text-[13px]">একাউন্টিং ব্যবস্থাপনা সফটওয়্যার</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://goaccount.xyz/">বিস্তারিত</a>
                     </div>
-                    <div className="flex flex-col justify-center items-center border-r   py-5 px-3 hover:scale-105 text-center bg-white lg:w-44 cards">
+                    <div className="flex flex-col justify-center items-center border-r   py-5 px-3 hover:scale-105 text-center bg-white lg:w-44 cards ">
 
-                        <img className="w-32 pb-5" src={shakti} />
+                        <img className="w-32  pb-5" src={shakti} />
                         <h4 className="font-bold cardHeading text-">বিক্রয় শক্তি</h4>
                         <p className="text-[#718095] cardType text-center   text-[13px]"> বিজনেস সফটওয়্যার</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://www.bikroyshakti.com/">বিস্তারিত</a>
@@ -300,7 +300,7 @@ const Banner = () => {
 
 
                 {/* <section className="lg:grid-cols-6 grid md:grid-cols-3 grid-cols-2 items-center  justify-center pt-3 bg-white xl:mx-16 rounded-br-xl  "> */}
-                    <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start items-center lg:mr-[242px]">
+                    <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start items-center lg:mr-[242px] xl:mr-[343px] cardSection2">
 
                     <div className="flex flex-col justify-center items-center border-r   py-5 px-3 hover:scale-105 bg-white lg:w-44 cards">
 
@@ -349,7 +349,7 @@ const Banner = () => {
 
 
                 {/* <section className="lg:grid-cols-6 grid md:grid-cols-3 grid-cols-2 items-center  justify-center pt-3 bg-white xl:mx-16 rounded-br-xl  "> */}
-                <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start items-center lg:mr-[363px]">
+                <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start items-center lg:mr-[363px] xl:mr-[515px]  cardSection3">
                     <div className="flex flex-col justify-center items-center border-r   py-5 px-3 hover:scale-105 bg-white lg:w-44 cards">
 
                         <img className="w-32 pb-5 lg:py-[10.5px]" src={ocean} />
@@ -400,7 +400,7 @@ const Banner = () => {
 
                 {/* <section className="lg:grid-cols-6 grid md:grid-cols-3 grid-cols-2 items-center  justify-center pt-3 bg-white xl:mx-16 rounded-br-xl  ">
                  */}
-                 <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start items-center lg:mr-[484px]">
+                 <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start items-center lg:mr-[484px] xl:mr-[687px]  cardSection4">
 
                     <div className="flex flex-col justify-center items-center border-r   py-[22px] px-3 hover:scale-105 bg-white text-center lg:w-44 cards">
 
@@ -409,7 +409,7 @@ const Banner = () => {
                         <p className="text-[#718095] cardType text-center   text-[13px]">ট্রান্সপোর্ট সফটওয়্যার</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicrepair.com/lander">বিস্তারিত</a>
                     </div>
-                    <div className="flex flex-col justify-center items-center    border-r  py-5 px-3 hover:scale-105 bg-white text-center lg:w-44 cards lg:py-[21.5px]">
+                    <div className="flex flex-col justify-center items-center    border-r  py-5 px-3 hover:scale-105 bg-white text-center lg:w-44 cards lg:py-[21.5px] xl:py-[21.75px]">
 
                         <img className="w-32 pb-5" src={travel} />
                         <h4 className="font-bold cardHeading text-">আইওনিক ট্রাভেল
@@ -447,7 +447,7 @@ const Banner = () => {
 
 
                 {/* <section className="lg:grid-cols-6 lg:grid md:grid-cols-3 grid-cols-2 items-center  justify-center pt-3 bg-white xl:mx-16 rounded-br-xl hidden "> */}
-                <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start  items-center mr-[604px]">
+                <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start  items-center mr-[604px] xl:mr-[857px]  cardSection5">
                     <div className="lg:flex flex-col justify-center items-center border-r   py-5 px-3 hover:scale-105 bg-white lg:w-44 cards hidden">
 
                         <img className="w-32 pb-5" src={pharma} />

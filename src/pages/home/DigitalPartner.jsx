@@ -8,8 +8,8 @@ import global from '../../assets/global.webp'
 
 const DigitalPartner = () => {
     return (
-        <div className="md:px-12 px-3 mt-5 lg:w-[96%] imgWidth mx-auto">
-            <section className="flex px-5 pt-1">
+        <div className=" px-3 mt-5  imgWidth mx-auto">
+            <section className="flex md:px-1 pt-1">
                 {/* <div className="md:w-[20%]">
                     <h1 className="text-4xl font-bold pb-10">Your digital <br /> partner</h1>
                     <ul>
@@ -28,7 +28,7 @@ const DigitalPartner = () => {
                     </ul>
                 </div> */}
                 <div className="">
-                    <img className="rounded-xl hidden md:block md:h-72 lg:h-auto" src={global} alt="" />
+                    <img className="rounded-xl hidden md:block  lg:h-auto" src={global} alt="" />
                 </div>
             </section>
 

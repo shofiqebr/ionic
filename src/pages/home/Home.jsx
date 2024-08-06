@@ -16,11 +16,11 @@ import Technologies from "./Technologies";
 const Home = () => {
     return (
        
-            <div className="max-w-screen-xl mx-auto bg-[#F3F3F3] ">
+            <div className="max-w-screen-2xl mx-auto bg-[#F3F3F3] ">
                
                 <Banner/>
                
-                {/* <DigitalPartner/> */}
+                <DigitalPartner/>
 
            
    

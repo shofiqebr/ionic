@@ -13,10 +13,10 @@ import speechBubble from '../../assets/new logo/speech-bubble.png'
 
 const Footer = () => {
     return (
-        <div className="bg-[#F9F9F9]  md:pt-10 pt-32 md:mx-3 ">
+        <div className="bg-[#F9F9F9]  md:pt-5 pt-10  md:mx-3 ">
             {/* <div className="h-7 bg-white"></div> */}
 
-            <section className='flex flex-col justify-center items-center gap-2 md:mt-16  pt-5 pb-10'>
+            <section className='flex flex-col justify-center items-center gap-2   pt-5 pb-10'>
                 <h1 className=' text-[#898989] font-semibold  text-center'>আইওনিক কর্পোরেশন সাথে অংশীদার হওয়ার ৬ টি কারণ</h1>
                 <div className='w-10 h-[3px] bg-[#b3b2b2]'></div>
             </section>
