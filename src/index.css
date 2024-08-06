@@ -4,9 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900 */
 
 *{
   font-family: "Noto Serif Bengali", serif;
@@ -153,15 +150,15 @@
   .navLine{
     padding-right: 75px;
   }
-  .banner{
-    width: 88.3%;
-    margin-left: 50px;
-  }
-
-  /* .bannerWidth{
-    width: 59.3% !important;
-    margin-left: 55px;
+  /* .banner{
+    width: 68.3%;
+    margin-left: 120px;
   } */
+
+  .bannerWidth{
+    width: 59.3% !important;
+    margin-left: 0px;
+  }
   .bannerTExt{
     width: 60% !important;
     margin-top: -100px;
