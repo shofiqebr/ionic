@@ -29,7 +29,7 @@ const ProductDetails = () => {
 
             {/* cards start here */}
 
-            <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 lg:px-16 px-5 pt-10 cardGrid'>
+            <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 lg:px-16 px-5 md:px-3 pt-10 cardGrid'>
                 <div className='pb-10 bg-white pt-3  px-5  flex flex-col gap-4  items-center md:relative group transition duration-300 hover:shadow-xl rounded-md border'>
                     <img className='p-5 w-48' src={ionicErp} alt="" />
                     <h2 className='font-bold '>আইওনিক ইআরপি</h2>

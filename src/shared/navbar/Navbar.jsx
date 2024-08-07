@@ -290,9 +290,9 @@ const Navbar = () => {
 
 
             <section className="bg-[#001B41] h-1    shadowCustom  ">   </section>
-            <div className="max-w-[1920px] md:-mr-[283px] mx-auto -mt-5 xl:mr-6">
+            {/* <div className="max-w-[1920px] md:-mr-[283px] mx-auto -mt-5"> */}
             {/* <div className="flex lg:justify-end justify-center gap-3 absolute -top-[13px] xl:right-[376px] lg:right-[] md:right-5 right-10"> */}
-            <div className="navLine flex lg:justify-end justify-center gap-3 xl:mr-[65px] lg:mr-[80px]   blackSquare ">
+            <div className="navLine flex  justify-center gap-3 md:ml-[283px] -mt-5 ">
             <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center hidden md:block'>
             কাষ্টমার কেয়ার : 01511142320
           
@@ -320,7 +320,7 @@ const Navbar = () => {
               <RiCloseCircleLine className='text-2xl' />
             </div> */}
             <div className='relative  '>
-              <section className='bg-gradient-to-b from-[#1574C4] to-[#001B42] testSection w-44 rounded-2xl h- px-1 pb-2'>
+              <section className='bg-gradient-to-b from-[#1574C4] to-[#001B42] testSection w-44 rounded-2xl  px-1 pb-2'>
                 <div className='text-white'>
                   <div className='relative'>
                     <img className='-mt-3 absolute -top-10' src={fixedImg} alt="" />
@@ -382,7 +382,7 @@ const Navbar = () => {
 
 
               </div>
-            </div>
+            {/* </div> */}
           
 
             

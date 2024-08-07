@@ -25,7 +25,7 @@ const Technologies = () => {
             </section>
 
            
-            <section className="lg:grid-cols-6 grid md:grid-cols-3 grid-cols-2 items-center  justify-center gap-5 pt-3 mt-5 bg-white xl:mx-20 lg:mx-32 rounded-lg ">
+            <section className="lg:grid-cols-6 grid md:grid-cols-3 grid-cols-2 items-center  justify-center gap-5 pt-3 mt-5 bg-white xl:mx-20 lg:mx-32 md:mx-3 rounded-lg ">
                 <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={python}/>
                 </div>

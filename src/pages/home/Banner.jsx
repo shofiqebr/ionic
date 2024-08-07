@@ -32,7 +32,7 @@ import { Link } from "react-router-dom";
 const Banner = () => {
     return (
         <div className="lg:pt-40 lg:pb-10 pt-32 banner  ">
-            <section className="flex  md:flex-row flex-col   childBanner " >
+            <section className="flex  md:flex-row flex-col   childBanner md:mx-3 " >
 
 
                 {/* ------------banner left--------------- */}
@@ -239,21 +239,21 @@ const Banner = () => {
 
                 {/* <section className="lg:grid-cols-6  grid md:grid-cols-3 grid-cols-2 items-center  justify-center pt-3 bg-white xl:mx-16 "> */}
                     <section className="lg:flex grid grid-cols-2 md:grid-cols-3  items-center cardSection1 ">
-                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 hover:scale-105 text-center bg-white lg:w-44 cards z-10">
+                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 text-center bg-white lg:w-44 cards z-10">
 
                         <img className="w-32 pb-5" src={ionicLOgo} />
                         <h4 className="font-bold cardHeading text-">আইওনিক ইআরপি</h4>
                         <p className="text-[#718095] cardType text-center   text-[13px]"> শিল্প ও উৎপাদন সফটওয়্যার</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicerp.xyz/">বিস্তারিত</a>
                     </div>
-                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 hover:scale-105 text-center bg-white lg:w-44 cards ">
+                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 text-center bg-white lg:w-44 cards ">
 
                         <img className="w-32 pb-5" src={kormochary} />
                         <h4 className="font-bold cardHeading text-">কর্মচারী</h4>
                         <p className="text-[#718095] cardType text-center   text-[13px]"> কর্মচারী ব্যবস্থাপনা সফটওয়্যার</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://karmochary.com/">বিস্তারিত</a>
                     </div>
-                    <div className="flex flex-col justify-center items-center border-r border-b  py-5 px-3 hover:scale-105 text-center bg-white lg:w-44 cards">
+                    <div className="flex flex-col justify-center items-center border-r border-b  py-5 px-3 lg:hover:scale-105 text-center bg-white lg:w-44 cards">
 
                         <img className="w-32 pb-5" src={shikkha} />
                         <h4 className="font-bold cardHeading text-">
@@ -263,21 +263,21 @@ const Banner = () => {
                             <div className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="">বিস্তারিত</div>
                         </Link>
                     </div>
-                    <div className="flex flex-col justify-center items-center border-r border-b  py-5 px-3 hover:scale-105 text-center bg-white lg:w-44 cards">
+                    <div className="flex flex-col justify-center items-center border-r border-b  py-5 px-3 lg:hover:scale-105 text-center bg-white lg:w-44 cards">
 
                         <img className="w-32 pb-5" src={ionicHealth} />
                         <h4 className="font-bold cardHeading text-">আইওনিক হেলথ</h4>
                         <p className="text-[#718095] cardType text-center   text-[13px]"> চিকিৎসা সেবা সফটওয়্যার</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ioniccorporation.com/ionic-hospital/">বিস্তারিত</a>
                     </div>
-                    <div className="flex flex-col justify-center items-center border-r border-b  py-5 px-3 hover:scale-105 text-center bg-white lg:w-44 cards">
+                    <div className="flex flex-col justify-center items-center border-r border-b  py-5 px-3 lg:hover:scale-105 text-center bg-white lg:w-44 cards">
 
                         <img className="w-32 pb-5" src={go} />
                         <h4 className="font-bold cardHeading text-">গো একাউন্ট</h4>
                         <p className="text-[#718095] cardType text-center   text-[13px]">একাউন্টিং ব্যবস্থাপনা সফটওয়্যার</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://goaccount.xyz/">বিস্তারিত</a>
                     </div>
-                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 hover:scale-105 text-center bg-white lg:w-44 cards ">
+                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 text-center bg-white lg:w-44 cards ">
 
                         <img className="w-32  pb-5" src={shakti} />
                         <h4 className="font-bold cardHeading text-">বিক্রয় শক্তি</h4>
@@ -300,9 +300,9 @@ const Banner = () => {
 
 
                 {/* <section className="lg:grid-cols-6 grid md:grid-cols-3 grid-cols-2 items-center  justify-center pt-3 bg-white xl:mx-16 rounded-br-xl  "> */}
-                    <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start items-center lg:mr-[242px] xl:mr-[306px] cardSection2">
+                    <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start items-center lg:mr-[240px] xl:mr-[306px] cardSection2">
 
-                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 hover:scale-105 bg-white lg:w-44 cards">
+                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 bg-white lg:w-44 cards">
 
                         <img className="w-32 pb-5" src={restoraImg} />
                         <h4 className="font-bold cardHeading text-">মাই রেস্তোরাঁ
@@ -310,7 +310,7 @@ const Banner = () => {
                         <p className="text-[#718095] cardType text-center   text-[13px]">  রেস্তোরাঁ  সফটওয়্যার</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://myrestaura.xyz/">বিস্তারিত</a>
                     </div>
-                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 hover:scale-105 bg-white lg:w-44 cards lg:pr-[px]">
+                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 bg-white lg:w-44 cards lg:pr-[px]">
 
                         <img className="w-32 pb-5" src={shopImg} />
                         <h4 className="font-bold cardHeading text-">আইওনিক সপ
@@ -318,14 +318,14 @@ const Banner = () => {
                         <p className="text-[#718095] cardType text-center   text-[13px]"> সপ ম্যানেজমেন্ট সফটওয়্যার</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicshop.xyz/">বিস্তারিত</a>
                     </div>
-                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 hover:scale-105 bg-white lg:w-44 cards">
+                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 bg-white lg:w-44 cards">
 
                         <img className="w-32 pb-5" src={myBhara} />
                         <h4 className="font-bold cardHeading text-">মাই ভাড়া</h4>
                         <p className="text-[#718095] cardType text-center   text-[13px]"> ভাড়া ম্যানেজমেন্ট সফটওয়্যার</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://mybhara.com/">বিস্তারিত</a>
                     </div>
-                    <div className="md:hidden  lg:flex flex flex-col justify-center items-center border-r border-b   py-5 px-3 hover:scale-105 bg-white text-center z-10 lg:w-44 cards">
+                    <div className="md:hidden  lg:flex flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 bg-white text-center z-10 lg:w-44 cards">
 
                         <img className="w-32 pb-5 py-[2px] lg:py-[10px]" src={ionicCorporationLogo} />
                         <h4 className="font-bold  text-[10px] pt-1">আইওনিক কর্পোরেশন
@@ -349,8 +349,8 @@ const Banner = () => {
 
 
                 {/* <section className="lg:grid-cols-6 grid md:grid-cols-3 grid-cols-2 items-center  justify-center pt-3 bg-white xl:mx-16 rounded-br-xl  "> */}
-                <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start items-center lg:mr-[363px] xl:mr-[415px]  cardSection3">
-                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 hover:scale-105 bg-white lg:w-44 cards">
+                <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start items-center lg:mr-[360px] xl:mr-[415px]  cardSection3">
+                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 bg-white lg:w-44 cards">
 
                         <img className="w-32 pb-5 lg:py-[10.5px]" src={ocean} />
                         <h4 className="font-bold cardHeading text-">আইওনিক ওসেন</h4>
@@ -358,7 +358,7 @@ const Banner = () => {
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicocean.com/lander">বিস্তারিত</a>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 hover:scale-105 bg-white lg:w-44 cards lg:py-[20.5px]">
+                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 bg-white lg:w-44 cards lg:py-[20.5px]">
 
                         <img className="w-32 pb-5" src={ionic} />
                         <h4 className="font-bold cardHeading text-">আইওনিক
@@ -366,7 +366,7 @@ const Banner = () => {
                         <p className="text-[#718095] cardType text-center   text-[13px]"> বিজনেস সফটওয়্যার</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://mydiagnostic.xyz/">বিস্তারিত</a>
                     </div>
-                    <div className="flex flex-col justify-center items-center  border-r border-b   px-3 hover:scale-105 bg-white text-center z-10 lg:w-44 cards md:py-[20.6px] py-5">
+                    <div className="flex flex-col justify-center items-center  border-r border-b   px-3 lg:hover:scale-105 bg-white text-center z-10 lg:w-44 cards md:py-[20.6px] py-5">
 
                         <img className="w-32 pb-5" src={tailor} />
                         <h4 className="font-bold cardHeading text-">আইওনিক টেইলার্স</h4>
@@ -374,7 +374,7 @@ const Banner = () => {
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionictailor.com/">বিস্তারিত</a>
                     </div>
 
-                    <div className=" md:hidden flex flex-col justify-center items-center   py-5 px-3 hover:scale-105 bg-white lg:w-44 cards">
+                    <div className=" md:hidden flex flex-col justify-center items-center   py-5 px-3 lg:hover:scale-105 bg-white lg:w-44 cards">
 
                         <img className="w-32 pb-5" src={pharma} />
                         <h4 className="font-bold cardHeading text-[15px]">আইওনিক ফার্মা</h4>
@@ -400,16 +400,16 @@ const Banner = () => {
 
                 {/* <section className="lg:grid-cols-6 grid md:grid-cols-3 grid-cols-2 items-center  justify-center pt-3 bg-white xl:mx-16 rounded-br-xl  ">
                  */}
-                 <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start items-center lg:mr-[484px] xl:mr-[587px]  cardSection4">
+                 <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start items-center lg:mr-[479px] xl:mr-[587px]  cardSection4">
 
-                    <div className="flex flex-col justify-center items-center border-r border-b   py-[22px] px-3 hover:scale-105 bg-white text-center lg:w-44 cards">
+                    <div className="flex flex-col justify-center items-center border-r border-b   py-[22px] px-3 lg:hover:scale-105 bg-white text-center lg:w-44 cards">
 
                         <img className="w-32 pb-5 pt-[1px]" src={transport} />
                         <h4 className="font-bold  text-[12px]">আইওনিক ট্রান্সপোর্ট</h4>
                         <p className="text-[#718095] cardType text-center   text-[13px]">ট্রান্সপোর্ট সফটওয়্যার</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicrepair.com/lander">বিস্তারিত</a>
                     </div>
-                    <div className="flex flex-col justify-center items-center    border-r border-b  py-5 px-3 hover:scale-105 bg-white text-center lg:w-44 cards lg:py-[21.5px] xl:py-[21.75px]">
+                    <div className="flex flex-col justify-center items-center    border-r border-b  py-5 px-3 lg:hover:scale-105 bg-white text-center lg:w-44 cards lg:py-[21.5px] xl:py-[21.75px]">
 
                         <img className="w-32 pb-5" src={travel} />
                         <h4 className="font-bold cardHeading text-">আইওনিক ট্রাভেল
@@ -417,7 +417,7 @@ const Banner = () => {
                         <p className="text-[#718095] cardType text-center   text-[12px]"> ট্রাভেল ম্যানেজমেন্ট সফটওয়্যার</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionictravel.xyz/">বিস্তারিত</a>
                     </div>
-                    <div className=" hidden lg:hidden md:flex flex-col justify-center items-center   py-5 px-3 hover:scale-105 bg-white lg:w-44 cards">
+                    <div className=" hidden lg:hidden md:flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 bg-white lg:w-44 cards">
 
                         <img className="w-32 pb-5" src={pharma} />
                         <h4 className="font-bold cardHeading text-[15px]">আইওনিক ফার্মা</h4>
@@ -447,8 +447,8 @@ const Banner = () => {
 
 
                 {/* <section className="lg:grid-cols-6 lg:grid md:grid-cols-3 grid-cols-2 items-center  justify-center pt-3 bg-white xl:mx-16 rounded-br-xl hidden "> */}
-                <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start  items-center mr-[604px] xl:mr-[757px]  cardSection5">
-                    <div className="lg:flex flex-col justify-center items-center border-r border-b   py-5 px-3 hover:scale-105 bg-white lg:w-44 cards hidden">
+                <section className="lg:flex grid grid-cols-2 md:grid-cols-3 justify-start  items-center mr-[598px] xl:mr-[757px]  cardSection5">
+                    <div className="lg:flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 bg-white lg:w-44 cards hidden ">
 
                         <img className="w-32 pb-5" src={pharma} />
                         <h4 className="font-bold cardHeading text-[15px]">আইওনিক ফার্মা</h4>
@@ -470,14 +470,14 @@ const Banner = () => {
 
                 {/* <section className="  lg:grid-cols-6 md:grid md:grid-cols-3 grid-cols-2 items-center  justify-center pt-3 bg-white xl:mx-16 rounded-br-xl relative ">
                 
-                <div className=" hidden  lg:flex  flex-col justify-center items-center   py-5 px-3 hover:scale-105 bg-white z-10 ">
+                <div className=" hidden  lg:flex  flex-col justify-center items-center   py-5 px-3 lg:hover:scale-105 bg-white z-10 ">
 
             <img className="w-32 pb-5" src={pharma}/>
             <h4 className="font-bold cardHeading text-">আইওনিক ফার্মা</h4>
             <p className="text-[#718095] cardType text-center flex-grow  text-[13px]">ফার্মা ম্যানেজমেন্ট সফটওয়্যার</p>
             <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px]  pt-2" href="https://ionicpharma.xyz//">বিস্তারিত</a>
                 </div>
-                <div className="lg:hidden flex flex-col justify-center items-center  absolute -top-[435px]  right-0 md:-top-[215px] md:w-72 md:h-52 py-5 px-3 hover:scale-105 bg-white ">
+                <div className="lg:hidden flex flex-col justify-center items-center  absolute -top-[435px]  right-0 md:-top-[215px] md:w-72 md:h-52 py-5 px-3 lg:hover:scale-105 bg-white ">
 
                         <img className="w-32 pb-5" src={pharma}/>
                         <h4 className="font-bold cardHeading text-lg">আইওনিক ফার্মা</h4>

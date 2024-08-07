@@ -23,8 +23,8 @@ const Footer = () => {
             {/* <section className="pt-20 pb-14 footerWidth mx-auto">
                 <h1 className=" text-2xl text-center font-bold ">আইওনিক কর্পোরেশন সাথে অংশীদার হওয়ার ৬ <br className="md:block hidden" /> টি কারণ</h1>
             </section> */}
-            <section className="    flex  flex-wrap justify-center items-center  lg:gap-5  md:gap-5 gap-10   md:mx-3 lg:mx-20  footerWidth ">
-                <div className="border bg-[#F7F7F7] md:w-56 footerCard   flex flex-col justify-center items-center p-2">
+            <section className="    flex  flex-wrap justify-center items-center  lg:gap-5  md:gap-5 gap-10   md:mx-3 lg:mx-[80px]  footerWidth ">
+                <div className="border bg-[#F7F7F7] md:w-56  footerCard   flex flex-col justify-center items-center p-2">
                     <p className="text-5xl text-black -mt-8"><img className="w-12" src={speechBubble} alt="" /></p>
                     <h1 className="py-3 font-bold text-xl">দ্রুত প্রতিক্রিয়া</h1>
                     <p className="text-center text-[#898989] text-[16px]">বিক্রয়ের পরে, আপনি যদি কোনও সমস্যার সম্মুখীন হন তবে আমরা দ্রুত পরিচালনা করতে পারি এবং রিমোটের মাধ্যমে সমস্যার প্রশ্নগুলি সমাধান করতে সহায়তা দিতে পারি। আমাদের মাল্টিচ্যানেল সাপোর্ট সিস্টেমের সাহায্যে আমরা দীর্ঘক্ষণ অপেক্ষা না করে এবং আপনার অবস্থানে ভ্রমণ না করে অবিলম্বে যেকোনো সমস্যা সমাধান করতে পারি।</p>

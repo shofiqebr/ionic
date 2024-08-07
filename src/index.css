@@ -28,7 +28,7 @@
 @media (min-width: 1024px) {
   .test {
     right: -135px;
-    top: 200px;
+    top: 120px;
 
   }
  
@@ -48,16 +48,14 @@
     /* margin-left: 60px; */
   }
   .navLine{
-    padding-right: 350px;
+    /* padding-right: 350px; */
+    margin-left: 260px !important;
   }
   .banner{
-    width: 73.1%;
-    margin-left: 140px;
+    width: 73.6%;
+    margin-left: 135px;
   }
-  .banner{
-    max-width: 722px !important;
-    margin-left: 155px;
-  }
+  
 
   .bannerWidth{
     width: 63.1% !important;
@@ -77,8 +75,8 @@
    
   }
   .cardWidth{
-    width: 100% !important;
-    margin-left: 0px !important;
+    width: 97% !important;
+    margin-left: 10px !important;
 
   }
   .cards{
@@ -93,8 +91,8 @@
 
  
   .imgWidth{
-    width: 749px !important;
-    margin-left: 140px;
+    width: 741px !important;
+    margin-left: 135px;
     margin-top: -10px !important;
     margin-bottom: 30px !important;
     
@@ -109,15 +107,16 @@
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   }
   .detailsWidth{
-    max-width: 862px;
+    max-width: 848px;
     margin-left: 80px;
   }
   .technology{
-    max-width: 980px;
+    max-width: 975px;
    
   }
   .footerWidth{
     /* width: 725px !important; */
+    /* margin-left: auto; */
   }
   .footerText{
     margin-right: 140px !important;
@@ -129,15 +128,17 @@
 @media (min-width: 1280px) {
   .test {
     right: -150px;
-    top: 200px;
+    top: 50px;
+   
 
   }
 
   .number{
-    /* font-size: 20px; */
+  
   }
   .testSection{
     width: 145px;
+ 
   }
   .orangeSquare{
     /* left: 0px; */
@@ -145,15 +146,16 @@
     /* font-size: 15px; */
   }
  .navWidth{
-    max-width: 980px;
+    max-width: 970px;
     /* margin-right: 50px !important; */
   }
   .navLine{
-    padding-right: 75px;
+    /* padding-right: 75px; */
+    margin-left: 483px !important;
   }
   .banner{
-    width: 60% !important;
-    margin-left: 170px;
+    width: 56.6% !important;
+    margin-left: 155px;
   }
   .childBanner{
     width: 131%;
@@ -179,17 +181,30 @@
    
   }
   .cardWidth{
-    width: 131% !important;
-    margin-left: 0px !important;
+    width: 131.3% !important;
+    margin-left: 10px !important;
 
   }
   .cards{
     width: 158px !important;
   }
+  
+  .cardSection2{
+    margin-right: 313px !important;
+   }
+   .cardSection3{
+    margin-right: 469.4px !important;
+   }
+   .cardSection4{
+    margin-right: 626px !important;
+   }
+   .cardSection5{
+    margin-right: 783px !important;
+   }
  
   .imgWidth{
-    width: 978px !important;
-    margin-left: 150px;
+    width: 960px !important;
+    margin-left: 155px;
     
   }
   .brandWidth{
@@ -200,12 +215,12 @@
     grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
   }
   .detailsWidth{
-    max-width: 1012px;
-    margin-left: 97px;
+    max-width: 1068px;
+    margin-left: 100px;
   }
   .technology{
-    max-width: 1113px;
-    /* border :2px solid darkblue; */
+    max-width: 1099px;
+   margin-left: 85px;
     
    
   }
@@ -222,7 +237,7 @@
 @media (min-width: 1360px) {
   .test {
     right: -150px;
-    top: 200px;
+    top: 100px;
 
   }
 
@@ -235,14 +250,18 @@
    
   }
  .navWidth{
-    max-width: 1060px;
+    max-width: 1035px;
   }
   .navLine{
-    padding-right: 75px;
+    /* padding-right: 75px; */
+    margin-left: 560px !important;
   }
   .banner{
-    width: 100% !important;
-    margin-left: 125px;
+    width: 52.7% !important;
+    margin-left: 120px;
+  }
+  .bannerImg{
+    right: -190px !important;
   }
   .childBanner{
     width: 148.3%;
@@ -270,42 +289,146 @@
     width: 32% !important;
   }
   .cardWidth{
-    width: 142.7% !important;
-    margin-left: 41px !important;
+    width: 142.8% !important;
+    margin-left: 51px !important;
 
   }
   .cards{
     width: 189px !important;
   }
   .cardSection2{
-    margin-right: 343px !important;
+    margin-right: 337px !important;
    }
    .cardSection3{
-    margin-right: 515px !important;
+    margin-right: 506px !important;
    }
    .cardSection4{
-    margin-right: 685px !important;
+    margin-right: 675px !important;
    }
    .cardSection5{
-    margin-right: 857px !important;
+    margin-right: 843px !important;
    }
  
   .imgWidth{
-    width: 1058px !important;
-    margin-left: 150px !important;
+    width: 1034px !important;
+    margin-left: 160px !important;
    }
    .brandWidth{
-    max-width: 1210px;
-    margin-left: 65px;
+    max-width: 1180px;
+    margin-left: 75px;
   }
   
   .detailsWidth{
-    max-width: 1140px;
-    margin-left: 40px;
+    max-width: 1141px;
+    margin-left: 105px;
   }
   .technology{
-    max-width: 1171px;
-    margin-left: 25px;
+    max-width: 1172px;
+    margin-left: 90px;
+    /* border :2px solid darkblue; */
+    
+   
+  }
+  .footerWidth{
+    margin-right: 300px !important;
+    margin-left: 300px !important; 
+  }
+  .footerText{
+    margin-right: 145px !important;
+    margin-left: 145px !important; 
+  }
+}
+@media (min-width: 1366px) {
+  .test {
+    right: -150px;
+    top: 100px;
+
+  }
+
+  .testSection{
+    width: 145px;
+  }
+  .orangeSquare{
+    
+    width: 145px !important;
+   
+  }
+ .navWidth{
+    max-width: 1035px;
+  }
+  .navLine{
+    /* padding-right: 75px; */
+    margin-left: 560px !important;
+  }
+  .banner{
+    width: 52.7% !important;
+    margin-left: 125px;
+  }
+  .bannerImg{
+    right: -190px !important;
+  }
+  .childBanner{
+    width: 147.4%;
+  }
+
+  .bannerWidth{
+    width: 70% !important;
+    margin-left: 40px;
+  }
+  .bannerTExt{
+    width: 60% !important;
+    margin-top: -100px;
+  }
+  .bannerHeading{
+  /* width: 130% !important; */
+  }
+  .heading1{
+    font-size: 37px !important;
+  }
+  .heading2{
+    font-size: 27px !important;
+  }
+  
+  .bannerRight{
+    width: 32% !important;
+  }
+  .cardWidth{
+    width: 142% !important;
+    margin-left: 51px !important;
+
+  }
+  .cards{
+    width: 189px !important;
+  }
+  .cardSection2{
+    margin-right: 337px !important;
+   }
+   .cardSection3{
+    margin-right: 506px !important;
+   }
+   .cardSection4{
+    margin-right: 675px !important;
+   }
+   .cardSection5{
+    margin-right: 843px !important;
+   }
+ 
+  .imgWidth{
+    width: 1033px !important;
+    margin-left: 164px !important;
+   }
+   .brandWidth{
+    max-width: 1180px;
+    margin-left: 75px;
+  }
+  
+  .detailsWidth{
+    max-width: 1141px;
+    margin-left: 109px;
+  }
+  .technology{
+    max-width: 1172px;
+    margin-left: 92px;
     /* border :2px solid darkblue; */
     
    
@@ -322,11 +445,11 @@
 
 
 @media (min-width: 1400px) {
-  /* .test {
+  .test {
     right: -150px;
-    top: 200px;
+    top: 150px;
 
-  } */
+  }
 
   /* .testSection{
     width: 145px;
@@ -337,19 +460,20 @@
   
   } */
  .navWidth{
-    max-width: 1100px;
+    max-width: 1090px;
     
    
   }
-  /* .navLine{
-    padding-right: 75px;
-  } */
+  .navLine{
+    margin-left: 600px !important;
+  }
   .banner{
-    /* max-width: 1228px;
-    margin-left: 75px; */
+    /* max-width: 1228px; */
+
+    margin-left: 115px;
   }
   .childBanner{
-    width: 153.9%;
+    width: 150.2%;
   }
 
   .bannerWidth{
@@ -372,39 +496,39 @@
    
   }
   .cardWidth{
-    width: 148.3% !important;
+    width: 145% !important;
   }
  .cardSection2{
-  margin-right: 356px !important;
+  margin-right: 353px !important;
  }
  .cardSection3{
-  margin-right: 535px !important;
+  margin-right: 529px !important;
  }
  .cardSection4{
-  margin-right: 713px !important;
+  margin-right: 705px !important;
  }
  .cardSection5{
-  margin-right: 892px !important;
+  margin-right: 881px !important;
  }
 
  .imgWidth{
-  width: 1098px !important;
-  margin-left: 150px !important;
+  width: 1079px !important;
+  margin-left: 155px !important;
  }
   .brandWidth{
-    max-width: 1280px;
-    margin-left: 60px;
+    max-width: 1180px;
+    margin-left: auto;
   }
  
  
   
   .detailsWidth{
-    max-width: 1170px;
-    margin-left: 60px;
+    max-width: 1187px;
+    margin-left: 99px;
   }
   .technology{
-    max-width: 1201px;
-    margin-left: 45px;
+    max-width: 1215px;
+    margin-left: 85px;
    
     
    
@@ -424,11 +548,11 @@
 
 
 @media (min-width: 1440px) {
-  /* .test {
+  .test {
     right: -150px;
-    top: 200px;
+    top: 50px;
 
-  } */
+  }
 
   /* .testSection{
     width: 145px;
@@ -439,18 +563,19 @@
   
   } */
  .navWidth{
-    max-width: 1100px;
-    margin-left: 147px;
+    max-width: 1125px;
+    margin-left: 146px;
   }
-  .blackSquare{
-    margin-right: 105px !important;
+ 
+  .navLine{
+    margin-left: 633px !important;
   }
-  /* .navLine{
-    padding-right: 75px;
-  } */
   .banner{
     /* max-width: 1228px;
     margin-left: 24px; */
+  }
+  .childBanner{
+    width: 150.8%;
   }
 
   .bannerWidth{
@@ -471,14 +596,26 @@
    
   }
   .cardWidth{
-    /* width: 94.9% !important;
-    margin-left: 41px; */
+    width: 145.6% !important;
+    margin-left: 41px;
 
   }
+  .cardSection2{
+    margin-right: 364px !important;
+   }
+   .cardSection3{
+    margin-right: 545px !important;
+   }
+   .cardSection4{
+    margin-right: 727px !important;
+   }
+   .cardSection5{
+    margin-right: 909px !important;
+   }
  
   .imgWidth{
-    width: 1098px !important;
-    margin-left: 150px !important;
+    width: 1116px !important;
+    margin-left: 154px !important;
    }
   .brandWidth{
     /* max-width: 1250px; */
@@ -489,12 +626,12 @@
  
   
   .detailsWidth{
-    /* max-width: 1170px;
-    margin-left: 60px; */
+    max-width: 1223px;
+    /* margin-left: 60px; */
   }
   .technology{
-    /* max-width: 1201px;
-    margin-left: 45px; */
+    max-width: 1253px;
+    /* margin-left: 45px; */
    
     
    
@@ -508,11 +645,11 @@
 }
 
 @media (min-width: 1600px) {
-  /* .test {
+  .test {
     right: -150px;
-    top: 200px;
+    top: 50px;
 
-  } */
+  }
 
   /* .testSection{
     width: 145px;
@@ -523,133 +660,21 @@
   
   } */
  .navWidth{
-    max-width: 1235px;
+    max-width: 1125px;
     margin-left: auto;
-    margin-right: auto;
-    /* padding-left: 100px; */
   }
-  .blackSquare{
-    margin-right: 95px !important;
+ 
+  .navLine{
+    margin-left: 633px !important;
   }
-  /* .navLine{
-    padding-right: 75px;
-  } */
   .banner{
-    max-width: 1124px;
-    margin-left: 157px;
-    
+    /* max-width: 1228px; */
+    margin-left: 194px;
   }
   .childBanner{
-    width: 173%;
+    width: 135.7%;
   }
 
-  .bannerWidth{
-    /* width: 64.4% !important;
-    margin-left: 40px; */
-  }
-  .bannerTExt{
-    padding-bottom: 40px ;
-  }
-  .bannerHeading{
-   /* padding-top: 20px;
-   padding-left: 30px; */
-  }
-  .heading1{
-    font-size: 43px !important;
-  }
-  .heading2{
-    font-size: 31px !important;
-  }
-  .bannerImg{
-    width:80% !important;
-    right: -315px !important;
-   
-  }
-  .cardWidth{
-     width: 170% !important;
-  }
-  .cards{
-    width: 201.3px !important;
-  }
-  .cardSection2{
-    margin-right: 356px !important;
-   }
-   .cardSection3{
-    margin-right: 535px !important;
-   }
-   .cardSection4{
-    margin-right: 713px !important;
-   }
-   .cardSection5{
-    margin-right: 892px !important;
-   }
- 
-  .imgWidth{
-    
-    width: 1230.5px !important;
-    margin-left: 187px !important;
-   
-   }
-   .digitalImg{
-    width: 1230px !important;
-   }
-   .brandWidth{
-    max-width: 1610px;
-    margin-left: 0px;
-  }
- 
- 
-  
-  .detailsWidth{
-    /* max-width: 1170px;
-    margin-left: 60px; */
-  }
-  .technology{
-    /* max-width: 1201px;
-    margin-left: 45px; */
-   
-    
-   
-  }
-  .footerWidth{
-    margin-right: 400px !important;
-    margin-left: 400px !important; 
-  }
-  .footerText{
-    margin-right: 250px !important;
-    margin-left: 250px !important; 
-  }
-}
-@media (min-width: 1680px) {
-  /* .test {
-    right: -150px;
-    top: 200px;
-
-  } */
-
-  /* .testSection{
-    width: 145px;
-  } */
-  /* .orangeSquare{
-   
-    width: 145px !important;
-  
-  } */
- .navWidth{
-    max-width: 1235px;
-    /* padding-left: 135px; */
-  }
-  .blackSquare{
-    margin-right: 135px !important;
-  }
-  /* .navLine{
-    padding-right: 75px;
-  } */
-  .banner{
-    max-width: 1124px;
-    margin-left: 197px;
-    
-  }
   .bannerWidth{
     /* width: 64.4% !important;
     margin-left: 40px; */
@@ -663,59 +688,70 @@
    padding-left: 30px; */
   }
   .bannerImg{
-    /* width:60% !important;
-    right: -180px !important; */
+    /* width:60% !important; */
+    right: -240px !important;
    
   }
   .cardWidth{
-    /* width: 94.9% !important;
-    margin-left: 41px; */
+    width: 131% !important;
+    margin-left: 41px;
 
   }
+  .cardSection2{
+    margin-right: 364px !important;
+   }
+   .cardSection3{
+    margin-right: 545px !important;
+   }
+   .cardSection4{
+    margin-right: 727px !important;
+   }
+   .cardSection5{
+    margin-right: 909px !important;
+   }
  
   .imgWidth{
-    
-    /* width: 1230.5px !important; */
-    margin-left: 227px !important;
-   
+    width: 1116px !important;
+    margin-left: 232.5px !important;
    }
-   /* .digitalImg{
-    width: 1230px !important;
-   } */
   .brandWidth{
-    max-width: 1350px;
-  margin-left: auto;
+    /* max-width: 1250px; */
+  /* border :2px solid darkblue; */
+  /* margin-left: 10px; */
   }
  
  
   
   .detailsWidth{
-    /* max-width: 1170px;
-    margin-left: 60px; */
+    max-width: 1223px;
+    margin-left: 179px;
   }
   .technology{
-    /* max-width: 1201px;
-    margin-left: 45px; */
+    max-width: 1253px;
+    margin-left: 163.5px;
    
     
    
   }
   .footerWidth{
-    margin-right: 400px !important;
-    margin-left: 400px !important; 
+    /* width: 1071px !important;
+    padding-left: 30px !important; */
+   
+   
   }
   .footerText{
-    margin-right: 280px !important;
-    margin-left: 280px !important; 
+    margin-right: 205px !important;
+    margin-left: 205px !important; 
   }
 }
 
-@media (min-width: 1884px) {
-  /* .test {
-    right: -150px;
-    top: 200px;
 
-  } */
+@media (min-width: 1680px) {
+  .test {
+    right: -150px;
+    top: 150px;
+
+  }
 
   /* .testSection{
     width: 145px;
@@ -726,107 +762,19 @@
   
   } */
  .navWidth{
-    max-width: 1265px;
-    padding-left: 30px;
-  }
-  .blackSquare{
-    margin-right: 219px !important;
-  }
-  /* .navLine{
-    padding-right: 75px;
-  } */
-  .banner{
-    max-width: 1124px;
-    margin-left: 307px;
-    
-  }
-
-  .bannerWidth{
-    /* width: 64.4% !important;
-    margin-left: 40px; */
-  }
-  .bannerTExt{
-    /* width: 60% !important;
-    margin-top: -100px; */
-  }
-  .bannerHeading{
-   /* padding-top: 20px;
-   padding-left: 30px; */
-  }
-  .bannerImg{
-    /* width:60% !important;
-    right: -180px !important; */
-   
-  }
-  .cardWidth{
-    /* width: 94.9% !important;
-    margin-left: 41px; */
-
-  }
- 
-  .imgWidth{
-    
-    /* width: 1230.5px !important; */
-    margin-left: 347px !important;
-   
-   }
-   .brandWidth{
-    max-width: 1610px;
+    max-width: 1125px;
     margin-left: auto;
-    margin-right: auto;
   }
  
- 
-  
-  .detailsWidth{
-    /* max-width: 1170px;
-    margin-left: 60px; */
+  .navLine{
+    margin-left: 633px !important;
   }
-  .technology{
-    /* max-width: 1201px;
-    margin-left: 45px; */
-   
-    
-   
-  }
-  .footerWidth{
-    margin-right: 500px !important;
-    margin-left: 500px !important; 
-  }
-  .footerText{
-    margin-right: 400px !important;
-    margin-left: 400px !important; 
-  }
-}
-@media (min-width: 1920px) {
-  /* .test {
-    right: -150px;
-    top: 200px;
-
-  } */
-
-  /* .testSection{
-    width: 145px;
-  } */
-  /* .orangeSquare{
-   
-    width: 145px !important;
-  
-  } */
- .navWidth{
-    max-width: 1235px;
-    /* padding-left: 255px; */
-  }
-  .blackSquare{
-    margin-right: 255px !important;
-  }
-  /* .navLine{
-    padding-right: 75px;
-  } */
   .banner{
-    max-width: 704.5px !important;
-    margin-left: 347px;
-    
+    /* max-width: 1228px; */
+    margin-left: 236px;
+  }
+  .childBanner{
+    width: 128.9%;
   }
 
   .bannerWidth{
@@ -842,60 +790,162 @@
    padding-left: 30px; */
   }
   .bannerImg{
-    /* width:60% !important;
-    right: -180px !important; */
+    /* width:60% !important; */
+    right: -240px !important;
    
   }
   .cardWidth{
-    width: 167.5% !important;
-    margin-left: 40px;
+    width: 124.5% !important;
+    margin-left: 41px;
 
   }
   .cardSection2{
-    margin-right: 394px !important;
+    margin-right: 364px !important;
    }
    .cardSection3{
-    margin-right: 590px !important;
+    margin-right: 545px !important;
    }
    .cardSection4{
-    margin-right: 787px !important;
+    margin-right: 727px !important;
    }
    .cardSection5{
-    margin-right: 982px !important;
+    margin-right: 909px !important;
    }
  
   .imgWidth{
-    
-    width: 1200.5px !important;
-    margin-left: 375px !important;
-   
+    width: 1116px !important;
+    margin-left: 275px !important;
    }
-   .brandWidth{
-    max-width: 1410px;
-    margin-left: auto;
-    margin-right: auto;
+  .brandWidth{
+    /* max-width: 1250px; */
+  /* border :2px solid darkblue; */
+  /* margin-left: 10px; */
   }
  
  
   
   .detailsWidth{
-    /* max-width: 1170px;
-    margin-left: 60px; */
+    max-width: 1223px;
+    margin-left: 220px;
   }
   .technology{
-    /* max-width: 1201px;
-    margin-left: 45px; */
+    max-width: 1253px;
+    margin-left: 203.5px;
    
     
    
   }
   .footerWidth{
-    margin-right: 500px !important;
-    margin-left: 500px !important; 
+    width: 871px !important;
+    margin-left:500px !important;
+   
+   
   }
   .footerText{
-    margin-right: 400px !important;
-    margin-left: 400px !important; 
+    margin-right: 255px !important;
+    margin-left: 255px !important; 
+  }
+}
+
+
+@media (min-width: 1920px) {
+  .test {
+    right: -150px;
+    top: 200px;
+
+  }
+
+  /* .testSection{
+    width: 145px;
+  } */
+  /* .orangeSquare{
+   
+    width: 145px !important;
+  
+  } */
+ .navWidth{
+    max-width: 1125px;
+    margin-left: auto;
+  }
+ 
+  .navLine{
+    margin-left: 633px !important;
+  }
+  .banner{
+    /* max-width: 1228px; */
+    margin-left: 350px;
+  }
+  .childBanner{
+    width: 113.3%;
+  }
+
+  .bannerWidth{
+    /* width: 64.4% !important;
+    margin-left: 40px; */
+  }
+  .bannerTExt{
+    /* width: 60% !important;
+    margin-top: -100px; */
+  }
+  .bannerHeading{
+   /* padding-top: 20px;
+   padding-left: 30px; */
+  }
+  .bannerImg{
+    /* width:60% !important; */
+    right: -240px !important;
+   
+  }
+  .cardWidth{
+    width: 109.4% !important;
+    margin-left: 41px;
+
+  }
+  .cardSection2{
+    margin-right: 365px !important;
+   }
+   .cardSection3{
+    margin-right: 547px !important;
+   }
+   .cardSection4{
+    margin-right: 729px !important;
+   }
+   .cardSection5{
+    margin-right: 913px !important;
+   }
+ 
+  .imgWidth{
+    width: 1121px !important;
+    margin-left: 388px !important;
+   }
+  .brandWidth{
+    /* max-width: 1250px; */
+  /* border :2px solid darkblue; */
+  /* margin-left: 10px; */
+  }
+ 
+ 
+  
+  .detailsWidth{
+    max-width: 1228px;
+    margin-left: 335px;
+  }
+  .technology{
+    max-width: 1256px;
+    margin-left: 320.5px;
+   
+    
+   
+  }
+  .footerWidth{
+    /* width: 1071px !important;
+    padding-left: 30px !important; */
+   
+   
+  }
+  .footerText{
+    margin-right: 375px !important;
+    margin-left: 375px !important; 
   }
 }
    
