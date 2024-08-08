@@ -20,40 +20,44 @@ const Footer = () => {
             </section>
            
             <section className="   grid grid-cols-1 md:grid-cols-3 justify-center items-center  lg:gap-10  md:gap-7 gap-10   md:mx-3 lg:mx-[80px]  footerWidth ">
-                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto  footerCard   flex flex-col justify-center items-center p-2">
+                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto  footerCard   flex flex-col justify-center items-center p-2 mx-1">
                     <p className=" ">
-                    <img className="w-12 -mt-5" src={speechBubble} alt="" />
+                    <img className="w-12 md:-mt-5 mt-4" src={speechBubble} alt="" />
                     </p>
                     <h1 className="py-3 font-bold text-xl">দ্রুত প্রতিক্রিয়া</h1>
                     <p className="text-center text-[#898989] text-[16px]">বিক্রয়ের পরে, আপনি যদি কোনও সমস্যার সম্মুখীন হন তবে আমরা দ্রুত পরিচালনা করতে পারি এবং রিমোটের মাধ্যমে সমস্যার প্রশ্নগুলি সমাধান করতে সহায়তা দিতে পারি। আমাদের মাল্টিচ্যানেল সাপোর্ট সিস্টেমের সাহায্যে আমরা দীর্ঘক্ষণ অপেক্ষা না করে এবং আপনার অবস্থানে ভ্রমণ না করে অবিলম্বে যেকোনো সমস্যা সমাধান করতে পারি।</p>
                 </div>
-                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto footerCard   flex flex-col justify-center items-center p-2 pb-20 py-5">
+                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto footerCard   flex flex-col justify-center items-center p-2 pb-20 py-5 mx-1">
                     <p className=" ">
                         <GiGraduateCap className="text-[#2196F3] text-6xl" />
                     </p>
                     <h1 className="py-3 font-bold text-xl">অভিজ্ঞ পেশাদার</h1>
                     <p className="text-center text-[#898989] text-[16px] flex-grow">আমরা বিগত 14+ বছর ধরে 100+ অভিজ্ঞ ইআরপি ব্রেইনের সাথে ইআরপি সলিউশন পরিবেশন করে আসছি এবং প্রযুক্তি, শিল্প এবং অ্যাপ্লিকেশন প্রকারের বিস্তৃত বর্ণালী সহ বিশ্ব বাজারের প্রয়োজনীয়তা পূরণ করছি।</p>
                 </div>
-                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto footerCard   flex flex-col justify-center items-center p-2 pb-16">
-                    <p className="text-5xl text-black "><img className="w-14" src={msgbubble} alt="" /></p>
+                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto footerCard   flex flex-col justify-center items-center p-2 pb-16 mx-1">
+                    <p className="text-5xl text-black ">
+                    <img className="w-14 pt-5" src={msgbubble} alt="" />
+                    </p>
                     <h1 className="py-3 font-bold text-xl">কোন গীক কথা না</h1>
                     <p className="text-center text-[#898989] text-[16px]">আপনি আপনার প্রশ্নগুলি সরল সহজ যোগাযোগে উত্তর পাওয়ার যোগ্য। আমাদের পরামর্শদাতা এবং বিকাশকারীরা কী ঘটছে তা স্পষ্টভাবে ব্যাখ্যা করবে যাতে আপনি সমস্ত জিনিস খুব সহজেই বুঝতে পারেন এবং মূল্যবান অন্তর্দৃষ্টিগুলি জানেন৷</p>
                 </div>
-                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto footerCard   flex flex-col justify-center items-center p-2 pb-24">
-                    <p className="text-5xl text-black "><img className="w-14" src={msg} alt="" /></p>
+                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto footerCard   flex flex-col justify-center items-center p-2 pb-24 mx-1">
+                    <p className="text-5xl text-black ">
+                    <img className="w-14 pt-5" src={msg} alt="" />
+                    </p>
                     <h1 className="py-3 font-bold text-xl">ব্যবসা কাণ্ডজ্ঞান</h1>
                     <p className="text-center text-[#898989] text-[16px]">আমরা আপনার প্রতিষ্ঠানের জন্য ব্যবসায়িক সুবিধার পুঙ্খানুপুঙ্খ বোঝার থেকে "IONIC ERP" সিস্টেম ডিজাইন, মূল্যায়ন এবং ন্যায়সঙ্গত করি। এটি আপনার দৈনন্দিন ক্রিয়াকলাপকে সহজ করতে সহায়তা করে।</p>
                 </div>
-                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto footerCard   flex flex-col justify-center items-center p-2 pb-20 py-8 ">
+                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto footerCard   flex flex-col justify-center items-center p-2 pb-20 py-8 mx-1 ">
                     <p className="">
-                    <img className="w-14" src={home} alt="" />
+                    <img className="w-14 pt-1" src={home} alt="" />
                     </p>
                     <h1 className="py-3 font-bold text-xl">ওয়ান স্টপ শপ</h1>
                     <p className="text-center text-[#898989] text-[16px] flex-grow">আমরা ইআরপি সফ্টওয়্যারের সমস্ত দিক পরিচালনা করি যা আপনার ব্যবসায়িক কর্মক্ষমতা যেমন ইআরপি ডেভেলপমেন্ট, ইআরপি কাস্টমাইজেশন, ইআরপি প্রশিক্ষণ এবং অন্য যেকোন সম্পর্কিত ইআরপি চাহিদা বাড়াতে সহায়ক হতে পারে।</p>
                 </div>
-                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto footerCard   flex flex-col justify-center items-center p-2 pb-14">
+                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto footerCard   flex flex-col justify-center items-center p-2 pb-14 mx-1">
                     <p className="">
-                    <img className="w-14" src={smile} alt="" /></p>
+                    <img className="w-14 pt-5" src={smile} alt="" /></p>
                     <h1 className="py-3 font-bold text-xl">100% সন্তুষ্টি গ্যারান্টি</h1>
                     <p className="text-center text-[#898989] text-[16px]">আমরা চাই আপনি আমাদের "ERP" সিস্টেম সলিউশনের সাথে সম্পূর্ণ সন্তুষ্ট হন। আমরা আপনার সমস্ত "ERP" সম্পর্কিত উদ্বেগগুলি পরিচালনা করব, যাতে আপনি শান্তভাবে আপনার ব্যবসা পরিচালনা করতে পারেন। কোন ঝামেলা নেই, কোন সমস্যা নেই।</p>
                 </div>

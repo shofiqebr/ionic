@@ -109,10 +109,10 @@ const Navbar = () => {
                           <a href="https://sms.mimsms.com/Identity/Account/Login?ReturnUrl=%2F">
                             <li className='py-2'>এসএমএস লগইন</li>
                           </a>
-                          <a href="https://dash.ionicshop.xyz/login">
+                          <a href="https://erp.ioniccorporation.com/">
                             <li className='py-2'>স্টাফ লগইন</li>
                           </a>
-                          <a href="https://support.ioniccorporation.com/">
+                          <a href="https://erp.ioniccorporation.com/">
                             <li className='py-2'>এজেন্ট হেল্প</li>
                           </a>
                         </ul>
@@ -236,12 +236,12 @@ const Navbar = () => {
           <li className='h-14 flex justify-center font-medium w-full'>এসএমএস লগইন </li>
           </a>
           <hr className='p-0' />
-          <a href="https://dash.ionicshop.xyz/login">
+          <a href="https://erp.ioniccorporation.com/">
           
           <li className='h-14 flex justify-center font-medium w-full'>স্টাফ লগইন </li>
           </a>
           <hr className='p-0' />
-          <a href="https://support.ioniccorporation.com/">
+          <a href="https://erp.ioniccorporation.com/">
           <li className='h-14 flex justify-center font-medium w-full'>এজেন্ট হেল্প</li>
           </a>
           <hr className='p-0' />
