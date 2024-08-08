@@ -591,8 +591,8 @@
    padding-left: 30px; */
   }
   .bannerImg{
-    /* width:60% !important;
-    right: -180px !important; */
+    /* width:60% !important; */
+    right: -236px !important;
    
   }
   .cardWidth{
@@ -712,7 +712,7 @@
  
   .imgWidth{
     width: 1116px !important;
-    margin-left: 232.5px !important;
+    margin-left: 233.5px !important;
    }
   .brandWidth{
     /* max-width: 1250px; */
@@ -724,11 +724,11 @@
   
   .detailsWidth{
     max-width: 1223px;
-    margin-left: 179px;
+    margin-left: 180px;
   }
   .technology{
     max-width: 1253px;
-    margin-left: 163.5px;
+    margin-left: 164.5px;
    
     
    
@@ -836,8 +836,8 @@
    
   }
   .footerWidth{
-    width: 871px !important;
-    margin-left:500px !important;
+    width: 1091px !important;
+    margin-left:390px !important;
    
    
   }
@@ -883,6 +883,12 @@
     /* width: 64.4% !important;
     margin-left: 40px; */
   }
+  .heading1{
+    font-size: 37.5px !important;
+  }
+  .heading2{
+    font-size: 27.5px !important;
+  }
   .bannerTExt{
     /* width: 60% !important;
     margin-top: -100px; */
@@ -901,6 +907,12 @@
     margin-left: 41px;
 
   }
+  .cardType{
+    font-size: 13px;
+  }
+  .cardHeading{
+    font-size: 17px !important;
+  }
   .cardSection2{
     margin-right: 365px !important;
    }
@@ -916,7 +928,7 @@
  
   .imgWidth{
     width: 1121px !important;
-    margin-left: 388px !important;
+    margin-left: 389px !important;
    }
   .brandWidth{
     /* max-width: 1250px; */
@@ -938,14 +950,19 @@
    
   }
   .footerWidth{
-    /* width: 1071px !important;
-    padding-left: 30px !important; */
+    width: 1077px !important;
+   
    
    
   }
   .footerText{
     margin-right: 375px !important;
     margin-left: 375px !important; 
+  }
+  .footerCard{
+    width: 350px !important;
+    height: 300px;
+   
   }
 }
    

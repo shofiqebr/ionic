@@ -8,7 +8,6 @@ import kormochary from '../../assets/new logo/karmochary-logo.png'
 import ionicErp from '../../assets/new logo/ionic-erp-logo.png'
 import tailor from '../../assets/new logo/my-tailor-logo.png'
 import travel from '../../assets/new logo/ionic-travel-logo.png'
-// import ionicCorporationLogo from '../../assets/new logo/ionic-corporation-logo.png'
 import ionicLogo from '../../assets/new logo/ionic-logo.png'
 import transport from '../../assets/new logo/ionic-transport-logo.png'
 import shakti from '../../assets/new logo/bikroy-shakti-logo.png'
@@ -126,19 +125,7 @@ const ProductDetails = () => {
                     <a href="https://ionicerp.xyz/"className='bg-[#0C2A63] text-white p-3 rounded text-sm font-bold  transform lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:block lg:group-hover:-translate-y-5 transition duration-300 ease-in-out lg:absolute  -bottom-9'>বিস্তারিত</a>
 
                     
-                </div>
-                {/* <div  className='pb-10 bg-white p-3 px-5  flex flex-col gap-4  items-center md:relative group transition duration-300 hover:shadow-xl rounded-md border'>
-                    <img className='p-5 w-48' src={ionicCorporationLogo} alt="" />
-                    <h2 className='font-bold '>আইওনিক ওসেন</h2>
-                    <p className='text-center text-[#5e5d5d] flex-grow'>ক্লাউড ভিত্তিক অনলাইন IONIC Ocean সফটওয়্যার দিয়ে আপনার অনলাইন আনলিমিটেড স্টোরেজ ব্যবহার করুন। IONIC Ocean একটি আনলিমিটেড অনলাইন স্টোরেজ ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।</p>
-                <button className='bg-[#E80000] text-white p-3 rounded text-sm font-semibold  transform lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:block lg:group-hover:-translate-y-5 transition duration-300 ease-in-out lg:absolute  -bottom-9'>VISIT NOW</button>
-                </div> */}
-
-
-
-
-
-             
+                </div> 
             </div>
 
 

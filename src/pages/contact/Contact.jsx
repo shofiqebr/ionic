@@ -1,18 +1,5 @@
-// import { useState } from "react";
 import { useForm } from "react-hook-form";
-// import { FaArrowAltCircleRight, FaUser } from "react-icons/fa";
-// import { FaGear } from "react-icons/fa6";
-// import { IoIosText } from "react-icons/io";
-// import { LuArrowUpFromLine } from "react-icons/lu";
-// import { MdCall, MdEmail } from "react-icons/md";
-
-
 const Contact = () => {
-  // const [selectedReason, setSelectedReason] = useState('');
-
-  // const handleButtonClick = (reason) => {
-  //   setSelectedReason(reason);
-  // };
 
   const { register, handleSubmit } = useForm();
   const onSubmit = data => console.log(data);
@@ -28,14 +15,14 @@ const Contact = () => {
     loading="lazy"
     referrerPolicy="no-referrer-when-downgrade"
   ></iframe>
-        <div className="bg-[#F3F3F3] flex gap-10 lg:flex-row flex-col px-2">
+        <div className="bg-[#F3F3F3] flex gap-10 lg:flex-row flex-col justify-center  contact mx-[404px]">
 
 
 
   {/* form part starts */}
 
-      <section className="py-20 lg:w-1/2 lg:pl-80 ">
-      <p className="text-3xl font-bold pb-10">Support Center</p>
+      <section className="py-20 lg:w-1/2 ">
+      <p className="text-3xl font-bold pb-10">গ্রাহক সেবা কেন্দ্র</p>
       <form className="flex flex-col gap-10" onSubmit={handleSubmit(onSubmit)}>
 
       <div>
@@ -50,22 +37,22 @@ const Contact = () => {
       <label htmlFor="firstName" className="flex justify-start items-center pl-3 pb-2">যে সফ্টওয়ারটির ডেমো দেখতে চাচ্ছেন, নির্বাচন করুন</label>
      
       <select className="border w-full h-12 mt-2 rounded px-3"  {...register("software")} >
-      <option value="IONIC Education">IONIC Education</option>
-      <option value="IONIC Hospital">IONIC Hospital</option>
-      <option value="IONIC Shop">IONIC Shop</option>
-      <option value="IONIC ERP">IONIC ERP</option>
-      <option value="IONIC HRM">IONIC HRM</option>
-      <option value="IONIC Pharma">IONIC Pharma</option>
-      <option value="IONIC Repair">IONIC Repair</option>
-      <option value="IONIC Tailor">IONIC Tailor</option>
-      <option value="IONIC Travel">IONIC Travel</option>
-      <option value="IONIC Trasport">IONIC Trasport</option>
-      <option value="IONIC Store">IONIC Store</option>
-      <option value="IONIC Real State">IONIC Real State</option>
-      <option value="Go Account">Go Account</option>
-      <option value="My Bhara">My Bhara</option>
-      <option value="My Restura">My Restura</option>
-      <option value="My Diagnostic">My Diagnostic</option>
+      <option value="IONIC shop">আইওনিক সপ</option>
+                        <option value="Shikkha chat">শিক্ষা চ্যাট</option>
+                        <option value="IONIC ERP">আইওনিক ইআরপি</option>
+                        <option value="IONIC Hospital">আইওনিক হসপিটাল</option>
+                        <option value="IONIC Hospital">কর্মচারী</option>
+                        <option value="My Bhara">মাই ভাড়া</option>
+                        <option value="My Restura">মাই রেস্তোরাঁ</option>
+                        <option value="My Diagnostic">আমার ডায়াগনস্টিক</option>
+                        <option value="IONIC Pharma">আইওনিক ফার্মা</option>
+                        <option value="IONIC Reapir">আইওনিক রিপিয়ার</option>
+                        <option value="IONIC Tailor">আইওনিক টেইলার্স</option>
+                        <option value="IONIC Travel">আইওনিক ট্রাভেল</option>
+                        <option value="IONIC Transport">আইওনিক ট্রান্সপোর্ট</option>
+                        <option value="IONIC Store">বিক্রয় শক্তি</option>
+                        <option value="IONIC Real State">আইওনিক ওসেন</option>
+                        <option value="Go Account">গো একাউন্ট</option>
        
 
         </select>
@@ -83,25 +70,30 @@ const Contact = () => {
 
 
       {/* right section */}
-      <section>
+      <section className="lg:w-1/2">
         <div>
           <div className="py-20 ">
-            <p className="font-bold text-xl pb-5">Our Offices</p>
-            <ul className="bg-white text-[#656464] lg:w-[550px] border p-10 pr-20">
-            <p className="font-semibold text-lg text-black pb-2">Our Office</p>
-              <li>Address: House # 18, Road # 01, Proschim Rayarbag, Jattrabari, Dhaka-1362</li>
-              <li>Mobile : +8801958442200</li>
-              <li>Email: ioniccorporation@gmail.com</li>
-              <li>Website : ioniccorporation.com</li>
+            <p className="font-bold text-xl pb-5">আমাদের অফিস</p>
+            <ul className="bg-white text-[#656464]  border p-10 pr-20">
+            <p className="font-semibold text-lg text-black pb-2">অফিসের ঠিকানা</p>
+           
+              <li>ঠিকানা:  House # 18, Road # 01, Proschim Rayarbag, Jattrabari, Dhaka-1362.</li>
+              <li>বিক্রয় প্রতিনিধি : 01958442200</li>
+              <li>হিসাব বিভাগ : 01911142320</li>
+              <li>ই-মেইল: ioniccorporation@gmail.com</li>
+              <li>ওয়েবসাইট : ioniccorporation.com</li>
             </ul>
           </div>
 
 
-          <div className="bg-white mb-20 lg:w-[550px]">
+          <div className="bg-white mb-20 ">
               <ul className="bg-white text-[#656464]  border p-10 pr-20">
-              <p className="font-semibold text-lg text-black pb-2">Helpline & Business Hours</p>
-                <li>Saturday – Friday 8 AM – 8PM</li>
-                <li>24/7/365 Live Service – Imo/WhatsApp +8801511142320
+              <p className="font-semibold text-lg text-black pb-2">হেল্পলাইন এবং ব্যবসার সময়</p>
+                <li>শনিবার থেকে শুক্রবার পর্যন্ত</li>
+                <li>সকাল ৯ থেকে সন্ধ্যা ৭ পর্যন্ত</li>
+                <li>কাষ্টমার কেয়ার -8801511142320
+                </li>
+                <li> (হোয়াটসঅ্যাপ) (২৪/৭ লাইভ সাপোর্ট)
                 </li>
               </ul>
 
@@ -109,10 +101,10 @@ const Contact = () => {
 
 
 
-          <div className=" mb-20 lg:w-[550px] bg-white text-[#656464]  border p-10 pr-20">
-              <p className="font-semibold text-lg text-black pb-2">Get in touch</p>
+          <div className=" mb-20  bg-white text-[#656464]  border p-10 pr-20">
+              <p className="font-semibold text-lg text-black pb-2">যোগাযোগ করুন</p>
               
-                <p>To receive any of our support 24 hours a day, 7 days a week, call the Imo / WhatsApp number displayed above. Also use this number for details. – Thank you</p>
+                <p>সপ্তাহের 7 দিন 24 ঘন্টা আমাদের সাপোর্ট পেতে, 01511142320 এই (Imo/WhatsApp) নম্বরে কল করুন। এছাড়াও বিস্তারিত জানার জন্য এই 01958442200 নম্বর ব্যবহার করুন. - ধন্যবাদ</p>
               
 
           </div>

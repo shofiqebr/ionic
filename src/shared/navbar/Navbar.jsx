@@ -1,50 +1,21 @@
 import logo from '../../assets/logo.png'
 import basis from '../../assets/basis.svg'
-
 import { FaAngleDown, FaAngleRight } from 'react-icons/fa';
-
-// import ionic from '../../assets/ionic.png'
-// import ocen from '../../assets/osen.png'
-// import talkcell from '../../assets/talksell.png'
-// import protidhoni from '../../assets/protidhoni.png'
 import { Link } from 'react-router-dom';
-// import { RxCross1, RxCross2 } from 'react-icons/rx';
-
 import { useState } from 'react';
 import { RxCross1 } from 'react-icons/rx';
-import fixedImg from '../../assets/new logo/care-call-2.png'; 
-// import ModalBody from '../modalBody/ModalBody';
-
-
-
+import fixedImg from '../../assets/new logo/care-call-4.png'; 
 
 const Navbar = () => {
 
-
-  // const [open, setOpen] = useState(false)
- 
   const [open1, setOpen1] = useState(false)
   const [open2, setOpen2] = useState(false)
   const [open3, setOpen3] = useState(false)
 
-
-
-
- 
     return (
         <div className='fixed  bg-[#F3F3F3] z-50  max-w-[1920px] mx-auto w-full'>
 
-
-     
-     
-          
-        
-      
-
-
-
-
-        {/* gray section */}
+         {/* gray section */}
 
 
             <section className="lg:flex justify-center items-center bg-[#001B41] hidden">
@@ -290,13 +261,11 @@ const Navbar = () => {
 
 
             <section className="bg-[#001B41] h-1    shadowCustom  ">   </section>
-            {/* <div className="max-w-[1920px] md:-mr-[283px] mx-auto -mt-5"> */}
-            {/* <div className="flex lg:justify-end justify-center gap-3 absolute -top-[13px] xl:right-[376px] lg:right-[] md:right-5 right-10"> */}
             <div className="navLine flex  justify-center gap-3 md:ml-[283px] -mt-5 ">
             <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center hidden md:block'>
             কাষ্টমার কেয়ার : 01511142320
           
-                  </h1>
+            </h1>
             <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center relative'>
             বিক্রয় প্রতিনিধি : 01958442200
             
@@ -316,9 +285,6 @@ const Navbar = () => {
       <div className=''>
         
           <div className='absolute top-72 test hidden lg:block'>
-            {/* <div className='absolute -top-8 -right-5 cursor-pointer bg-black rounded-full text-[#FFAA00]' onClick={() => setIsVisible(false)}>
-              <RiCloseCircleLine className='text-2xl' />
-            </div> */}
             <div className='relative  '>
               <section className='bg-gradient-to-b from-[#1574C4] to-[#001B42] testSection w-44 rounded-2xl  px-1 pb-2'>
                 <div className='text-white'>
@@ -330,8 +296,8 @@ const Navbar = () => {
                   </h1>
                   <div className='px-1'>
 
-                  <p className=' xl:pt-36 lg:pt-28  xl:font-semibold text-sm xl:pb-4 lg:pb-2 xl:text-xs text-center lg:text-[11px]'>যখন আপনার ব্যবসার জন্য এন্টারপ্রাইজ রিসোর্স প্ল্যানিং সফ্টওয়্যার বাস্তবায়নের কথা চিন্তায় আসে?</p>
-                  <p className='xl:pb-4 text-xs 2xl:font-medium xl:font-semibold text-center xl:text-xs'>আপনার ব্যবসা এন্টারপ্রাইজ রিসোর্স প্ল্যানিং প্রস্তুত করতে।</p>
+                  <p className=' xl:pt-36 lg:pt-28  xl:font-[400] text-sm xl:pb-4 lg:pb-2 xl:text-sm text-center lg:text-[11px] '>যখন আপনার ব্যবসার জন্য এন্টারপ্রাইজ রিসোর্স প্ল্যানিং সফ্টওয়্যার বাস্তবায়নের কথা চিন্তায় আসে?</p>
+                  <p className='xl:pb-2 text-xs 2xl:font-medium xl:font-[400] text-center xl:text-[16px] text-[#FFAA00] leading-6'>আপনার ব্যবসা এন্টারপ্রাইজ রিসোর্স প্ল্যানিং প্রস্তুত করতে।</p>
                  
 
 
@@ -339,29 +305,13 @@ const Navbar = () => {
 
                 
 <section className="flex flex-col justify-center items-center" > 
-            <div className=' 2xl:text-lg  font-bold  pt-4'>আমাকে কল করুন
-            
-          {/* <FaArrowRightLong className='text-5xl' /> */}
+            <div className=' 2xl:text-lg  font-bold  pt-2'>আমাকে কল করুন
             </div>
-          <div className='xl:text-[22px] lg:text-[18px] font-extrabold  number  text-[#ffbd3a]'>
+          <div className=' lg:text-[19px] font-extrabold  number  text-[#ffbd3a]'>
 
           01958442200
           </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                   </div>
                 </div>
               </section>
@@ -373,19 +323,7 @@ const Navbar = () => {
 
 
                 </h1>
-               
-            
-
-
-
-            
-
-
-              </div>
-            {/* </div> */}
-          
-
-            
+              </div>    
         </div>
     );
 };

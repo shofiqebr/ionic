@@ -1,56 +1,59 @@
-import { FaRegComment, FaRegSmileBeam } from "react-icons/fa";
-import { FaShop } from "react-icons/fa6";
 import { GiGraduateCap } from "react-icons/gi";
-import { IoIosPaper, IoMdChatbubbles } from "react-icons/io";
 import logo from '../../assets/logo.png'
-import cap from '../../assets/new logo/cap.jpg'
 import home from '../../assets/new logo/home.png'
 import msg from '../../assets/new logo/message.png'
 import msgbubble from '../../assets/new logo/messageBubble.png'
 import smile from '../../assets/new logo/smile.png'
 import speechBubble from '../../assets/new logo/speech-bubble.png'
+import ModalBody from "../modalBody/ModalBody";
+import { RxCross2 } from "react-icons/rx";
 
 
 const Footer = () => {
     return (
-        <div className="bg-[#F9F9F9]  md:pt-5 pt-10  md:mx-3 ">
-            {/* <div className="h-7 bg-white"></div> */}
+        <div className="bg-[#F9F9F9]  md:pt-1 pt-10  md:mx-3 ">
+           
 
             <section className='flex flex-col justify-center items-center gap-2   pt-5 pb-10'>
                 <h1 className=' text-[#898989] font-semibold  text-center'>আইওনিক কর্পোরেশন সাথে অংশীদার হওয়ার ৬ টি কারণ</h1>
                 <div className='w-10 h-[3px] bg-[#b3b2b2]'></div>
             </section>
-            {/* <section className="pt-20 pb-14 footerWidth mx-auto">
-                <h1 className=" text-2xl text-center font-bold ">আইওনিক কর্পোরেশন সাথে অংশীদার হওয়ার ৬ <br className="md:block hidden" /> টি কারণ</h1>
-            </section> */}
-            <section className="    flex  flex-wrap justify-center items-center  lg:gap-5  md:gap-5 gap-10   md:mx-3 lg:mx-[80px]  footerWidth ">
-                <div className="border bg-[#F7F7F7] md:w-56  footerCard   flex flex-col justify-center items-center p-2">
-                    <p className="text-5xl text-black -mt-8"><img className="w-12" src={speechBubble} alt="" /></p>
+           
+            <section className="   grid grid-cols-1 md:grid-cols-3 justify-center items-center  lg:gap-10  md:gap-7 gap-10   md:mx-3 lg:mx-[80px]  footerWidth ">
+                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto  footerCard   flex flex-col justify-center items-center p-2">
+                    <p className=" ">
+                    <img className="w-12 -mt-5" src={speechBubble} alt="" />
+                    </p>
                     <h1 className="py-3 font-bold text-xl">দ্রুত প্রতিক্রিয়া</h1>
                     <p className="text-center text-[#898989] text-[16px]">বিক্রয়ের পরে, আপনি যদি কোনও সমস্যার সম্মুখীন হন তবে আমরা দ্রুত পরিচালনা করতে পারি এবং রিমোটের মাধ্যমে সমস্যার প্রশ্নগুলি সমাধান করতে সহায়তা দিতে পারি। আমাদের মাল্টিচ্যানেল সাপোর্ট সিস্টেমের সাহায্যে আমরা দীর্ঘক্ষণ অপেক্ষা না করে এবং আপনার অবস্থানে ভ্রমণ না করে অবিলম্বে যেকোনো সমস্যা সমাধান করতে পারি।</p>
                 </div>
-                <div className="border bg-[#F7F7F7] md:w-56 footerCard   flex flex-col justify-center items-center p-2 pb-20 py-14">
-                    <p className="text-5xl text-black -mt-20"><GiGraduateCap className="text-[#2196F3] text-6xl" /></p>
+                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto footerCard   flex flex-col justify-center items-center p-2 pb-20 py-5">
+                    <p className=" ">
+                        <GiGraduateCap className="text-[#2196F3] text-6xl" />
+                    </p>
                     <h1 className="py-3 font-bold text-xl">অভিজ্ঞ পেশাদার</h1>
                     <p className="text-center text-[#898989] text-[16px] flex-grow">আমরা বিগত 14+ বছর ধরে 100+ অভিজ্ঞ ইআরপি ব্রেইনের সাথে ইআরপি সলিউশন পরিবেশন করে আসছি এবং প্রযুক্তি, শিল্প এবং অ্যাপ্লিকেশন প্রকারের বিস্তৃত বর্ণালী সহ বিশ্ব বাজারের প্রয়োজনীয়তা পূরণ করছি।</p>
                 </div>
-                <div className="border bg-[#F7F7F7] md:w-56 footerCard   flex flex-col justify-center items-center p-2 pb-20">
-                    <p className="text-5xl text-black -mt-8"><img className="w-14" src={msgbubble} alt="" /></p>
+                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto footerCard   flex flex-col justify-center items-center p-2 pb-16">
+                    <p className="text-5xl text-black "><img className="w-14" src={msgbubble} alt="" /></p>
                     <h1 className="py-3 font-bold text-xl">কোন গীক কথা না</h1>
                     <p className="text-center text-[#898989] text-[16px]">আপনি আপনার প্রশ্নগুলি সরল সহজ যোগাযোগে উত্তর পাওয়ার যোগ্য। আমাদের পরামর্শদাতা এবং বিকাশকারীরা কী ঘটছে তা স্পষ্টভাবে ব্যাখ্যা করবে যাতে আপনি সমস্ত জিনিস খুব সহজেই বুঝতে পারেন এবং মূল্যবান অন্তর্দৃষ্টিগুলি জানেন৷</p>
                 </div>
-                <div className="border bg-[#F7F7F7] md:w-56 footerCard   flex flex-col justify-center items-center p-2 pb-24">
-                    <p className="text-5xl text-black -mt-8"><img className="w-14" src={msg} alt="" /></p>
+                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto footerCard   flex flex-col justify-center items-center p-2 pb-24">
+                    <p className="text-5xl text-black "><img className="w-14" src={msg} alt="" /></p>
                     <h1 className="py-3 font-bold text-xl">ব্যবসা কাণ্ডজ্ঞান</h1>
                     <p className="text-center text-[#898989] text-[16px]">আমরা আপনার প্রতিষ্ঠানের জন্য ব্যবসায়িক সুবিধার পুঙ্খানুপুঙ্খ বোঝার থেকে "IONIC ERP" সিস্টেম ডিজাইন, মূল্যায়ন এবং ন্যায়সঙ্গত করি। এটি আপনার দৈনন্দিন ক্রিয়াকলাপকে সহজ করতে সহায়তা করে।</p>
                 </div>
-                <div className="border bg-[#F7F7F7] md:w-56 footerCard   flex flex-col justify-center items-center p-2 pb-20 py-14 ">
-                    <p className="text-5xl text-black -mt-16"><img className="w-14" src={home} alt="" /></p>
+                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto footerCard   flex flex-col justify-center items-center p-2 pb-20 py-8 ">
+                    <p className="">
+                    <img className="w-14" src={home} alt="" />
+                    </p>
                     <h1 className="py-3 font-bold text-xl">ওয়ান স্টপ শপ</h1>
                     <p className="text-center text-[#898989] text-[16px] flex-grow">আমরা ইআরপি সফ্টওয়্যারের সমস্ত দিক পরিচালনা করি যা আপনার ব্যবসায়িক কর্মক্ষমতা যেমন ইআরপি ডেভেলপমেন্ট, ইআরপি কাস্টমাইজেশন, ইআরপি প্রশিক্ষণ এবং অন্য যেকোন সম্পর্কিত ইআরপি চাহিদা বাড়াতে সহায়ক হতে পারে।</p>
                 </div>
-                <div className="border bg-[#F7F7F7] md:w-56 footerCard   flex flex-col justify-center items-center p-2 pb-20">
-                    <p className="text-5xl text-black -mt-8"><img className="w-14" src={smile} alt="" /></p>
+                <div className="border bg-[#F7F7F7] md:w-56 md:h-[350px] lg:w-auto footerCard   flex flex-col justify-center items-center p-2 pb-14">
+                    <p className="">
+                    <img className="w-14" src={smile} alt="" /></p>
                     <h1 className="py-3 font-bold text-xl">100% সন্তুষ্টি গ্যারান্টি</h1>
                     <p className="text-center text-[#898989] text-[16px]">আমরা চাই আপনি আমাদের "ERP" সিস্টেম সলিউশনের সাথে সম্পূর্ণ সন্তুষ্ট হন। আমরা আপনার সমস্ত "ERP" সম্পর্কিত উদ্বেগগুলি পরিচালনা করব, যাতে আপনি শান্তভাবে আপনার ব্যবসা পরিচালনা করতে পারেন। কোন ঝামেলা নেই, কোন সমস্যা নেই।</p>
                 </div>
@@ -66,6 +69,22 @@ const Footer = () => {
                         </p>
                         </button>
                     </div>
+
+
+                    <dialog id="my_modal_5" className="rounded-xl">
+                            <div className=" lg:w-[400px]  bg-[#808285] rounded-xl relative">
+                                <ModalBody />
+
+
+
+                                <div className="modal-action">
+                                    <form method="dialog">
+                                        {/* if there is a button in form, it will close the modal */}
+                                        <button className=" absolute top-2 right-2"><RxCross2 className='text-white text-2xl' /></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </dialog>
                     <p className="text-center pb-5">যখন আপনার ব্যবসার জন্য এন্টারপ্রাইজ রিসোর্স প্ল্যানিং সফ্টওয়্যার বাস্তবায়নের কথা আসে। আপনার একজন বিশেষজ্ঞ প্রয়োজন। আসুন আমরা আপনাকে দেখাই যে <br /> কোনটি সম্পূর্ণ, বহুমুখী এবং শক্তিশালী ইআরপি সলিউশনটি সফল প্রতিষ্ঠানের মত দেখায়।</p>
                     <br />
                     <p className="text-center pb-10">শুধুমাত্র একটির পরিবর্তে বিভিন্ন সফ্টওয়্যারে সময় এবং অর্থ অপচয় করা বন্ধ করুন। আমাদের কোম্পানি অন্বেষণ করুন- IONIC Corporation.</p>

@@ -15,10 +15,11 @@ import wordpress from '../../assets/wordpress-logo.jpg'
 import flutter from '../../assets/flutter.png'
 import andriod from '../../assets/Android-logo.jpg'
 import swift from '../../assets/swift-1.png'
+import native from '../../assets/new logo/react-native.jfif'
 
 const Technologies = () => {
     return (
-        <div className='pb-5 -mt-7 technology mx-auto'>
+        <div className='pb-5 -mt-12 technology mx-auto'>
               <section className='flex flex-col justify-center items-center gap-2 mt-16 '>
                 <h1 className=' text-[#898989] font-semibold  text-center'>আমাদের সফটওয়্যার এর ব্যবহৃত টেকনোলজি সমূহ</h1>
                 <div className='w-10 h-[3px] bg-[#b3b2b2]'></div>
@@ -26,56 +27,59 @@ const Technologies = () => {
 
            
             <section className="lg:grid-cols-6 grid md:grid-cols-3 grid-cols-2 items-center  justify-center gap-5 pt-3 mt-5 bg-white xl:mx-20 lg:mx-32 md:mx-3 rounded-lg ">
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={python}/>
                 </div>
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={frappe}/>
                 </div>
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={javascript}/>
                 </div>
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={react}/>
                 </div>
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={redux}/>
                 </div>
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={firebase}/>
                 </div>
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={plesk}/>
                 </div>
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={ubuntu}/>
                 </div>
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={ionos}/>
                 </div>
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={debian}/>
                 </div>
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={nginx}/>
                 </div>
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={apache}/>
                 </div>
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={figma}/>
                 </div>
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={wordpress}/>
                 </div>
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={flutter}/>
                 </div>
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={andriod}/>
                 </div>
-                <div className="flex flex-col justify-center items-center border-r   p-4 hover:scale-105">
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
                     <img className="w-24 pb-5" src={swift}/>
+                </div>
+                <div className="flex flex-col justify-center items-center    p-4 hover:scale-105">
+                    <img className="w-24 pb-5" src={native}/>
                 </div>
                
               
