@@ -70,7 +70,7 @@ const Navbar = () => {
               </Link>
                
                 <li className='flex justify-center items-center xl:text-lg text-[14px] font-bold group relative'>ডোমেইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
-                        <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-5 font-normal text-base z-50'>
+                        <ul className='group-hover:block hidden absolute xl:top-6 lg:top-5 left-0 bg-white w-56 p-5 font-normal text-base z-50'>
                           <a href="https://ionic.supersite2.myorderbox.com/">
                             <li className='py-1'>আন্তর্জাতিক ডোমেইন</li>
                           </a>
@@ -81,7 +81,7 @@ const Navbar = () => {
                 
                 </li>
                 <li className='flex justify-center items-center xl:text-lg text-[14px] font-bold group relative'>হোস্টিং<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
-                        <ul className='group-hover:block hidden absolute top-6 left-0 bg-white w-56 p-3 text-base  font-normal z-50'>
+                        <ul className='group-hover:block hidden absolute xl:top-6 lg:top-5 left-0 bg-white w-56 p-3 text-base  font-normal z-50'>
                            <Link to='/webHosting'>
                            <li className='py-2'> Plesk প্রিমিয়াম ওয়েব হোস্টিং</li>
                            </Link> 
@@ -99,7 +99,7 @@ const Navbar = () => {
                 </Link>
             
                 <li className='flex justify-center items-center xl:text-lg text-[14px] font-bold group relative'>লগইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> </span>
-                        <ul className='group-hover:block hidden absolute text-base font-normal top-6 left-0 bg-white w-44 p-5 z-50'>
+                        <ul className='group-hover:block hidden absolute text-base font-normal xl:top-6 lg:top-5 left-0 bg-white w-44 p-5 z-50'>
                           <a href="https://ionic.supersite2.myorderbox.com/login.php">
                             <li className='py-2'>ডোমেইন লগইন</li>
                           </a>

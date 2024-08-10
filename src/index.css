@@ -116,7 +116,7 @@
   }
   .footerWidth{
     width: 719px !important;
-    margin-left: 133px !important;
+    margin-left: 135px !important;
   }
   .footerText{
     margin-right: 140px !important;
@@ -253,6 +253,10 @@
   .footerCard{
     width: 240px !important;
   }
+  .dedicated{
+    margin-left: 5px !important;
+    margin-right: 0px !important;
+  }
 }
 
 @media (min-width: 1360px) {
@@ -360,6 +364,18 @@
     margin-right: 145px !important;
     margin-left: 145px !important; 
   }
+  .contact{
+    margin-left: 168px !important;
+  }
+  .webHosting{
+    margin-left: 15px !important;
+  }
+  .dedicated{
+    margin-left: 10px !important;
+  }
+  .reseller{
+    margin-left: 10px;
+  }
 }
 @media (min-width: 1366px) {
   .test {
@@ -463,6 +479,22 @@
   .footerText{
     margin-right: 145px !important;
     margin-left: 145px !important; 
+  }
+  .contact{
+    padding-right:3px ;
+    padding-left: 5px;
+  }
+  .webHosting{
+    margin-left: 15px !important;
+    margin-right: 4px !important;
+  }
+  .dedicated{
+    margin-left: 15px !important;
+    margin-right: 4px !important;
+  }
+  .reseller{
+    margin-left: 15px;
+    margin-right: 4px;
   }
 }
 
@@ -575,7 +607,23 @@
     margin-right: 150px !important;
     margin-left: 150px !important; 
   }
-  
+  .contact{
+    padding-right:0px ;
+    padding-left: 0px;
+    
+  }
+  .webHosting{
+    margin-left: 5px !important;
+    margin-right: 1px !important;
+  }
+  .dedicated{
+    margin-left: 5px !important;
+    margin-right: 1px !important;
+  }
+  .reseller{
+    margin-left: 5px !important;
+    margin-right: 1px !important;
+  }
 }
 
 
@@ -680,6 +728,22 @@
    
    
   }
+  .contact{
+    padding-right:4px ;
+    padding-left: 0px;
+  }
+  .webHosting{
+    margin-left: 10px !important;
+    margin-right: 4px !important;
+  }
+  .dedicated{
+    margin-left: 10px !important;
+    margin-right: 4px !important;
+  }
+  .reseller{
+    margin-left: 10px !important;
+    margin-right: 4px !important;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -763,6 +827,10 @@
   /* border :2px solid darkblue; */
   /* margin-left: 10px; */
   }
+  .contact{
+    padding-right:85px ;
+    padding-left: 75px;
+  }
  
  
   
@@ -789,6 +857,18 @@
   }
   .footerCard{
     width: 280px !important;
+  }
+  .webHosting{
+    margin-left: -135px !important;
+    margin-right: -139px !important;
+  }
+  .dedicated{
+    margin-left: -135px !important;
+    margin-right: -139px !important;
+  }
+  .reseller{
+    margin-left: -135px !important;
+    margin-right: -139px !important;
   }
 }
 
@@ -894,6 +974,22 @@
   }
   .footerCard{
     width: 300px !important;
+  }
+  .contact{
+    padding-right:124px ;
+    padding-left: 115px;
+  }
+  .webHosting{
+    margin-left: -95px !important;
+    margin-right: -100px !important;
+  }
+  .dedicated{
+    margin-left: -95px !important;
+    margin-right: -100px !important;
+  }
+  .reseller{
+    margin-left: -95px !important;
+    margin-right: -100px !important;
   }
 }
 
@@ -1014,6 +1110,22 @@
     width: 350px !important;
     height: 300px;
    
+  }
+  .contact{
+    padding-right:245px ;
+    padding-left: 235px;
+  }
+  .webHosting{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+  .dedicated{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+  .reseller{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
   }
 }
    

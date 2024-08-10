@@ -5,8 +5,8 @@ const Contact = () => {
   const onSubmit = data => console.log(data);
 
     return (
-      <div >
-        <iframe
+      <div className="mx-[2px]" >
+        <iframe 
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.2614811050375!2d90.45120552592653!3d23.702354640618037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b74993c45fad%3A0x4036eaf54121ad53!2sIONIC%20Corporation!5e0!3m2!1sbn!2sbd!4v1720508977665!5m2!1sbn!2sbd"
     className="w-full h-[600px] pt-44"
 
@@ -15,15 +15,18 @@ const Contact = () => {
     loading="lazy"
     referrerPolicy="no-referrer-when-downgrade"
   ></iframe>
-        <div className="bg-[#F3F3F3] flex gap-10 lg:flex-row flex-col justify-center  contact mx-[404px]">
+        <div className="bg-[#F3F3F3] flex gap-10 lg:flex-row flex-col justify-center  contact lg:mx-[141px] xl:mx-[158px] text-black">
 
 
 
   {/* form part starts */}
 
-      <section className="py-20 lg:w-1/2 ">
-      <p className="text-3xl font-bold pb-10">গ্রাহক সেবা কেন্দ্র</p>
-      <form className="flex flex-col gap-10" onSubmit={handleSubmit(onSubmit)}>
+
+
+            {/* ------------left section-------------- */}
+      <section className="pt-10 lg:w-1/2 ">
+      <p className="text-3xl font-bold pb-10 text-center text-black">গ্রাহক সেবা কেন্দ্র</p>
+      <form className="flex flex-col gap-5" onSubmit={handleSubmit(onSubmit)}>
 
       <div>
       <label htmlFor="firstName" className="flex justify-start items-center pl-3 pb-2">আপনার নাম</label>
@@ -69,12 +72,12 @@ const Contact = () => {
 
 
 
-      {/* right section */}
-      <section className="lg:w-1/2">
-        <div>
-          <div className="py-20 ">
-            <p className="font-bold text-xl pb-5">আমাদের অফিস</p>
-            <ul className="bg-white text-[#656464]  border p-10 pr-20">
+      {/* ---------------right section------------------ */}
+      <section className="lg:w-1/2 ">
+        <div className="">
+          <div className="pt-0 lg:pt-10 ">
+            <p className="font-bold text-3xl pb-5 lg:pb-[45px] text-center">আমাদের অফিস</p>
+            <ul className="bg-white text-[#656464]  border pl-5 py-5">
             <p className="font-semibold text-lg text-black pb-2">অফিসের ঠিকানা</p>
            
               <li>ঠিকানা:  House # 18, Road # 01, Proschim Rayarbag, Jattrabari, Dhaka-1362.</li>
@@ -86,14 +89,14 @@ const Contact = () => {
           </div>
 
 
-          <div className="bg-white mb-20 ">
-              <ul className="bg-white text-[#656464]  border p-10 pr-20">
+          <div className="bg-white">
+              <ul className="bg-white text-[#656464]  border pl-5 py-5">
               <p className="font-semibold text-lg text-black pb-2">হেল্পলাইন এবং ব্যবসার সময়</p>
                 <li>শনিবার থেকে শুক্রবার পর্যন্ত</li>
                 <li>সকাল ৯ থেকে সন্ধ্যা ৭ পর্যন্ত</li>
-                <li>কাষ্টমার কেয়ার -8801511142320
+                <li>কাষ্টমার কেয়ার -8801511142320(হোয়াটসঅ্যাপ)
                 </li>
-                <li> (হোয়াটসঅ্যাপ) (২৪/৭ লাইভ সাপোর্ট)
+                <li>  (২৪/৭ লাইভ সাপোর্ট)
                 </li>
               </ul>
 
@@ -101,10 +104,10 @@ const Contact = () => {
 
 
 
-          <div className=" mb-20  bg-white text-[#656464]  border p-10 pr-20">
-              <p className="font-semibold text-lg text-black pb-2">যোগাযোগ করুন</p>
+          <div className=" mb-10  bg-white text-[#656464]  border pl-5 py-5">
+              <p className="font-semibold text-lg text-black pb-2 ">যোগাযোগ করুন</p>
               
-                <p>সপ্তাহের 7 দিন 24 ঘন্টা আমাদের সাপোর্ট পেতে, 01511142320 এই (Imo/WhatsApp) নম্বরে কল করুন। এছাড়াও বিস্তারিত জানার জন্য এই 01958442200 নম্বর ব্যবহার করুন. - ধন্যবাদ</p>
+                <p className="md:pr-32">সপ্তাহের 7 দিন 24 ঘন্টা আমাদের সাপোর্ট পেতে, 01511142320 এই (Imo/WhatsApp) নম্বরে কল করুন। এছাড়াও বিস্তারিত জানার জন্য এই 01958442200 নম্বর ব্যবহার করুন. - ধন্যবাদ</p>
               
 
           </div>
