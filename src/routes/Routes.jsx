@@ -6,6 +6,9 @@ import WebHosting from "../pages/webHosting/WebHosting";
 import ResellerServer from "../pages/resellerServer/ResellerServer";
 import DedicatedServer from "../pages/dedicatedServer/DedicatedServer";
 import ShikkhaChat from "../pages/shikkhaChat/ShikkhaChat";
+import Main from "./Main";
+import Home2 from "../pages/ionicerp/home/home2/Home2";
+
 
 
 
@@ -40,4 +43,14 @@ export const router = createBrowserRouter([
         },
       ]
     },
+    {
+        path: "/home2",
+        element: <Main/>,
+        children:[
+            {
+                path:'/home2',
+                element:<Home2/>
+            }
+        ]
+    }
   ]);

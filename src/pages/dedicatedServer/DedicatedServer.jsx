@@ -22,7 +22,8 @@ const DedicatedServer = () => {
             <h1 className="lg:text-xl 2xl:text-4xl text-center font-bold pt-10 pb-5">Premium Managed Plesk Dedicated Hosting Plans</h1>
 
             
-            <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:gap-10 lg:gap-5 ">
+            <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:gap-10 
+            gap-5 ">
                     <div className="card1 text-center bg-white border mb- pb-10 flex flex-col justify-center items-center pt-5 px-10">
                         <h2 className="text-[#FF0020]  2xl:text-xl lg:text-[12.9px]  py-1 font-bold pt-5">cPanel Managed VPS 5</h2>
                         <h2 className=" font-bold  py-1 lg:text-[13px]">প্রতি বছর খরচ মাত্র <br />৫০০০ টাকা</h2>

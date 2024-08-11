@@ -1,12 +1,15 @@
-import logo from '../../assets/logo.png'
-import basis from '../../assets/basis.svg'
+import logo from '../../../../assets/logo.png'
+import basis from '../../../../assets/basis.svg'
+import ionicErpLogo from '../../../../assets/new logo/ionic-erp-logo.png'
+
 import { FaAngleDown, FaAngleRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { RxCross1 } from 'react-icons/rx';
-import fixedImg from '../../assets/new logo/care-call-4.png'; 
+import fixedImg from '../../../../assets/new logo/care-call-4.png'; 
 
-const Navbar = () => {
+
+const NavbarErp = () => {
 
   const [open1, setOpen1] = useState(false)
   const [open2, setOpen2] = useState(false)
@@ -27,7 +30,7 @@ const Navbar = () => {
 
 
 
-            {/* main navbar */}
+            {/* main navbarErp */}
 
 
 
@@ -36,7 +39,7 @@ const Navbar = () => {
             <div className="drawer navWidth mx-auto ">
   <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content flex flex-col">
-    {/* Navbar */}
+    {/* NavbarErp */}
     <div className="navbar w-full flex justify-evenly md:justify-between items-center max-w-[1920] mx-auto">
       <div className="flex-none lg:hidden">
         <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
@@ -59,29 +62,19 @@ const Navbar = () => {
 
       <Link to='/'>
       <div className="mx-2 lg:ml-0 md:ml-32 ml-10 flex-1 px-2">
-        <img className='w-44' src={logo} alt="" />
+        <img className='w-44 ' src={ionicErpLogo} alt="" />
       </div>
       </Link>
 
         <div className='lg:block hidden'>
             <ul className='flex justify-center items-center gap-2'>
               <Link to='/'>
-                <li className='xl:text-lg text-[11px] font-bold'>হোম <span className='opacity-30'>|</span> </li>
+                <li className='xl:text-lg text-[14px] font-bold'>হোম <span className='opacity-30'>|</span> </li>
               </Link>
-               
-                <li className='flex justify-center items-center xl:text-lg text-[11px] font-bold group relative'>সেবা ও পণ্য সমূহ<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
-                        <ul className='group-hover:block hidden absolute xl:top-6 lg:top-4 left-0 bg-white w-56 p-5 font-normal text-base z-50'>
-                          <a href="https://ionic.supersite2.myorderbox.com/">
-                            <li className='py-1'>আওনিক ইআরপি</li>
-                          </a>
-                          <a href="https://bdia.btcl.com.bd/">
-                            <li className='py-1'>কর্মচারি</li>
-                          </a>
-                        </ul>
-                
-                </li>
-                <li className='flex justify-center items-center xl:text-lg text-[11px] font-bold group relative'>ডোমেইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
-                        <ul className='group-hover:block hidden absolute xl:top-6 lg:top-4 left-0 bg-white w-56 p-5 font-normal text-base z-50'>
+              <li className='xl:text-lg text-[14px] font-bold'>কোম্পানি <span className='opacity-30'>|</span> </li>
+              {/* হোম কোম্পানি | শিল্প খাত সমূহ সেবা সমূহ পণ্য সমূহ মূল্য | টিউটোরিয়াল */}
+                <li className='flex justify-center items-center xl:text-lg text-[14px] font-bold group relative'>শিল্প খাত সমূহ<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
+                        <ul className='group-hover:block hidden absolute xl:top-6 lg:top-5 left-0 bg-white w-56 p-5 font-normal text-base z-50'>
                           <a href="https://ionic.supersite2.myorderbox.com/">
                             <li className='py-1'>আন্তর্জাতিক ডোমেইন</li>
                           </a>
@@ -91,53 +84,25 @@ const Navbar = () => {
                         </ul>
                 
                 </li>
-                <li className='flex justify-center items-center xl:text-lg text-[11px] font-bold group relative'>হোস্টিং<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
-                        <ul className='group-hover:block hidden absolute xl:top-6 lg:top-4 left-0 bg-white w-56 p-3 text-base  font-normal z-50'>
-                           <Link to='/webHosting'>
-                           <li className='py-2'> Plesk প্রিমিয়াম ওয়েব হোস্টিং</li>
-                           </Link> 
-                           <Link to='/dedicatedServer'>
-                            <li className='py-2'>Plesk ডেডিকেটেড সার্ভার</li>
-                           </Link>
-                            <Link to='/resellerServer'>
-                            <li className='py-2'>Plesk রিসেলার সার্ভার</li>
-                            </Link>
-                        </ul>
-                    
-                </li>
+               
                 <Link to='/contact'>
-                <li className='xl:text-lg text-[11px] font-bold'>যোগাযোগ <span className='opacity-30'>|</span></li>
+                <li className='xl:text-lg text-[14px] font-bold'>টিউটোরিয়াল<span className='opacity-30'>|</span></li>
                 </Link>
             
-                <li className='flex justify-center items-center xl:text-lg text-[11px] font-bold group relative'>লগইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> </span>
-                        <ul className='group-hover:block hidden absolute text-base font-normal xl:top-6 lg:top-4 left-0 bg-white w-44 p-5 z-50'>
-                          <a href="https://ionic.supersite2.myorderbox.com/login.php">
-                            <li className='py-2'>ডোমেইন লগইন</li>
-                          </a>
-                          <a href="https://vmi699873.contaboserver.net:8443/login_up.php?success_redirect_url=%2F">
-                            <li className='py-2'>হোস্টিং লগইন</li>
-                          </a>
-                          <a href="https://sms.mimsms.com/Identity/Account/Login?ReturnUrl=%2F">
-                            <li className='py-2'>এসএমএস লগইন</li>
-                          </a>
-                          <a href="https://erp.ioniccorporation.com/">
-                            <li className='py-2'>স্টাফ লগইন</li>
-                          </a>
-                          <a href="https://erp.ioniccorporation.com/">
-                            <li className='py-2'>এজেন্ট হেল্প</li>
-                          </a>
-                        </ul>
-                
-                </li>
+               
             </ul>
         </div>
     
       <div className="hidden flex-none md:block">
         
-          {/* Navbar menu content here */}
+          {/* NavbarErp menu content here */}
+
+          <Link>
+          
+          </Link>
           <a href="https://basis.org.bd/company-profile/23-01-033">
         
-          <img className='w-32 2xl:ml-20 mr-1' src={basis} alt="" />
+          <img className='w-32 ml-20 mr-1' src={basis} alt="" />
           </a>
         
       </div>
@@ -178,21 +143,6 @@ const Navbar = () => {
       </Link>
       <hr />
     
-      <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>সেবা ও পণ্য সমূহ </p><p onClick={()=>setOpen1(!open1)}>{open1?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
-      <hr className='p-0' />
-
-      {open1 && <>
-        <a href="https://ionic.supersite2.myorderbox.com/">
-        <li className='h-14 flex justify-center font-medium w-full'>আওনিক ইআরপি</li>
-        </a>
-        <hr className='p-0'/>
-        <a href="https://bdia.btcl.com.bd/">
-        <li className='h-14 flex justify-center font-medium w-full'>কর্মচারি</li>
-        </a>
-        <hr className='p-0'/>
-      </>}
-      
-      </li>
       <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>ডোমেইন </p><p onClick={()=>setOpen1(!open1)}>{open1?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
       <hr className='p-0' />
 
@@ -354,4 +304,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default NavbarErp;

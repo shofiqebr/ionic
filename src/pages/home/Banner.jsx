@@ -23,6 +23,7 @@ import { Link } from "react-router-dom";
 const Banner = () => {
     return (
         <div className="lg:pt-36 lg:pb-10 pt-32 banner  ">
+            {/* <Link to='/home2'>erp</Link>  */}
             <section className="flex  md:flex-row flex-col   childBanner md:mx-3 " >
 
 

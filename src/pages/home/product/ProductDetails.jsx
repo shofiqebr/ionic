@@ -1,7 +1,7 @@
 // ProductDetails.js
 
 import ProductCard from './ProductCard';
-import { products } from './productData';
+import { products } from './productsData';
 
 const ProductDetails = () => {
   return (
