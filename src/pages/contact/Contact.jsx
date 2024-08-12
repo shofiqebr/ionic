@@ -30,16 +30,16 @@ const Contact = () => {
 
       <div>
       <label htmlFor="firstName" className="flex justify-start items-center pl-3 pb-2">আপনার নাম</label>
-      <input className="border w-full h-12 mt-2 rounded px-3" placeholder="আপনার নাম" {...register("name")} />
+      <input className="border w-full h-12 mt-2 rounded px-3" placeholder="আপনার নাম" {...register("name")} required />
       </div>
       <div>
       <label htmlFor="firstName" className="flex justify-start items-center pl-3 pb-2">আপনার মোবাইল নাম্বার</label>
-      <input className="border w-full h-12 mt-2 rounded px-3" placeholder="আপনার মোবাইল নাম্বার" {...register("mobile")} />
+      <input className="border w-full h-12 mt-2 rounded px-3" placeholder="আপনার মোবাইল নাম্বার" {...register("mobile")} required />
       </div>
       <div>
       <label htmlFor="firstName" className="flex justify-start items-center pl-3 pb-2">যে সফ্টওয়ারটির ডেমো দেখতে চাচ্ছেন, নির্বাচন করুন</label>
      
-      <select className="border w-full h-12 mt-2 rounded px-3"  {...register("software")} >
+      <select className="border w-full h-12 mt-2 rounded px-3"  {...register("software")}  required >
       <option value="IONIC shop">আইওনিক সপ</option>
                         <option value="Shikkha chat">শিক্ষা চ্যাট</option>
                         <option value="IONIC ERP">আইওনিক ইআরপি</option>
@@ -62,8 +62,16 @@ const Contact = () => {
       </div>
       <div>
       <label htmlFor="firstName" className="flex justify-start items-center pl-3 pb-2">আপনার ব্যবসার ধরণ কি</label>
-      <input className="border w-full h-12 mt-2 rounded px-3" placeholder="আপনার ব্যবসার ধরণ কি" {...register("businessType")} />
+      <input className="border w-full h-12 mt-2 rounded px-3" placeholder="আপনার ব্যবসার ধরণ কি" {...register("businessType")} required />
       </div>
+
+       <div className=" flex justify-center lg:justify-start">
+
+      <button className="w-40 bg-[#FFAA00] text-[#001B41] rounded-full p-2 text-[16px] font-extrabold my-10 xl:my-3 px-5"> 
+                            অনুরোধ করুন
+                        
+                        </button>
+       </div>
     
 
 

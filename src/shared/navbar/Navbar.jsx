@@ -71,9 +71,10 @@ const Navbar = () => {
                
                 <li className='flex justify-center items-center xl:text-lg text-[11px] font-bold group relative'>সেবা ও পণ্য সমূহ<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                         <ul className='group-hover:block hidden absolute xl:top-6 lg:top-4 left-0 bg-white w-56 p-5 font-normal text-base z-50'>
-                          <a href="https://ionic.supersite2.myorderbox.com/">
+                          <Link to='/homeErp'>
                             <li className='py-1'>আওনিক ইআরপি</li>
-                          </a>
+                          </Link>
+                          
                           <a href="https://bdia.btcl.com.bd/">
                             <li className='py-1'>কর্মচারি</li>
                           </a>
@@ -182,9 +183,9 @@ const Navbar = () => {
       <hr className='p-0' />
 
       {open1 && <>
-        <a href="https://ionic.supersite2.myorderbox.com/">
+        <Link to='/homeErp'>
         <li className='h-14 flex justify-center font-medium w-full'>আওনিক ইআরপি</li>
-        </a>
+        </Link>
         <hr className='p-0'/>
         <a href="https://bdia.btcl.com.bd/">
         <li className='h-14 flex justify-center font-medium w-full'>কর্মচারি</li>

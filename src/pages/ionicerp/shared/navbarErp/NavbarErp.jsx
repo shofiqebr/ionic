@@ -61,14 +61,14 @@ const NavbarErp = () => {
 
 
       <Link to='/'>
-      <div className="mx-2 lg:ml-0 md:ml-32 ml-10 flex-1 px-2">
+      <div className="mx-2 lg:ml-0 md:ml-32 ml-10 flex-1 px-">
         <img className='w-44 ' src={ionicErpLogo} alt="" />
       </div>
       </Link>
 
         <div className='lg:block hidden'>
             <ul className='flex justify-center items-center gap-2'>
-              <Link to='/'>
+              <Link to='/homeErp'>
                 <li className='xl:text-lg text-[14px] font-bold'>হোম <span className='opacity-30'>|</span> </li>
               </Link>
               <li className='xl:text-lg text-[14px] font-bold'>কোম্পানি <span className='opacity-30'>|</span> </li>
@@ -86,23 +86,23 @@ const NavbarErp = () => {
                 </li>
                
                 <Link to='/contact'>
-                <li className='xl:text-lg text-[14px] font-bold'>টিউটোরিয়াল<span className='opacity-30'>|</span></li>
+                <li className='xl:text-lg text-[14px] font-bold'>টিউটোরিয়াল</li>
                 </Link>
             
                
             </ul>
         </div>
     
-      <div className="hidden flex-none md:block">
+      <div className="hidden md:flex justify-center items-center">
         
           {/* NavbarErp menu content here */}
 
-          <Link>
-          
+          <Link to='/'>
+          <img className='w-36 pb-1' src={logo} alt="" />
           </Link>
           <a href="https://basis.org.bd/company-profile/23-01-033">
         
-          <img className='w-32 ml-20 mr-1' src={basis} alt="" />
+          <img className='w-32 ml-5 mr-1' src={basis} alt="" />
           </a>
         
       </div>

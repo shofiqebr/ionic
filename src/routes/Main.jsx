@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 
 import NavbarErp from "../pages/ionicerp/shared/navbarErp/NavbarErp";
+import Footer from "../shared/footer/Footer";
 
 
 const Main = () => {
@@ -8,7 +9,8 @@ const Main = () => {
         <div>
             <NavbarErp/>
             <Outlet/>
-            {/* <Footer/> */}
+            <Footer/>
+            
         </div>
     );
 };

@@ -7,7 +7,7 @@ import ResellerServer from "../pages/resellerServer/ResellerServer";
 import DedicatedServer from "../pages/dedicatedServer/DedicatedServer";
 import ShikkhaChat from "../pages/shikkhaChat/ShikkhaChat";
 import Main from "./Main";
-import Home2 from "../pages/ionicerp/home/home2/Home2";
+import HomeErp from "../pages/ionicerp/homeErp/HomeErp";
 
 
 
@@ -44,12 +44,12 @@ export const router = createBrowserRouter([
       ]
     },
     {
-        path: "/home2",
+        path: "/homeErp",
         element: <Main/>,
         children:[
             {
-                path:'/home2',
-                element:<Home2/>
+                path:'/homeErp',
+                element:<HomeErp/>
             }
         ]
     }
