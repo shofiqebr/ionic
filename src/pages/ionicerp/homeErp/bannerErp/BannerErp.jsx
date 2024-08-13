@@ -344,8 +344,8 @@ const BannerErp = () => {
 
                     <div className=" md:hidden flex flex-col justify-center items-center   py-5 px-3 lg:hover:scale-105 bg-white lg:w-44 cards">
 
-                        <img className="w-14 pb-5" src={rubber} />
-                        <h4 className="font-bold cardHeading text-[15px]">রাবার শিল্প</h4>
+                        <img className="w-14 pb-5" src={wood} />
+                        <h4 className="font-bold cardHeading text-[15px]">আসবাবপত্র শিল্প</h4>
                         <p className="text-[#718095] cardType text-center   text-[13px]"> টোটাল সলুয়েশন</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px] text-[14px]  pt-2" href="https://ionicrepair.com/lander">বিস্তারিত</a>
                     </div>
@@ -376,16 +376,16 @@ const BannerErp = () => {
                     </div>
                     <div className="flex flex-col justify-center items-center    border-r border-b  py-5 px-3 lg:hover:scale-105 bg-white text-center lg:w-44 cards lg:py-[21.5px] xl:py-[21.75px]">
 
-                        <img className="w-14 pb-5" src={wood} />
-                        <h4 className="font-bold cardHeading text-">আসবাবপত্র শিল্প
+                        <img className="w-14 pb-5" src={rubber} />
+                        <h4 className="font-bold cardHeading text-">রাবার শিল্প
                         </h4>
                         <p className="text-[#718095] cardType text-center   text-[12px]"> টোটাল সলুয়েশন</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px] text-[14px]  pt-2" href="https://ionictravel.xyz/">বিস্তারিত</a>
                     </div>
                     <div className=" hidden lg:hidden md:flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 bg-white lg:w-44 cards">
 
-                        <img className="w-14 pb-5" src={wood} />
-                        <h4 className="font-bold cardHeading text-[15px]">আসবাবপত্র শিল্প</h4>
+                        <img className="w-14 pb-5" src={rubber} />
+                        <h4 className="font-bold cardHeading text-[15px]">রাবার শিল্প</h4>
                         <p className="text-[#718095] cardType text-center   text-[13px]"> টোটাল সলুয়েশন</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px] text-[14px]  pt-2" href="https://ionicrepair.com/lander">বিস্তারিত</a>
                     </div>

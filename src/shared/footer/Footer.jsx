@@ -11,7 +11,7 @@ import { RxCross2 } from "react-icons/rx";
 
 const Footer = () => {
     return (
-        <div className="bg-[#F9F9F9]  md:pt-1 pt-10  md:mx-3 ">
+        <div className="bg-[#F9F9F9]  md:pt-1 pt-5  md:mx-3 ">
            
 
             <section className='flex flex-col justify-center items-center gap-2   pt-5 pb-10'>

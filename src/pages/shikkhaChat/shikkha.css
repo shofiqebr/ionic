@@ -1,0 +1,172 @@
+@media (min-width: 1024px) {
+    .shikkhaButton{
+        width: 740px;
+    }
+    .shikkhaImg{
+        width: 790px;
+        margin-left: -40px;
+    }
+    .artical{
+        font-size:13px ;
+        margin-right: 135px;
+        margin-left: 135px;
+    }
+    .shikkha360{
+        width: 760px;
+    }
+}
+@media (min-width: 1280px) {
+    .shikkhaButton{
+        width: 840px;
+    }
+    .shikkhaImg{
+        width: 1035px;
+        margin-left: -50px;
+    }
+    .artical{
+        font-size:13px ;
+        margin-right: 153px;
+        margin-left: 158px;
+    }
+    .shikkha360{
+        width: 985px;
+        margin-left: -260px;
+    }
+}
+@media (min-width: 1360px) {
+    .shikkhaButton{
+        /* width: 840px; */
+    }
+    .shikkhaImg{
+        width: 935px;
+        margin-left: -50px;
+    }
+    .artical{
+        /* font-size:13px ;
+        margin-right: 153px;
+        margin-left: 158px; */
+    }
+    .shikkha360{
+        width: 885px;
+        margin-left: -160px;
+    }
+}
+@media (min-width: 1366px) {
+    .shikkhaButton{
+        /* width: 840px; */
+    }
+    .shikkhaImg{
+        /* width: 935px;
+        margin-left: -50px; */
+    }
+    .artical{
+        font-size:14px ;
+        margin-right: 156px;
+        margin-left: 168px;
+    }
+    .shikkha360{
+        /* width: 885px;
+        margin-left: -160px; */
+    }
+}
+@media (min-width: 1400px) {
+    .shikkhaButton{
+        /* width: 840px; */
+    }
+    .shikkhaImg{
+        /* width: 935px;
+        margin-left: -50px; */
+    }
+    .artical{
+        /* font-size:14px ;
+        margin-right: 156px;
+        margin-left: 168px; */
+    }
+    .shikkha360{
+        width: 985px;
+        margin-left: -190px;
+    }
+}
+@media (min-width: 1440px) {
+    .shikkhaButton{
+        /* width: 840px; */
+    }
+    .shikkhaImg{
+        /* width: 935px;
+        margin-left: -50px; */
+    }
+    .artical{
+        /* font-size:14px ;
+        margin-right: 156px;
+        margin-left: 168px; */
+    }
+    .shikkha360{
+        width: 985px;
+        margin-left: -160px;
+    }
+}
+@media (min-width: 1600px) {
+    .shikkhaButton{
+        /* width: 840px; */
+    }
+    .shikkhaImg{
+        /* width: 935px;
+        margin-left: -50px; */
+    }
+    .artical{
+        font-size:16px ;
+        margin-right: 237px;
+        margin-left: 238px;
+    }
+    .shikkha360{
+        /* width: 985px; */
+        margin-left: -95px;
+    }
+}
+@media (min-width: 1680px) {
+    .shikkhaButton{
+        /* width: 840px; */
+    }
+    .shikkhaImg{
+        /* width: 935px;
+        margin-left: -50px; */
+    }
+    .artical{
+        font-size:17px ;
+        margin-right: 277px;
+        margin-left: 278px;
+    }
+    .shikkha360{
+        /* width: 985px; */
+        /* margin-left: -95px; */
+    }
+    .shikkha360main{
+        margin-left: 50px;
+
+    }
+}
+@media (min-width: 1920px) {
+    .shikkhaButton{
+        /* width: 840px; */
+    }
+    .shikkhaImg{
+        width: 1010px;
+        margin-left: 0px;
+    }
+    .artical{
+        font-size:17px ;
+        margin-right: 399px;
+        margin-left: 399px;
+    }
+    .shikkha360{
+        /* width: 985px; */
+        /* margin-left: -95px; */
+    }
+    .shikkha360main{
+        margin-left: 150px;
+
+    }
+    .card360{
+        width: 800px;
+    }
+}

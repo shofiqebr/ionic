@@ -2,7 +2,7 @@
 
 const SoftwarePrice = () => {
     return (
-        <div className='xl:px-40 2xl:px-96 px-3 lg:mx-[131px]  dedicated'>
+        <div className='xl:px-40 2xl:px-96 px-3 lg:mx-[131px] pb-5 dedicated'>
               <section className='flex flex-col justify-center items-center gap-2 mt-10'>
                 <h1 className=' text-[#898989] text-xl font-semibold '>``আইওনিক ইআরপি`` বিজনেস ম্যানেজমেন্ট সফটওয়্যার মূল্য পরিকল্পনা</h1>
                 <div className='w-[80%] h-[3px] bg-[#b3b2b2]'></div>

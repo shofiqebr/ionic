@@ -1,15 +1,9 @@
-
-
-
 import Banner from "./Banner";
-// import BannerText from "./BannerText";
 import BrandProduct from "./BrandProduct";
+// import Card from "./Card";
 import DigitalPartner from "./DigitalPartner";
-// import ProductCard from "./product/ProductCard";
-// import ImportantSubject from "./ImportantSubject";
-
-import ProductDetails from "./ProductDetails";
-// import RealSolution from "./RealSolution";
+// import ProductDetails from "./ProductDetails";
+import ProductDetails from "./product/ProductDetails";
 import Technologies from "./Technologies";
 
 
@@ -23,6 +17,7 @@ const Home = () => {
             <div className=" bg-[#F3F3F3]">
                
                 <Banner/>
+                {/* <Card/> */}
                
                 <DigitalPartner/>
 
@@ -30,6 +25,7 @@ const Home = () => {
    
             <BrandProduct/>
         
+            {/* <ProductDetails/> */}
             <ProductDetails/>
             {/* <ProductCard/> */}
             
