@@ -7,6 +7,7 @@ import { RxCross2 } from 'react-icons/rx';
 import { FaCheck } from 'react-icons/fa';
 import bannerImg from '../../assets/backImgBanner.webp';
 import './shikkha.css'
+// import Card from '../home/Card';
 
 
 
@@ -240,7 +241,7 @@ const ShikkhaChat = () => {
             
 
             
-            
+            {/* <Card/> */}
         </div>
         </div>
     );

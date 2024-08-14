@@ -75,11 +75,26 @@ const NavbarErp = () => {
               {/* হোম কোম্পানি | শিল্প খাত সমূহ সেবা সমূহ পণ্য সমূহ মূল্য | টিউটোরিয়াল */}
                 <li className='flex justify-center items-center xl:text-lg text-[14px] font-bold group relative'>শিল্প খাত সমূহ<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                         <ul className='group-hover:block hidden absolute xl:top-6 lg:top-5 left-0 bg-white w-56 p-5 font-normal text-base z-50'>
-                          <a href="https://ionic.supersite2.myorderbox.com/">
-                            <li className='py-1'>আন্তর্জাতিক ডোমেইন</li>
+                          <Link to='manufacturing'>
+                            <li className='py-1'>ম্যানুফ্যাকচারিং ইন্ডাস্ট্রিজ</li>
+                          </Link>
+                          <a href=''>
+                            <li className='py-1'>হেলথকেয়ার স্বাস্থ্যসেবা</li>
                           </a>
-                          <a href="https://bdia.btcl.com.bd/">
-                            <li className='py-1'>বিডি ডোমেইন</li>
+                          <a href="">
+                            <li className='py-1'>ট্রেডিং ব্যবসা</li>
+                          </a>
+                          <a href="">
+                            <li className='py-1'>রাসায়নিক শিল্প</li>
+                          </a>
+                          <a href="">
+                            <li className='py-1'>স্বাস্থ্যেসবা ব্যবস্থাপনা</li>
+                          </a>
+                          <a href="">
+                            <li className='py-1'>ঋণ ব্যবস্থাপনা</li>
+                          </a>
+                          <a href="">
+                            <li className='py-1'>কৃষি ব্যবস্থাপনা</li>
                           </a>
                         </ul>
                 
@@ -147,12 +162,39 @@ const NavbarErp = () => {
       <hr className='p-0' />
 
       {open1 && <>
+        <Link to='manufacturing'>
         <a href="https://ionic.supersite2.myorderbox.com/">
-        <li className='h-14 flex justify-center font-medium w-full'>আন্তর্জাতিক ডোমেইন</li>
+        <li className='h-14 flex justify-center font-medium w-full'>ম্যানুফ্যাকচারিং ইন্ডাস্ট্রিজ</li>
         </a>
+        </Link>
         <hr className='p-0'/>
         <a href="https://bdia.btcl.com.bd/">
-        <li className='h-14 flex justify-center font-medium w-full'> বিডি ডোমেইন</li>
+        <li className='h-14 flex justify-center font-medium w-full'> হেলথকেয়ার স্বাস্থ্যসেবা</li>
+        </a>
+        <hr className='p-0'/>
+        <hr className='p-0'/>
+        <a href="https://bdia.btcl.com.bd/">
+        <li className='h-14 flex justify-center font-medium w-full'>ট্রেডিং ব্যবসা</li>
+        </a>
+        <hr className='p-0'/>
+        <hr className='p-0'/>
+        <a href="https://bdia.btcl.com.bd/">
+        <li className='h-14 flex justify-center font-medium w-full'>রাসায়নিক শিল্প</li>
+        </a>
+        <hr className='p-0'/>
+        <hr className='p-0'/>
+        <a href="https://bdia.btcl.com.bd/">
+        <li className='h-14 flex justify-center font-medium w-full'> স্বাস্থ্যেসবা ব্যবস্থাপনা</li>
+        </a>
+        <hr className='p-0'/>
+        <hr className='p-0'/>
+        <a href="https://bdia.btcl.com.bd/">
+        <li className='h-14 flex justify-center font-medium w-full'> ঋণ ব্যবস্থাপনা</li>
+        </a>
+        <hr className='p-0'/>
+        <hr className='p-0'/>
+        <a href="https://bdia.btcl.com.bd/">
+        <li className='h-14 flex justify-center font-medium w-full'> কৃষি ব্যবস্থাপনা</li>
         </a>
         <hr className='p-0'/>
       </>}

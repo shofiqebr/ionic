@@ -1,6 +1,9 @@
 import Banner from "./Banner";
 import BrandProduct from "./BrandProduct";
+
 // import Card from "./Card";
+
+
 import DigitalPartner from "./DigitalPartner";
 // import ProductDetails from "./ProductDetails";
 import ProductDetails from "./product/ProductDetails";
@@ -30,6 +33,7 @@ const Home = () => {
             {/* <ProductCard/> */}
             
             <Technologies/>
+         
             </div>
          
        
