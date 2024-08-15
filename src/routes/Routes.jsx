@@ -9,6 +9,8 @@ import ShikkhaChat from "../pages/shikkhaChat/ShikkhaChat";
 import Main from "./Main";
 import HomeErp from "../pages/ionicerp/homeErp/HomeErp";
 import Manufacturing from "../pages/ionicerp/manufacturing/Manufacturing";
+import HealthCare from "../pages/ionicerp/healthCare/HealthCare";
+import TradingErp from "../pages/ionicerp/tradingErp/TradingErp";
 
 
 
@@ -56,6 +58,14 @@ export const router = createBrowserRouter([
             {
                 path:'manufacturing',
                 element:<Manufacturing/>
+            },
+            {
+                path:'healthCare',
+                element:<HealthCare/>
+            },
+            {
+                path:'tradingErp',
+                element:<TradingErp/>
             },
         ]
     }

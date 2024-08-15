@@ -60,7 +60,7 @@ const NavbarErp = () => {
 
 
 
-      <Link to='/'>
+      <Link to='/homeErp'>
       <div className="mx-2 lg:ml-0 md:ml-32 ml-10 flex-1 px-">
         <img className='w-44 ' src={ionicErpLogo} alt="" />
       </div>
@@ -72,18 +72,17 @@ const NavbarErp = () => {
                 <li className='xl:text-lg text-[14px] font-bold'>হোম <span className='opacity-30'>|</span> </li>
               </Link>
               <li className='xl:text-lg text-[14px] font-bold'>কোম্পানি <span className='opacity-30'>|</span> </li>
-              {/* হোম কোম্পানি | শিল্প খাত সমূহ সেবা সমূহ পণ্য সমূহ মূল্য | টিউটোরিয়াল */}
                 <li className='flex justify-center items-center xl:text-lg text-[14px] font-bold group relative'>শিল্প খাত সমূহ<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                         <ul className='group-hover:block hidden absolute xl:top-6 lg:top-5 left-0 bg-white w-56 p-5 font-normal text-base z-50'>
                           <Link to='manufacturing'>
                             <li className='py-1'>ম্যানুফ্যাকচারিং ইন্ডাস্ট্রিজ</li>
                           </Link>
-                          <a href=''>
-                            <li className='py-1'>হেলথকেয়ার স্বাস্থ্যসেবা</li>
-                          </a>
-                          <a href="">
+                          <Link to='healthCare'>
+                            <li className='py-1'>স্বাস্থ্যসেবা</li>
+                          </Link>
+                          <Link to='tradingErp'>
                             <li className='py-1'>ট্রেডিং ব্যবসা</li>
-                          </a>
+                          </Link>
                           <a href="">
                             <li className='py-1'>রাসায়নিক শিল্প</li>
                           </a>
@@ -168,9 +167,9 @@ const NavbarErp = () => {
         </a>
         </Link>
         <hr className='p-0'/>
-        <a href="https://bdia.btcl.com.bd/">
-        <li className='h-14 flex justify-center font-medium w-full'> হেলথকেয়ার স্বাস্থ্যসেবা</li>
-        </a>
+        <Link to='healthCare'>
+        <li className='h-14 flex justify-center font-medium w-full'>  স্বাস্থ্যসেবা</li>
+        </Link>
         <hr className='p-0'/>
         <hr className='p-0'/>
         <a href="https://bdia.btcl.com.bd/">
