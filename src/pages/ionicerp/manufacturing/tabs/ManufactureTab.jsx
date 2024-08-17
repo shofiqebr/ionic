@@ -13,14 +13,17 @@ import Exim from "./Exim";
 // import 'react-tabs/style/react-tabs.css';
 import technologyImg from '../../../../assets/erp/erpnext-integration-final.png'
 
-const ManufactureTab = () => {
+const ManufactureTab = ({heading, subHeading}) => {
     const [tabIndex, setTabIndex] = useState(0);
     return (
         <div className="mx-[400px]">
             <section className="text-center py-5">
-                <h1 className="text-2xl font-bold ">``আইওনিক ইআরপি`` বিজনেস ম্যানেজমেন্ট সফটওয়্যার উৎপাদন শিল্পের জন্য এর অন্যান্য মডিউল</h1>
+                <h1 className="text-2xl font-bold ">
+                    {/* */}
+                    {heading}
+                    </h1>
                 <hr className="border-[2px] border-black" />
-                <p className="text-lg text-[#777777]">প্রতিটি ব্যবসার মূল লক্ষ্য হল খরচ কমানো এবং আপনার ব্যবসার প্রক্রিয়াগুলিকে স্বয়ংক্রিয় করার সাহায্যে উত্পাদনশীলতা এবং দক্ষতা বৃদ্ধি করা। কিন্তু প্রথমে, আপনাকে বুঝতে হবে যে উৎপাদন শিল্পের জন্য ইআরপি ব্যবসার জন্য নির্দিষ্ট বিভিন্ন দিক প্রয়োজন।</p>
+                <p className="text-lg text-[#777777]">{subHeading}</p>
             </section>
 
 

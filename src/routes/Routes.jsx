@@ -11,6 +11,7 @@ import HomeErp from "../pages/ionicerp/homeErp/HomeErp";
 import Manufacturing from "../pages/ionicerp/manufacturing/Manufacturing";
 import HealthCare from "../pages/ionicerp/healthCare/HealthCare";
 import TradingErp from "../pages/ionicerp/tradingErp/TradingErp";
+import Chemical from "../pages/ionicerp/chemical-industry/Chemical";
 
 
 
@@ -66,6 +67,10 @@ export const router = createBrowserRouter([
             {
                 path:'tradingErp',
                 element:<TradingErp/>
+            },
+            {
+                path:'chemical-industry-ionic-erp',
+                element:<Chemical/>
             },
         ]
     }
