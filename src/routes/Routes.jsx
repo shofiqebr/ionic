@@ -13,6 +13,8 @@ import HealthCare from "../pages/ionicerp/healthCare/HealthCare";
 import TradingErp from "../pages/ionicerp/tradingErp/TradingErp";
 import Chemical from "../pages/ionicerp/chemical-industry/Chemical";
 import HealthManagement from "../pages/ionicerp/healthManagement/HealthManagement";
+import Loan from "../pages/ionicerp/loan/Loan";
+import Agriculture from "../pages/ionicerp/agriculture/Agriculture";
 
 
 
@@ -76,6 +78,14 @@ export const router = createBrowserRouter([
             {
                 path:'healthcare-ionic-erp',
                 element:<HealthManagement/>
+            },
+            {
+                path:'lone-management-ionic-erp',
+                element:<Loan/>
+            },
+            {
+                path:'agriculture-ionic-erp',
+                element:<Agriculture/>
             },
         ]
     }

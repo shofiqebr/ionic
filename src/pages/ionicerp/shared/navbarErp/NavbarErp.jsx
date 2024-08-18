@@ -89,12 +89,12 @@ const NavbarErp = () => {
                           <Link to='healthcare-ionic-erp'>
                             <li className='py-1'>স্বাস্থ্যেসবা ব্যবস্থাপনা</li>
                           </Link>
-                          <a href="">
+                          <Link to='lone-management-ionic-erp'>
                             <li className='py-1'>ঋণ ব্যবস্থাপনা</li>
-                          </a>
-                          <a href="">
+                          </Link>
+                          <Link to='agriculture-ionic-erp'>
                             <li className='py-1'>কৃষি ব্যবস্থাপনা</li>
-                          </a>
+                          </Link>
                         </ul>
                 
                 </li>
@@ -187,14 +187,14 @@ const NavbarErp = () => {
         </Link>
         <hr className='p-0'/>
         <hr className='p-0'/>
-        <a href="https://bdia.btcl.com.bd/">
+        <Link to='lone-management-ionic-erp'>
         <li className='h-14 flex justify-center font-medium w-full'> ঋণ ব্যবস্থাপনা</li>
-        </a>
+        </Link>
         <hr className='p-0'/>
         <hr className='p-0'/>
-        <a href="https://bdia.btcl.com.bd/">
+        <Link to='agriculture-ionic-erp'>
         <li className='h-14 flex justify-center font-medium w-full'> কৃষি ব্যবস্থাপনা</li>
-        </a>
+        </Link>
         <hr className='p-0'/>
       </>}
       
