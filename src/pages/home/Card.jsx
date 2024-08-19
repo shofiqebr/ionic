@@ -15,7 +15,7 @@ const Card = () => {
                     imgSrc={product.imgSrc}
                     title={product.title}
                     description={product.description}
-                    lineNo={product.lineNo}
+                    
                     subtitle={product.subtitle}
                     ></CardDetails>
                 ))

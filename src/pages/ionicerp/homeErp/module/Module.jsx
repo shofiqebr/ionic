@@ -8,13 +8,13 @@ import project from '../../../../assets/erp/project-85x85-1.png'
 import data from '../../../../assets/erp/Data-Center-100x100.png'
 import vendor from '../../../../assets/erp/vendor-85x85-1.png'
 
-const Module = () => {
+const Module = ({heading,subheading }) => {
     return (
         <div className='pb-5 detailsWidth'>
-        <section className='flex flex-col justify-center items-center gap-2 mt-10'>
-            <h1 className=' text-[#898989] text-xl font-semibold '>``আইওনিক ইআরপি`` বিজনেস ম্যানেজমেন্ট সফটওয়্যার এর মডিউল সমূহ</h1>
+        <section className='flex flex-col justify-center items-center gap-2 mt-10 px-10'>
+            <h1 className=' text-[#898989] text-xl font-semibold '>{heading}</h1>
             <div className='w-[80%] h-[3px] bg-[#b3b2b2]'></div>
-            <p className='text-center text-[#898989] font-semibold '>আইওনিক কর্পোরেশন এর পেশাদারদের একটি বিশেষজ্ঞ দল রয়েছে যারা যুগ যুগ ধরে সমাধান তৈরি করছে এবং স্থানীয় এবং বিদেশী উভয় শিল্পের ক্লায়েন্টদের বিশ্বাস <br />এবং নির্ভর যোগ্যতার সাথে উল্লেখ যোগ্য ভাবে বৃদ্ধি পাচ্ছে।</p>
+            <p className='text-center text-[#898989] font-semibold '>{subheading}</p>
         </section>
 
 

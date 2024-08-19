@@ -1,17 +1,17 @@
 
 
-const SoftwarePrice = () => {
+const SoftwarePrice = ({heading, subheading, cardheading}) => {
     return (
         <div className='xl:px-40 2xl:px-96 px-3 lg:mx-[131px] pb-5 dedicated'>
               <section className='flex flex-col justify-center items-center gap-2 mt-10'>
-                <h1 className=' text-[#898989] text-xl font-semibold '>``আইওনিক ইআরপি`` বিজনেস ম্যানেজমেন্ট সফটওয়্যার মূল্য পরিকল্পনা</h1>
+                <h1 className=' text-[#898989] text-xl font-semibold '>{heading}</h1>
                 <div className='w-[80%] h-[3px] bg-[#b3b2b2]'></div>
-                <p className='text-center text-[#898989] font-semibold '>``আইওনিক ইআরপি`` বিজনেস ম্যানেজমেন্ট সফটওয়্যার এর সকল প্যাকেজ বাৎসরিক চার্জ প্রযোজ্য।</p>
+                <p className='text-center text-[#898989] font-semibold '>{subheading}</p>
             </section>
 
 
 
-            <h1 className="text-[#898989] text-xl font-semibold text-center w-[80%] mx-auto py-5 ">আপনার ব্যবসায়িক প্রক্রিয়া সহজ করতে এবং কাজের প্রবাহে দক্ষতা বাড়ানোর জন্য “আইওনিক ইআরপি” বিজনেস ম্যানেজমেন্ট সফটওয়্যার এর একটি প্যাকেজ দিয়ে আপনার যাত্রা শুরু করুন।</h1>
+            <h1 className="text-[#898989] text-xl font-semibold text-center w-[80%] mx-auto py-5 ">{cardheading}</h1>
 
             
 <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:gap-10 

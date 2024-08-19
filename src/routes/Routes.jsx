@@ -15,6 +15,7 @@ import Chemical from "../pages/ionicerp/chemical-industry/Chemical";
 import HealthManagement from "../pages/ionicerp/healthManagement/HealthManagement";
 import Loan from "../pages/ionicerp/loan/Loan";
 import Agriculture from "../pages/ionicerp/agriculture/Agriculture";
+import Karmochary from "../pages/kormochary/Karmochary";
 
 
 
@@ -49,26 +50,30 @@ export const router = createBrowserRouter([
             path:'/shikkha',
             element: <ShikkhaChat/>
         },
+        {
+            path:'karmochary',
+            element: <Karmochary/>
+        },
       ]
     },
     {
-        path: "/homeErp",
+        path: "/ionicerp",
         element: <Main/>,
         children:[
             {
-                path:'/homeErp',
+                path:'/ionicerp',
                 element:<HomeErp/>
             },
             {
-                path:'manufacturing',
+                path:'manufacturing-industry-ionic-erp-software',
                 element:<Manufacturing/>
             },
             {
-                path:'healthCare',
+                path:'healthcare',
                 element:<HealthCare/>
             },
             {
-                path:'tradingErp',
+                path:'trading-ionic-erp',
                 element:<TradingErp/>
             },
             {

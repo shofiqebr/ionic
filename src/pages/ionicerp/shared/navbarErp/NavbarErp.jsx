@@ -12,8 +12,7 @@ import fixedImg from '../../../../assets/new logo/care-call-4.png';
 const NavbarErp = () => {
 
   const [open1, setOpen1] = useState(false)
-  const [open2, setOpen2] = useState(false)
-  const [open3, setOpen3] = useState(false)
+ 
 
     return (
         <div className='fixed  bg-[#F3F3F3] z-50  max-w-[1920px] mx-auto w-full'>
@@ -74,13 +73,13 @@ const NavbarErp = () => {
               <li className='xl:text-lg text-[14px] font-bold'>কোম্পানি <span className='opacity-30'>|</span> </li>
                 <li className='flex justify-center items-center xl:text-lg text-[14px] font-bold group relative'>শিল্প খাত সমূহ<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                         <ul className='group-hover:block hidden absolute xl:top-6 lg:top-5 left-0 bg-white w-56 p-5 font-normal text-base z-50'>
-                          <Link to='manufacturing'>
+                          <Link to='manufacturing-industry-ionic-erp-software'>
                             <li className='py-1'>ম্যানুফ্যাকচারিং ইন্ডাস্ট্রিজ</li>
                           </Link>
                           <Link to='healthCare'>
                             <li className='py-1'>স্বাস্থ্যসেবা</li>
                           </Link>
-                          <Link to='tradingErp'>
+                          <Link to='trading-ionic-erp'>
                             <li className='py-1'>ট্রেডিং ব্যবসা</li>
                           </Link>
                           <Link to='chemical-industry-ionic-erp'>
@@ -156,25 +155,30 @@ const NavbarErp = () => {
       <li className='py-3  font-semibold text-[#FF0020]'><a>হোম </a></li>
       </Link>
       <hr />
+      <Link to='/'>
+      <li className='py-3  font-semibold text-[#FF0020]'><a>কোম্পানি </a></li>
+      </Link>
+      <hr />
     
-      <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>ডোমেইন </p><p onClick={()=>setOpen1(!open1)}>{open1?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
+      <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>শিল্প খাত সমূহ
+      </p><p onClick={()=>setOpen1(!open1)}>{open1?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
       <hr className='p-0' />
 
       {open1 && <>
-        <Link to='manufacturing'>
+        <Link to='manufacturing-industry-ionic-erp-software'>
         <a href="https://ionic.supersite2.myorderbox.com/">
         <li className='h-14 flex justify-center font-medium w-full'>ম্যানুফ্যাকচারিং ইন্ডাস্ট্রিজ</li>
         </a>
         </Link>
         <hr className='p-0'/>
-        <Link to='healthCare'>
+        <Link to='healthcare'>
         <li className='h-14 flex justify-center font-medium w-full'>  স্বাস্থ্যসেবা</li>
         </Link>
         <hr className='p-0'/>
         <hr className='p-0'/>
-        <a href="https://bdia.btcl.com.bd/">
+        <Link to='trading-ionic-erp'>
         <li className='h-14 flex justify-center font-medium w-full'>ট্রেডিং ব্যবসা</li>
-        </a>
+        </Link>
         <hr className='p-0'/>
         <hr className='p-0'/>
         <Link to='chemical-industry-ionic-erp'>
@@ -200,28 +204,7 @@ const NavbarErp = () => {
       
       </li>
       <hr className='p-0'/>
-      <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>হোস্টিং</p><p onClick={()=>setOpen2(!open2)}>{open2?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
-      <hr className='p-0' />
-     
-
-
-      {open2 && <>
-        <Link to='/webHosting'>
-        <li className='h-14 flex justify-center font-medium w-full' >Plesk প্রিমিয়াম ওয়েব হোস্টিং </li>
-        </Link>
-        <hr className='p-0'/>
-        <Link to='/dedicatedServer'>
-        <li className='h-14 flex justify-center font-medium w-full'>Plesk ডেডিকেটেড সার্ভার </li>
-        </Link>
-        <hr className='p-0'/>
-        <Link to='/resellerServer'>
-        <li className='h-14 flex justify-center font-medium w-full'>Plesk রিসেলার সার্ভার</li>
-        </Link>
-        <hr className='p-0'/>
-      </>}
-      
-      </li>
-      <hr className='p-0'/>
+   
       
   
       
@@ -230,41 +213,12 @@ const NavbarErp = () => {
 
     
       <Link to='/contact'>
-      <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white '> যোগাযোগ  </a></li>
+      <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white '> টিউটোরিয়াল </a></li>
       </Link>
       <hr />
 
 
-      <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>লগইন</p><p onClick={()=>setOpen3(!open3)}>{open3?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
-      <hr className='p-0' />
-
-   
-
-      {open3 && <>
-        <a href="https://ionic.supersite2.myorderbox.com/login.php">
-        <li className='h-14 flex justify-center font-medium w-full'>ডোমেইন লগইন </li>
-        </a>
-        <hr className='p-0' />
-        <a href="https://vmi699873.contaboserver.net:8443/login_up.php?success_redirect_url=%2F">
-          <li className='h-14 flex justify-center font-medium w-full'>হোস্টিং লগইন </li>
-        </a>
-          <hr className='p-0' />
-          <a href="https://sms.mimsms.com/Identity/Account/Login?ReturnUrl=%2F">
-          <li className='h-14 flex justify-center font-medium w-full'>এসএমএস লগইন </li>
-          </a>
-          <hr className='p-0' />
-          <a href="https://erp.ioniccorporation.com/">
-          
-          <li className='h-14 flex justify-center font-medium w-full'>স্টাফ লগইন </li>
-          </a>
-          <hr className='p-0' />
-          <a href="https://erp.ioniccorporation.com/">
-          <li className='h-14 flex justify-center font-medium w-full'>এজেন্ট হেল্প</li>
-          </a>
-          <hr className='p-0' />
-      </>}
-      
-      </li>
+    
       
       <hr />
     </ul>
