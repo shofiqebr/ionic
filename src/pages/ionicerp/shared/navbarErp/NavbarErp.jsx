@@ -59,7 +59,7 @@ const NavbarErp = () => {
 
 
 
-      <Link to='/homeErp'>
+      <Link to='/ionicerp'>
       <div className="mx-2 lg:ml-0 md:ml-32 ml-10 flex-1 px-">
         <img className='w-44 ' src={ionicErpLogo} alt="" />
       </div>
@@ -67,7 +67,7 @@ const NavbarErp = () => {
 
         <div className='lg:block hidden'>
             <ul className='flex justify-center items-center gap-2'>
-              <Link to='/homeErp'>
+              <Link to='/ionicerp'>
                 <li className='xl:text-lg text-[14px] font-bold'>হোম <span className='opacity-30'>|</span> </li>
               </Link>
               <li className='xl:text-lg text-[14px] font-bold'>কোম্পানি <span className='opacity-30'>|</span> </li>

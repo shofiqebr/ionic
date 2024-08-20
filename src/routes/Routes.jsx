@@ -16,6 +16,7 @@ import HealthManagement from "../pages/ionicerp/healthManagement/HealthManagemen
 import Loan from "../pages/ionicerp/loan/Loan";
 import Agriculture from "../pages/ionicerp/agriculture/Agriculture";
 import Karmochary from "../pages/kormochary/Karmochary";
+import Services from "../pages/kormochary/Services";
 
 
 
@@ -53,6 +54,10 @@ export const router = createBrowserRouter([
         {
             path:'karmochary',
             element: <Karmochary/>
+        },
+        {
+            path:'services',
+            element: <Services/>
         },
       ]
     },
