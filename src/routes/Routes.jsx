@@ -17,6 +17,8 @@ import Loan from "../pages/ionicerp/loan/Loan";
 import Agriculture from "../pages/ionicerp/agriculture/Agriculture";
 import Karmochary from "../pages/kormochary/Karmochary";
 import Services from "../pages/kormochary/Services";
+import MainShop from "./MainShop";
+import IonicShop from "../pages/ionicshop/IonicShop";
 
 
 
@@ -62,6 +64,17 @@ export const router = createBrowserRouter([
       ]
     },
     {
+        path: "/ionicshop",
+        element: <MainShop/>,
+        children:[
+            {
+                path:'/ionicshop',
+                element:<IonicShop/>
+            },
+          
+        ]
+    },
+    {
         path: "/ionicerp",
         element: <Main/>,
         children:[
@@ -98,5 +111,5 @@ export const router = createBrowserRouter([
                 element:<Agriculture/>
             },
         ]
-    }
+    },
   ]);

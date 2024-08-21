@@ -291,7 +291,10 @@ const Banner = () => {
                         <h4 className="font-bold cardHeading text-">আইওনিক সপ
                         </h4>
                         <p className="text-[#718095] cardType text-center   text-[13px]"> সপ ম্যানেজমেন্ট সফটওয়্যার</p>
-                        <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px] text-[14px]  pt-2" href="https://ionicshop.xyz/">বিস্তারিত</a>
+                        <Link to='/ionicshop'>
+                        <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px] text-[14px]  pt-2">বিস্তারিত</a>
+                        </Link>
+                        
                     </div>
                     <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 bg-white lg:w-44 cards">
 
