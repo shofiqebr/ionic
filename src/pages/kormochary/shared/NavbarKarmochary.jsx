@@ -59,7 +59,7 @@ const NavbarKarmochary = () => {
 
 
 
-      <Link to='/ionicpharma'>
+      <Link to='/karmochary'>
       <div className="mx-2 lg:ml-0 md:ml-32 ml-10 flex-1 px-">
         <img className='w-44 ' src={karmochary} alt="" />
       </div>
@@ -67,7 +67,7 @@ const NavbarKarmochary = () => {
 
         <div className='lg:block hidden'>
             <ul className='flex justify-center items-center gap-2'>
-              <Link to='/ionicpharma'>
+              <Link to='/karmochary'>
                 <li className='xl:text-lg text-[14px] font-bold'>হোম <span className='opacity-30'>|</span> </li>
               </Link>
               <Link to='services'>

@@ -6,7 +6,7 @@ import ProductDetailsKarmochary from "./ProductDetailsKarmochary";
 import Module from "../ionicerp/homeErp/module/Module";
 import TechnologyErp from "../ionicerp/technologyErp/TechnologyErp";
 import SoftwarePrice from "../ionicerp/softwarePrice/SoftwarePrice";
-import Services from "./Services";
+
 
 
 const Karmochary = () => {
@@ -206,7 +206,7 @@ const Karmochary = () => {
 
         <SoftwarePrice heading={'টোটাল সলুয়েশন “কর্মচারি” ম্যানেজমেন্ট সফটওয়্যার মূল্য পরিকল্পনা'} subheading={'*** টোটাল সলুয়েশন “কর্মচারি” ম্যানেজমেন্ট সফটওয়্যার এর সকল প্যাকেজ বাৎসরিক চার্জ প্রযোজ্য।'} cardheading={'আপনার ব্যবসায়িক প্রক্রিয়া সহজ করতে এবং কাজের প্রবাহে দক্ষতা বাড়ানোর জন্য টোটাল সলুয়েশন “কর্মচারি” ম্যানেজমেন্ট সফটওয়্যার এর একটি প্যাকেজ দিয়ে আপনার যাত্রা শুরু করুন।'} />
 
-        <Services/>
+       
     </div>
     );
 };
