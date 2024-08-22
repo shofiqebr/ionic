@@ -2,13 +2,15 @@ import { RxCross2 } from "react-icons/rx";
 import ModalBody from "../../shared/modalBody/ModalBody";
 import { FaCheck } from "react-icons/fa";
 import bannerImg from '../../assets/backImgBanner.webp'
-import Sectors from "./Sectors";
-import Shop360 from "./Shop360";
-import TechnologyShop from "./TechnologyShop";
-import PriceManagementShop from "./PriceManagementShop";
+import FeaturesPharma from "./FeaturesPharma";
+import SectorsPharma from "./SectorsPharma";
+import Shop360 from "../ionicshop/Shop360";
+import TechnologyPharma from "./TechnologyPharma";
+import CharecterPharma from "./CharecterPharma";
+import PriceManagementShop from '../ionicshop/PriceManagementShop'
 
 
-const IonicShop = () => {
+const IonicPharma = () => {
     return (
         <div className=' bg-[#F3F3F3]'>
 
@@ -39,11 +41,17 @@ const IonicShop = () => {
 
 
                                 <p className="lg:text-[18px] xl:text-[16px] 2xl:text-[18px] lg:py-5 text-justify md:w-[350px] lg:w-auto p-5  md:pt-20 lg:pt-5 ">
-                                    ক্লাউড ভিত্তিক অনলাইন আইওনিক সপ সফটওয়্যার দিয়ে আপনার যে কোন ব্যবসাকে সহজেই পরিচালনা করতে পারবেন। আইওনিক সপ একটি দক্ষ একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।
+                                    ক্লাউড ভিত্তিক অনলাইন আইওনিক ফার্মা সফটওয়্যার দিয়ে আপনার যে কোন ব্যবসাকে সহজেই পরিচালনা করতে পারবেন। আইওনিক ফার্মা একটি দক্ষ একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।
+
                                 </p>
                                 <p className="lg:text-[18px] xl:text-[16px] 2xl:text-[18px] lg:py-5 text-justify md:w-[350px] lg:w-auto p-5  md:pt-20 lg:pt-5 ">
 
-                                    আইওনিক সপ- স্মার্টফোন, ট্যাব, আইফোন, আইপ্যাড, ম্যাক এবং পিসিতে এমনকি অনলাইন বা অফলাইনেও কাজ করে। আপনার ফাইন্যান্স, অ্যাকাউন্টিং, সেলস, ইনভয়েস, ইনভেন্টরি, ক্লায়েন্ট রিলেশনস, এইচআরএম, অপারেশন এবং আরও অনেক কিছু পরিচালনা করার জন্য অল-ইন-ওয়ান ক্লাউড ইআরপি সলিউশন মানেই আইওনিক সপ
+                                    আইওনিক ফার্মা ইআরপি- স্মার্টফোন, ট্যাব, আইফোন, আইপ্যাড
+                                    ম্যাক এবং পিসিতে এমনকি অনলাইন বা অফলাইনেও কাজ করে।
+                                    আপনার ফাইন্যান্স, অ্যাকাউন্টিং, সেলস, ইনভয়েস, ইনভেন্টরি,
+                                    ক্লায়েন্ট রিলেশনস, এইচআরএম, অপারেশন এবং আরও অনেক
+                                    কিছু পরিচালনা করার জন্য অল-ইন-ওয়ান ক্লাউড ইআরপি
+                                    সলিউশন মানেই আইওনিক ফার্মা ইআরপি
                                 </p>
 
 
@@ -196,14 +204,17 @@ const IonicShop = () => {
                 </div>
             </div>
 
+            <FeaturesPharma/>
+            <SectorsPharma/>
 
-
-            <Sectors/>
-            <Shop360 title={'আইওনিক সপ ক্লাউড ভিত্তিক দক্ষ একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সফটওয়্যার এর 360 '}/>
-            <TechnologyShop/>
-            <PriceManagementShop title={'আইওনিক সপ একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সিস্টেম সফটওয়্যার মূল্য পরিকল্পনা'} subtitle={' আপনার ব্যবসায়িক প্রক্রিয়া সহজ করতে এবং কাজের প্রবাহে দক্ষতা বাড়ানোর জন্য আইওনিক সপ একাউন্টিং ও বিজনেস এর একটি প্যাকেজ দিয়ে আপনার যাত্রা শুরু করুন।'}/>
+         
+            <Shop360 title={'আইওনিক ফার্মা এর 360 ডিগ্রি ফিচার সমূহ'}  titleColor="text-red-500"/>
+            <TechnologyPharma/>
+            <CharecterPharma/>
+      
+            <PriceManagementShop title={'আইওনিক ফার্মা একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সিস্টেম সফটওয়্যার মূল্য পরিকল্পনা'} subtitle={'আপনার ব্যবসায়িক প্রক্রিয়া সহজ করতে এবং কাজের প্রবাহে দক্ষতা বাড়ানোর জন্য আইওনিক ফার্মা একাউন্টিং ও বিজনেস এর একটি প্যাকেজ দিয়ে আপনার যাত্রা শুরু করুন।'} titleColor='text-red-500'/> 
         </div>
     );
 };
 
-export default IonicShop;
+export default IonicPharma;

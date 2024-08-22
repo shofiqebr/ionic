@@ -78,8 +78,9 @@ const Navbar = () => {
                           <Link to='karmochary'>
                             <li className='py-1'>কর্মচারি</li>
                           </Link>
-                          <Link to='services'>
-                            <li className='py-1'>সেবা</li>
+                      
+                          <Link to='ionicpharma'>
+                            <li className='py-1'>আইওনিক ফার্মা</li>
                           </Link>
                         </ul>
                 
@@ -192,6 +193,10 @@ const Navbar = () => {
         <hr className='p-0'/>
         <Link to='karmochary'>
         <li className='h-14 flex justify-center font-medium w-full'>কর্মচারি</li>
+        </Link>
+        <hr className='p-0'/>
+        <Link to='ionicpharma'>
+        <li className='h-14 flex justify-center font-medium w-full'>আইওনিক ফার্মা</li>
         </Link>
         <hr className='p-0'/>
       </>}

@@ -5,18 +5,18 @@ import eCommerce from '../../assets/shop/professionals-pro-60x60.png'
 import ProfessionalPro from '../../assets/shop/Ultimate-Pro-60x60.png'
 import ultimate from '../../assets/shop/human-resoruces-60x60.png'
 
-const PriceManagementShop = () => {
+const PriceManagementShop = ({title,subtitle,titleColor}) => {
     return (
         <div className="mx-[405px] py-5">
             <section className='flex flex-col justify-center items-center gap-2 mt-5 pb-5'>
-                <h1 className=' font-semibold text-2xl text-center '>আইওনিক সপ একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সিস্টেম সফটওয়্যার মূল্য পরিকল্পনা
+                <h1 className={` font-semibold text-2xl text-center ${titleColor} `}>{title}
 
                 </h1>
                 <p className="text-sm text-[#F9893F]">
                     *** আইওনিক সপ একাউন্টিং ও বিজনেস এর সকল প্যাকেজ বাৎসরিক চার্জ প্রযোজ্য।
                 </p>
-                <p>
-                    আপনার ব্যবসায়িক প্রক্রিয়া সহজ করতে এবং কাজের প্রবাহে দক্ষতা বাড়ানোর জন্য আইওনিক সপ একাউন্টিং ও বিজনেস এর একটি প্যাকেজ দিয়ে আপনার যাত্রা শুরু করুন।
+                <p>{subtitle}
+                   
                 </p>
 
             </section>

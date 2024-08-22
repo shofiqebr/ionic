@@ -18,11 +18,11 @@ import customer from '../../assets/customer-50x50.png'
 import other from '../../assets/other-50x50.png'
 
 
-const Shop360 = () => {
+const Shop360 = ({title,  titleColor}) => {
     return (
         <div className='mx-[555px] '>
              <section className='flex flex-col justify-center items-center gap-2 mt-5 pb-5'>
-                    <h1 className=' font-semibold text-2xl text-center '>আইওনিক সপ ক্লাউড ভিত্তিক দক্ষ একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সফটওয়্যার এর 360 ডিগ্রি ফিচার সমূহ</h1>
+                    <h1 className={` font-semibold text-2xl text-center ${titleColor} `}>{title}</h1>
                    
                 </section>
 

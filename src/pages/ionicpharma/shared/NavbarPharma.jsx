@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { RxCross1 } from 'react-icons/rx';
 import fixedImg from '../../../assets/new logo/care-call-4.png'; 
-import shoplogo from '../../../assets/new logo/ionic-shop-logo.png'
+import pharmalogo from '../../../assets/new logo/ionic-pharma-logo.png'
 
-const NavbarShop = () => {
+const NavbarPharma = () => {
 
   const [open1, setOpen1] = useState(false)
  
@@ -59,15 +59,15 @@ const NavbarShop = () => {
 
 
 
-      <Link to='/ionicshop'>
+      <Link to='/ionicpharma'>
       <div className="mx-2 lg:ml-0 md:ml-32 ml-10 flex-1 px-">
-        <img className='w-44 ' src={shoplogo} alt="" />
+        <img className='w-44 ' src={pharmalogo} alt="" />
       </div>
       </Link>
 
         <div className='lg:block hidden'>
             <ul className='flex justify-center items-center gap-2'>
-              <Link to='/ionicerp'>
+              <Link to='/ionicpharma'>
                 <li className='xl:text-lg text-[14px] font-bold'>হোম <span className='opacity-30'>|</span> </li>
               </Link>
               <li className='xl:text-lg text-[14px] font-bold'>মূল্য <span className='opacity-30'>|</span> </li>
@@ -283,4 +283,4 @@ const NavbarShop = () => {
     );
 };
 
-export default NavbarShop;
+export default NavbarPharma;
