@@ -3,7 +3,8 @@
 import ProductCard from './ProductCard';
 import { products } from './productsData';
 
-const ProductDetails = () => {
+const 
+ProductDetails = () => {
   return (
     <div className='pb-5 detailsWidth'>
        <section className='flex flex-col justify-center items-center gap-2 mt-10'>

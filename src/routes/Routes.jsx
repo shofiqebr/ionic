@@ -22,6 +22,9 @@ import MainPharma from "./MainPharma";
 import IonicPharma from "../pages/ionicpharma/IonicPharma";
 import MainKarmochary from "./MainKarmochary";
 import Services from "../pages/kormochary/Services";
+import ServicesErp from "../pages/ionicerp/ServicesErp";
+import ProductDetails from "../pages/home/product/ProductDetails";
+import DifferentBrands from "../pages/ionicerp/DifferentBrands";
 
 
 
@@ -142,6 +145,15 @@ export const router = createBrowserRouter([
                 path:'agriculture-ionic-erp',
                 element:<Agriculture/>
             },
+            {
+                path:'all-services-ionic-erp',
+                element:<ServicesErp/>
+            },
+            {
+                path:'all-products-ionic-erp',
+                element:<DifferentBrands/>
+            },
+            
         ]
     },
   ]);

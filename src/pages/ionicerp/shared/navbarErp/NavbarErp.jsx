@@ -20,7 +20,7 @@ const NavbarErp = () => {
          {/* gray section */}
 
 
-            <section className="lg:flex justify-center items-center bg-[#001B41] hidden">
+            <section className="lg:flex justify-center items-center bg-black hidden">
                 <p className="text-[12px] text-white py-1">
                     We Are A Trusted Digital IT Solution In Bangladesh. Business Solution Software ERP, Website, Mobile Apps, Hosting, Domain, SMS Etc.
                 </p>
@@ -60,8 +60,8 @@ const NavbarErp = () => {
 
 
       <Link to='/ionicerp'>
-      <div className="mx-2 lg:ml-0 md:ml-32 ml-10 flex-1 px-">
-        <img className='w-44 ' src={ionicErpLogo} alt="" />
+      <div className="mx- lg:ml-0 md:ml-32 ml-10 flex-1 px-">
+        <img className='w-[140px] ' src={ionicErpLogo} alt="" />
       </div>
       </Link>
 
@@ -70,7 +70,9 @@ const NavbarErp = () => {
               <Link to='/ionicerp'>
                 <li className='xl:text-lg text-[14px] font-bold'>হোম <span className='opacity-30'>|</span> </li>
               </Link>
+              <Link to='/'>
               <li className='xl:text-lg text-[14px] font-bold'>কোম্পানি <span className='opacity-30'>|</span> </li>
+              </Link>
                 <li className='flex justify-center items-center xl:text-lg text-[14px] font-bold group relative'>শিল্প খাত সমূহ<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
                         <ul className='group-hover:block hidden absolute xl:top-6 lg:top-5 left-0 bg-white w-56 p-5 font-normal text-base z-50'>
                           <Link to='manufacturing-industry-ionic-erp-software'>
@@ -98,7 +100,16 @@ const NavbarErp = () => {
                 
                 </li>
                
-                <Link to='/contact'>
+                <Link to='all-services-ionic-erp'>
+                <li className='xl:text-lg text-[14px] font-bold'>সেবা সমূহ <span className='opacity-30'>|</span></li>
+                </Link>
+                <Link to='all-products-ionic-erp'>
+                <li className='xl:text-lg text-[14px] font-bold'>পণ্য সমূহ <span className='opacity-30'>|</span></li>
+                </Link>
+                <Link to=''>
+                <li className='xl:text-lg text-[14px] font-bold'>মূল্য <span className='opacity-30'>|</span></li>
+                </Link>
+                <Link to=''>
                 <li className='xl:text-lg text-[14px] font-bold'>টিউটোরিয়াল</li>
                 </Link>
             
@@ -231,13 +242,13 @@ const NavbarErp = () => {
             {/* black part */}
 
 
-            <section className="bg-[#001B41] h-1    shadowCustom  ">   </section>
+            <section className="bg-black h-1    shadowCustom  ">   </section>
             <div className="navLine flex  justify-center gap-3 md:ml-[283px] -mt-5 ">
-            <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center hidden md:block'>
+            <h1 className='bg-black text-white  p-1 font-semibold text-[16px] w-56 text-center hidden md:block'>
             কাষ্টমার কেয়ার : 01511142320
           
             </h1>
-            <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] w-56 text-center relative'>
+            <h1 className='bg-black text-white  p-1 font-semibold text-[16px] w-56 text-center relative'>
             বিক্রয় প্রতিনিধি : 01958442200
             
                 
@@ -257,7 +268,7 @@ const NavbarErp = () => {
         
           <div className='absolute top-72 test hidden lg:block'>
             <div className='relative  '>
-              <section className='bg-gradient-to-b from-[#1574C4] to-[#001B42] testSection w-44 rounded-2xl  px-1 pb-2'>
+              <section className='bg-gradient-to-b from-[#767070] to-black testSection w-44 rounded-2xl  px-1 pb-2'>
                 <div className='text-white'>
                   <div className='relative'>
                     <img className='-mt-3 absolute -top-10' src={fixedImg} alt="" />
