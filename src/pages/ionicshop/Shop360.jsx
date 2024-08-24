@@ -16,15 +16,19 @@ import accounting from '../../assets/accounting-2-50x50.png'
 import magnet from '../../assets/magnet-50x50.png'
 import customer from '../../assets/customer-50x50.png'
 import other from '../../assets/other-50x50.png'
+import { Element } from 'react-scroll'
 
 
 const Shop360 = ({title,  titleColor}) => {
     return (
         <div className='mx-[555px] '>
+            <Element name='benefits'>
+
              <section className='flex flex-col justify-center items-center gap-2 mt-5 pb-5'>
                     <h1 className={` font-semibold text-2xl text-center ${titleColor} `}>{title}</h1>
                    
                 </section>
+            </Element>
 
 
        <section className='py-5 grid md:grid-cols-6 grid-cols-2 lg:gap-5 xl:gap-20 gap-10 mx-auto shikkha360'>

@@ -10,6 +10,7 @@ import CharecterPharma from "./CharecterPharma";
 import PriceManagementShop from '../ionicshop/PriceManagementShop'
 
 
+
 const IonicPharma = () => {
     return (
         <div className=' bg-[#F3F3F3]'>
@@ -203,16 +204,19 @@ const IonicPharma = () => {
                     </section>
                 </div>
             </div>
-
+            
             <FeaturesPharma/>
+            
             <SectorsPharma/>
 
          
             <Shop360 title={'আইওনিক ফার্মা এর 360 ডিগ্রি ফিচার সমূহ'}  titleColor="text-red-500"/>
             <TechnologyPharma/>
             <CharecterPharma/>
-      
+           
+   
             <PriceManagementShop title={'আইওনিক ফার্মা একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সিস্টেম সফটওয়্যার মূল্য পরিকল্পনা'} subtitle={'আপনার ব্যবসায়িক প্রক্রিয়া সহজ করতে এবং কাজের প্রবাহে দক্ষতা বাড়ানোর জন্য আইওনিক ফার্মা একাউন্টিং ও বিজনেস এর একটি প্যাকেজ দিয়ে আপনার যাত্রা শুরু করুন।'} titleColor='text-red-500'/> 
+
         </div>
     );
 };

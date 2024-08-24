@@ -4,10 +4,12 @@ import ProfessionalPlus from '../../assets/shop/professionals-plus-60x60.png'
 import eCommerce from '../../assets/shop/professionals-pro-60x60.png'
 import ProfessionalPro from '../../assets/shop/Ultimate-Pro-60x60.png'
 import ultimate from '../../assets/shop/human-resoruces-60x60.png'
+import { Element } from 'react-scroll'
 
 const PriceManagementShop = ({title,subtitle,titleColor}) => {
     return (
         <div className="mx-[405px] py-5">
+            <Element name='price' className='element'>
             <section className='flex flex-col justify-center items-center gap-2 mt-5 pb-5'>
                 <h1 className={` font-semibold text-2xl text-center ${titleColor} `}>{title}
 
@@ -20,6 +22,7 @@ const PriceManagementShop = ({title,subtitle,titleColor}) => {
                 </p>
 
             </section>
+            </Element>
 
 
 

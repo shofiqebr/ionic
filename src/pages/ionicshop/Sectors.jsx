@@ -6,11 +6,13 @@ import computer from '../../assets/shop/home-65x65.png'
 import drug from '../../assets/shop/drug-65x65.png'
 import hotel from '../../assets/shop/baker-65x65.png'
 import meeting from '../../assets/shop/meeting-65x65.png'
+import { Element } from 'react-scroll'
 
 
 const Sectors = () => {
     return (
         <div className='pb-5 detailsWidth'>
+            <Element name='sector' className='element'>
         <section className='flex flex-col justify-center items-center gap-2 mt-10 px-10'>
             <h1 className=' text-[#898989] text-xl font-semibold '>আইওনিক সপ ক্লাউড ভিত্তিক দক্ষ একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সফটওয়্যার এর ব্যবহারের সেক্টর সমূহ
 
@@ -18,6 +20,7 @@ const Sectors = () => {
             <div className='w-[80%] h-[3px] bg-[#b3b2b2]'></div>
             <p className='text-center text-[#898989] font-semibold '>আইওনিক কর্পোরেশন এর পেশাদারদের একটি বিশেষজ্ঞ দল রয়েছে যারা যুগ যুগ ধরে সমাধান তৈরি করছে এবং স্থানীয় এবং বিদেশী উভয় শিল্পের ক্লায়েন্টদের বিশ্বাস এবং নির্ভর যোগ্যতার সাথে উল্লেখ যোগ্য ভাবে বৃদ্ধি পাচ্ছে।</p>
         </section>
+        </Element>
 
 
 

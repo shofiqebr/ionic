@@ -236,7 +236,7 @@ const Banner = () => {
                             শিক্ষা চ্যাট</h4>
                         <p className="text-[#718095] cardType text-center   text-[13px]"> শিক্ষা মূলক সফটওয়্যার</p>
                         <Link to='/shikkha'>
-                            <div className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px] text-[14px]  pt-2" href="">বিস্তারিত</div>
+                            <div className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px] text-[14px]  pt-2">বিস্তারিত</div>
                         </Link>
                     </div>
                     <div className="flex flex-col justify-center items-center border-r border-b  py-5 px-3 lg:hover:scale-105 text-center bg-white lg:w-44 cards">
@@ -285,14 +285,14 @@ const Banner = () => {
                         <p className="text-[#718095] cardType text-center   text-[13px]">  রেস্তোরাঁ  সফটওয়্যার</p>
                         <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px] text-[14px]  pt-2" href="https://myrestaura.xyz/">বিস্তারিত</a>
                     </div>
-                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 bg-white lg:w-44 cards lg:pr-[px]">
+                    <div className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 bg-white lg:w-44 cards">
 
                         <img className="w-32 pb-5" src={shopImg} />
                         <h4 className="font-bold cardHeading text-">আইওনিক সপ
                         </h4>
                         <p className="text-[#718095] cardType text-center   text-[13px]"> সপ ম্যানেজমেন্ট সফটওয়্যার</p>
                         <Link to='/ionicshop'>
-                        <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px] text-[14px]  pt-2">বিস্তারিত</a>
+                        <div className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px] text-[14px]  pt-2">বিস্তারিত</div>
                         </Link>
                         
                     </div>

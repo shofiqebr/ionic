@@ -9,9 +9,14 @@ import { RxCross1 } from 'react-icons/rx';
 import fixedImg from '../../../assets/new logo/care-call-4.png'; 
 import pharmalogo from '../../../assets/new logo/ionic-pharma-logo.png'
 
+
+import { Link as ScrollLink } from 'react-scroll';
+
 const NavbarPharma = () => {
 
   const [open1, setOpen1] = useState(false)
+
+  
  
 
     return (
@@ -70,9 +75,17 @@ const NavbarPharma = () => {
               <Link to='/ionicpharma'>
                 <li className='xl:text-lg text-[14px] font-bold'>হোম <span className='opacity-30'>|</span> </li>
               </Link>
-              <li className='xl:text-lg text-[14px] font-bold'>মূল্য <span className='opacity-30'>|</span> </li>
-              <li className='xl:text-lg text-[14px] font-bold'>সুবিধা<span className='opacity-30'>|</span> </li>
-              <li className='xl:text-lg text-[14px] font-bold'>কেন করবেন <span className='opacity-30'>|</span> </li>
+              <ScrollLink to="price" spy={true} smooth={true} offset={-140} duration={1500} >
+     <li className='xl:text-lg text-[14px] font-bold cursor-pointer'>মূল্য <span className='opacity-30'>|</span> </li>
+    </ScrollLink>
+              <ScrollLink to="feature" spy={true} smooth={true} offset={-100} duration={1500} >
+     <li className='xl:text-lg text-[14px] font-bold cursor-pointer'>সুবিধা <span className='opacity-30'>|</span> </li>
+    </ScrollLink>
+              <ScrollLink to="sector" spy={true} smooth={true} offset={-145} duration={1500} >
+     <li className='xl:text-lg text-[14px] font-bold cursor-pointer'>কেন করবেন  <span className='opacity-30'>|</span> </li>
+    </ScrollLink>
+            
+             
               <li className='xl:text-lg text-[14px] font-bold'>টিউটোরিয়াল <span className='opacity-30'>|</span> </li>
               <Link to='/contact'>
               <li className='xl:text-lg text-[14px] font-bold'>পরিচিতি <span className='opacity-30'>|</span> </li>

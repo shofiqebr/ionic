@@ -1,13 +1,15 @@
 import { FaCheck } from 'react-icons/fa';
 import home2 from '../../assets/pharma/home-2-pharma.png';
+import { Element } from 'react-scroll';
 
 const FeaturesPharma = () => {
     return (
         <div className='grid lg:grid-cols-2 grid-cols-1 mx-[405px]'>
+               <Element name="feature" className="element">
             <section>
                 <img src={home2} alt="" />
             </section>
-
+            </Element>
 
 
             <section className='text-center text-[#777777]'>

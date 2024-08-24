@@ -6,6 +6,7 @@ import Sectors from "./Sectors";
 import Shop360 from "./Shop360";
 import TechnologyShop from "./TechnologyShop";
 import PriceManagementShop from "./PriceManagementShop";
+import { Element } from "react-scroll";
 
 
 const IonicShop = () => {
@@ -201,7 +202,10 @@ const IonicShop = () => {
             <Sectors/>
             <Shop360 title={'আইওনিক সপ ক্লাউড ভিত্তিক দক্ষ একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সফটওয়্যার এর 360 '}/>
             <TechnologyShop/>
+
+        
             <PriceManagementShop title={'আইওনিক সপ একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সিস্টেম সফটওয়্যার মূল্য পরিকল্পনা'} subtitle={' আপনার ব্যবসায়িক প্রক্রিয়া সহজ করতে এবং কাজের প্রবাহে দক্ষতা বাড়ানোর জন্য আইওনিক সপ একাউন্টিং ও বিজনেস এর একটি প্যাকেজ দিয়ে আপনার যাত্রা শুরু করুন।'}/>
+            
         </div>
     );
 };

@@ -79,6 +79,9 @@ const Navbar = () => {
                             <li className='py-1'>কর্মচারি</li>
                           </Link>
                       
+                          <Link to='ionicshop'>
+                            <li className='py-1'>আইওনিক সপ</li>
+                          </Link>
                           <Link to='ionicpharma'>
                             <li className='py-1'>আইওনিক ফার্মা</li>
                           </Link>
@@ -193,6 +196,10 @@ const Navbar = () => {
         <hr className='p-0'/>
         <Link to='karmochary'>
         <li className='h-14 flex justify-center font-medium w-full'>কর্মচারি</li>
+        </Link>
+        <hr className='p-0'/>
+        <Link to='ionicshop'>
+        <li className='h-14 flex justify-center font-medium w-full'>আইওনিক সপ</li>
         </Link>
         <hr className='p-0'/>
         <Link to='ionicpharma'>

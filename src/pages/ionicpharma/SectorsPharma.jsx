@@ -4,11 +4,13 @@ import operation from '../../assets/pharma/Leadership-40x40.png'
 import hr from '../../assets/pharma/GraphicalPresentation-40x40.png'
 import inventory from '../../assets/pharma/Investor-40x40.png'
 import crm from '../../assets/pharma/crm-40x40.png'
+import { Element } from 'react-scroll'
 
 
 const SectorsPharma = () => {
     return (
         <div className='pb-5 detailsWidth'>
+            <Element name='sector' className='element'>
         <section className='flex flex-col justify-center items-center gap-2 mt-10 px-10'>
             <h1 className=' text-[#E90000] text-3xl text-center font-semibold '>আইওনিক ফার্মা ক্লাউড ভিত্তিক দক্ষ একাউন্টিং ও বিজনেস ম্যানেজমেন্ট
 সফটওয়্যার এর ব্যবহারের সেক্টর সমূহ
@@ -19,6 +21,7 @@ const SectorsPharma = () => {
             <p className='text-center text-[#898989] font-semibold '>আইওনিক কর্পোরেশন এর পেশাদারদের একটি বিশেষজ্ঞ দল রয়েছে যারা যুগ যুগ ধরে সমাধান তৈরি করছে এবং
             স্থানীয় এবং বিদেশী উভয় শিল্পের ক্লায়েন্টদের বিশ্বাস এবং নির্ভর যোগ্যতার সাথে উল্লেখ যোগ্য ভাবে বৃদ্ধি পাচ্ছে।।</p>
         </section>
+        </Element>
 
 
 
